@@ -1,0 +1,1563 @@
+[
+    {
+        "name": "",
+        "address": "",
+        "latitude": "31.4225101",
+        "longitude": "73.0820957",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Silver Spoon Restaurant",
+        "address": "\nC4RP+GF, Zia Colony Faisalabad, Pakistan",
+        "latitude": "31.441257",
+        "longitude": "73.1000997",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Portobello",
+        "address": "\nShop No.68-73, Do Burj Plaza, Kohinoor City Rd, Kohinoor City, Faisalabad, Pakistan",
+        "latitude": "31.412151",
+        "longitude": "73.079936",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "The Melting Swan",
+        "address": "\nGround Floor, The Boulevard Mall, Canal Expy, Saeed Colony Faisalabad, Pakistan",
+        "latitude": "31.4313466",
+        "longitude": "73.0868749",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Salt'n Pepper Faisalabad",
+        "address": "\n14 Kohinoor City Rd, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4313466",
+        "longitude": "73.0868749",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Cravings Faisalabad",
+        "address": "\n175-C Malik St, Green Avenue Raza Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4492532",
+        "longitude": "73.1177313",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Silver Spoon Continental Restaurant",
+        "address": "\nJamia Masjid\u060c 116-P Near, Kohinoor City, Faisalabad, Pakistan",
+        "latitude": "31.4133678",
+        "longitude": "73.0804144",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Cafe Cilantro",
+        "address": "\nShop No.68-73, Do Burj Plaza, Kohinoor City Rd, Kohinoor City Faisalabad, Pakistan",
+        "latitude": "31.4133678",
+        "longitude": "73.0804144",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Quilim Restaurant",
+        "address": "\nC457+47J Hashmat Ali, Khan Rd, Block C People's Colony No 1, Faisalabad, Pakistan",
+        "latitude": "31.4133678",
+        "longitude": "73.0804144",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Golden Bowl",
+        "address": "\nGreen Mall East, W Canal Rd, Saeed Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4355839",
+        "longitude": "73.092626",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Zam Zam Restaurant Desi & Continental Cuisine",
+        "address": "\n6-A, Kohinoor City, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4127393",
+        "longitude": "73.0802192",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Nando's Faisalabad",
+        "address": "\nPlot No. 6\u060c C478+6CQ\u060c Mall 2, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4118078",
+        "longitude": "73.0812101",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Baba Tikkah Canal Road Branch",
+        "address": "\nW Canal Rd, near 204 Chak Road, Jahan E Andalus, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4530097",
+        "longitude": "73.1208878",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "TURKISH RESTAURANT",
+        "address": "\nLahore - Sheikhupura - Faisalabad Rd, near misaq ul mall, opposite Imtiaz mart, Nishatabad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4303701",
+        "longitude": "73.0448625",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Sachi - The Asian Fusion",
+        "address": "\n7th Faisal Ln, adjacent Sitara Tower, Civil Lines, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4303701",
+        "longitude": "73.0448625",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "14th Street Pizza Co. - Faisalabad",
+        "address": "\nLegacy Tower, Kohinoor City Rd, Kohinoor City, Faisalabad, Pakistan",
+        "latitude": "31.4119758",
+        "longitude": "73.0811309",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Whites Castle Pizza Jinnah Colony",
+        "address": "\nC399+H8M, 63-A Imam Bargah Rd, near BC Tower, Jinnah Colony, Faisalabad, Pakistan",
+        "latitude": "31.4189951",
+        "longitude": "73.0321691",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Pak Verowall Dera Restaurant",
+        "address": "\nEast Canal Road, On Service Rd, near Lyallpur Galleria, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4372705",
+        "longitude": "73.0948124",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Nadeem Cafe & Family Restaurant",
+        "address": "\nSatayana Rd, opposite Nadeem Cafe, Shahzad Colony Burhan Mohalla, Faisalabad, Pakistan",
+        "latitude": "31.3965495",
+        "longitude": "73.0408497",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Dessert Caf\u00e9",
+        "address": "\n93V8+C4V, Main Rd, Samanabad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3945447",
+        "longitude": "72.9923036",
+        "rating": "33% busy at 12\u202fAM."
+    },
+    {
+        "name": "Hideout Cafe rooftop",
+        "address": "\npeoples colony no 1 Block B 577, Faisalabad, Pakistan",
+        "latitude": "31.4065667",
+        "longitude": "73.0290818",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Main Street Cafe",
+        "address": "\nC478+FCF, Owais Rd, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4136761",
+        "longitude": "73.0439464",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Coco Rush Caf\u00e9",
+        "address": "\nGreen Mall East, W Canal Rd, Saeed Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4136761",
+        "longitude": "73.0439464",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Whytes Coffee",
+        "address": "\n3-A Kohinoor Rd, Kohinoor City Faisalabad, 38090, Pakistan",
+        "latitude": "31.4135731",
+        "longitude": "73.043253",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Chai Shaai",
+        "address": "\n14a Kohinoor City Rd, Kohinoor City Faisalabad, Pakistan",
+        "latitude": "31.4313539",
+        "longitude": "73.0508697",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Cafe Bombay",
+        "address": "\nC388+CP7, Gurunanakpura, Faisalabad, Pakistan",
+        "latitude": "31.4160361",
+        "longitude": "72.9946849",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Quetta Cafe (Al Rehman)",
+        "address": "\nC5H2+3C7, Madina Commercial Street, Road, opposite Maharaja BBQ, Eden Garden Executive Block, Pakistan",
+        "latitude": "31.4276515",
+        "longitude": "73.0789578",
+        "rating": "9% busy at 4\u202fAM."
+    },
+    {
+        "name": "The Dynasty Restaurant & Banquets",
+        "address": "\n2-A, People\u2019s Colony, Jaranwala Rd, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4116192",
+        "longitude": "73.0416556",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "HABBITS CAFE N PIZZERIA - Canal Road",
+        "address": "\nHabbits cafe, W Canal Rd, near faisal town, Faisal Town Canal Road, Faisalabad, Pakistan",
+        "latitude": "31.4552518",
+        "longitude": "73.0875123",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Coffee & Co.",
+        "address": "\nThe Boulevard Mall, East, W Canal Rd, Faisalabad, Pakistan",
+        "latitude": "31.431382",
+        "longitude": "73.0505852",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Coffee X",
+        "address": "\n2nd floor shop no 45 & 46, Misaq ul mall, Ashrafabad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.431382",
+        "longitude": "73.0505852",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Midnight Cafe",
+        "address": "\nC4G2+HJV, Tariqabad, Faisalabad, Pakistan",
+        "latitude": "31.4265698",
+        "longitude": "73.0293927",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "The Cafe",
+        "address": "\nC4GC+5QP, Saif Ullah Shaheed Rd, Block Z Block X Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4254583",
+        "longitude": "73.0498401",
+        "rating": "28% busy at 4\u202fAM."
+    },
+    {
+        "name": "Gloria Jean's Coffees - Civil Lines",
+        "address": "\nBilal Rd, Civil Lines, Faisalabad, Pakistan",
+        "latitude": "31.4304591",
+        "longitude": "73.0088464",
+        "rating": ""
+    },
+    {
+        "name": "Gloria Jean\u2019s - Canal Road",
+        "address": "\nRaza Garden, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4553696",
+        "longitude": "73.0880844",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Artisan coffee roaster",
+        "address": "\nF523+45H, Canal Expy, Raza Town, Faisalabad, Pakistan",
+        "latitude": "31.4503106",
+        "longitude": "73.0809014",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "A. Cafe",
+        "address": "\nC3MM+CVQ, Faisalabad Cricket Stadium, Civil Lines, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4335908",
+        "longitude": "73.0126459",
+        "rating": "3.0 stars"
+    },
+    {
+        "name": "Gujjar cafe .2. \u06af\u062c\u0631 \u06a9\u06cc\u0641\u06d2",
+        "address": "\nRajput Rd, Factory Area, Faisalabad, 38001, Pakistan",
+        "latitude": "31.4483056",
+        "longitude": "72.9907068",
+        "rating": "15% busy at 4\u202fAM."
+    },
+    {
+        "name": "COFFEE CANVA",
+        "address": "\nC, 24 Jhang Rd, Squre Boath Chowk Gulfishan Colony, Faisalabad, Pakistan",
+        "latitude": "31.4064867",
+        "longitude": "72.9742072",
+        "rating": ""
+    },
+    {
+        "name": "Hira Moti Cafe",
+        "address": "\nHira moti cafe, H 358A Millat Chowk, opposite Family Mart, Gulistan Colony, Faisalabad, Pakistan",
+        "latitude": "31.4479503",
+        "longitude": "73.024638",
+        "rating": "53% busy at 12\u202fAM."
+    },
+    {
+        "name": "Quetta sardar cafe",
+        "address": "\nMadni chowk, Block A Samanabad, Faisalabad, Pakistan",
+        "latitude": "31.3873039",
+        "longitude": "72.9959626",
+        "rating": "40% busy at 4\u202fAM."
+    },
+    {
+        "name": "Corniche Cafe",
+        "address": "\nKohi E Noor Road, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.414171",
+        "longitude": "73.0421823",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Vape Studio",
+        "address": "\nP-28 Commercial, College Road\u060c near Hockey Stadium, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4154429",
+        "longitude": "73.0434178",
+        "rating": "4.9 stars"
+    },
+    {
+        "name": "Malik G Cafe",
+        "address": "\n307 Saddar Bazar, Block B Ghulam Muhammad Abad, Faisalabad, Pakistan",
+        "latitude": "31.4398788",
+        "longitude": "72.9741569",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "99 CAFE & FOODS",
+        "address": "\nMain Susan Road, near al habib bank, Block W Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.427468",
+        "longitude": "73.0510366",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "Good food Faisalabad",
+        "address": "\nF3G8+76Q, Gate Karim city Daewoo Road, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4761324",
+        "longitude": "72.9929416",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "CP Five Star",
+        "address": "\nAddress 14B Corner, Kohinoor Rd, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4761324",
+        "longitude": "72.9929416",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Burger Bites | The Grill House | Fast food in Faisalabad",
+        "address": "\nKhawaja Gardens, Hilal Rd, near Rabbani Colony, Haseeb Shaheed Colony Rabbani Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4107022",
+        "longitude": "73.0472018",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "EGGLUCK x COFFEE",
+        "address": "\nC4C8+5PJ, Susan Road, Block Z Madina Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3924705",
+        "longitude": "73.0336478",
+        "rating": "4.2 stars"
+    },
+    {
+        "name": "Tipsy Dine",
+        "address": "\n341_B, People's colony no 1, McDonald's drive through road, behind ideal bakery, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3924705",
+        "longitude": "73.0336478",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Sheikh Burger Point- Sheikh's Food",
+        "address": "\n356-A, near Sheikh Burger, Small D Ground Block A People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3924705",
+        "longitude": "73.0336478",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Zaitoon",
+        "address": "\n334 B Satayana Rd, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3924705",
+        "longitude": "73.0336478",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "The Best Fast Food",
+        "address": "\nstreet #7 Narwala Rd, marzi pura Faisalabad, 38000, Pakistan",
+        "latitude": "31.4399814",
+        "longitude": "72.9489019",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Burger Lab lyallpur Galleria Mall Faisalabad",
+        "address": "\nGalleria, W Canal Rd, Saeed Colony Nasar Ullah Khan Town, Faisalabad, Pakistan",
+        "latitude": "31.4377557",
+        "longitude": "73.060124",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "K.H Fast Food & BBQ",
+        "address": "\nSargodha Rd, Muslim Town 3, Faisalabad, Pakistan",
+        "latitude": "31.4925257",
+        "longitude": "73.0013836",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Donner branch # 1",
+        "address": "\nCorner small, near chaps hair saloon, D Ground Block A People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4064835",
+        "longitude": "73.0404041",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Hardee's - Green Avenue, Canal Road, Faisalabad",
+        "address": "\nP17, Street # 204 W Canal Rd, P Green Avenue, Faisalabad, 37000, Pakistan",
+        "latitude": "31.4510568",
+        "longitude": "73.081233",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Hey Man Fast Food & Chinese Bite",
+        "address": "\nground, 36/B Main D Ground Near City Mega Mart Main D Ground 36/B, D Faisalabad, Pakistan",
+        "latitude": "31.4510568",
+        "longitude": "73.081233",
+        "rating": "68% busy at 12\u202fAM."
+    },
+    {
+        "name": "Haqania Foods",
+        "address": "\nGulberg Rd, opposite Gulberg Police Station, Gobind Pura Gobindpura, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4068972",
+        "longitude": "73.0369416",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "BRILLO Faisalabad",
+        "address": "\nGulberg Thana Rd, Gobindpura, Faisalabad, Pakistan",
+        "latitude": "31.4242597",
+        "longitude": "72.9938338",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "EATO fast food restaurant",
+        "address": "\nStreet Number 17, Tariqabad, Faisalabad, Pakistan",
+        "latitude": "31.4280378",
+        "longitude": "73.0317323",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Arab Foods",
+        "address": "\nC4FF+X29, Block X Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4249007",
+        "longitude": "73.0505164",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "The Fries Factory",
+        "address": "\nbesides Baba Tikkah, The Fries Factory,Service Canal Rd, Canal, Road, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4530418",
+        "longitude": "73.0847407",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Kashmiri Foods",
+        "address": "\nJinnah, Imam bargah / ideal road, beside sweet cream, Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.421581",
+        "longitude": "72.9926976",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "THE DON PIZZA RESTAURANT",
+        "address": "\nImam Bargah Rd, Jinnah Colony, Faisalabad, Pakistan",
+        "latitude": "31.421581",
+        "longitude": "72.9926976",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Madina fast foods",
+        "address": "\nSt.no.4 Usman town, Lower Canal Rd, Hamayon Town, Faisalabad, Pakistan",
+        "latitude": "31.4119758",
+        "longitude": "73.045082",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Knife Chicken",
+        "address": "\nC396+P5Q, Gulberg C Gulberg, Faisalabad, Pakistan",
+        "latitude": "31.419349",
+        "longitude": "72.9883881",
+        "rating": "4.1 stars"
+    },
+    {
+        "name": "Marhaba Fri Chicks (MFC)",
+        "address": "\nE W Canal Rd, Jahan E Andalus, Faisalabad, Pakistan",
+        "latitude": "31.451557",
+        "longitude": "73.0810913",
+        "rating": "21% busy at 4\u202fAM."
+    },
+    {
+        "name": "Ali Burger & Tikka Shop",
+        "address": "\n10, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3877189",
+        "longitude": "72.9964035",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Hardee's",
+        "address": "\nC424+P6J Gateway Tower, Satayana Rd, Batala Colony Faisalabad, Pakistan",
+        "latitude": "31.4020415",
+        "longitude": "73.033225",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "CHEESE LAND",
+        "address": "\nHEAVEN BANQUET HALL, Millat Rd, Noorpur, Faisalabad, Pakistan",
+        "latitude": "31.4529089",
+        "longitude": "73.0266309",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "MQ Fast Food",
+        "address": "\nShop 16, E-Block Eden Garden Rd, Eden Valley Faisalabad, 38000, Pakistan",
+        "latitude": "31.4349697",
+        "longitude": "73.0794809",
+        "rating": "30% busy at 4\u202fAM."
+    },
+    {
+        "name": "The Food Hub",
+        "address": "\nC445+PFR, near City Mega Mart, D Ground Block B People's Colony No 1, Faisalabad, Pakistan",
+        "latitude": "31.4068596",
+        "longitude": "73.0365349",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Doctor Saucy",
+        "address": "\nBuilding No. 12 Illama Iqbal Road Sanat Pura, near Gc University, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4149755",
+        "longitude": "72.9983159",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Fine Dine - Best Restaurant in Faisalabad",
+        "address": "\nSusan Road, opposite Faizan e Madina, Officer Colony 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4225101",
+        "longitude": "73.0460468",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "foodwar",
+        "address": "\nbehid united bakery, G.m abad ,Narwala road, chowk, kabotran wala Faisalabad, 38900, Pakistan",
+        "latitude": "31.4225101",
+        "longitude": "73.0460468",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "EASTERN OVEN FAISALABAD",
+        "address": "\n17 A GULBERG NARWALA ROAD, GULBERG A, Faisalabad, 38000, Pakistan",
+        "latitude": "31.427905",
+        "longitude": "72.9895189",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Brillo (Place Of Quality)",
+        "address": "\nUsman Aziz Street\u060c Near Harianwala Chowk, Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4052315",
+        "longitude": "73.0346153",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Deep fried",
+        "address": "\nC3C6+5W7, Gulberg Thana Rd, Jinnah Colony, Faisalabad, Pakistan",
+        "latitude": "31.4204163",
+        "longitude": "72.9901932",
+        "rating": "34% busy at 4\u202fAM."
+    },
+    {
+        "name": "Hot Energy Fast Food Restaurant",
+        "address": "\nFirst Floor Ashraf Sweets and Bakers Amtex Square, Abdullahpur, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4199594",
+        "longitude": "73.032814",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Ostro Grill and Pizzeria \"Jail Road\"",
+        "address": "\nP, 17A Jail Rd, Civil Lines, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4331271",
+        "longitude": "73.0066817",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Shah G Fast Food",
+        "address": "\nTanga wala chowk, Street No. 2, Islam Nagar Faisalabad, Pakistan",
+        "latitude": "31.4331271",
+        "longitude": "73.0066817",
+        "rating": "0% busy at 1\u202fAM."
+    },
+    {
+        "name": "AD Fast Food",
+        "address": "\nBolay di Jhuggi, opposite PTCL exchange, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4331271",
+        "longitude": "73.0066817",
+        "rating": "4.7 stars"
+    },
+    {
+        "name": "Hot Chicks",
+        "address": "\nC24R+3W5, Gulfishan Colony Main Rd, Gulfishan Colony, Faisalabad, Pakistan",
+        "latitude": "31.4051306",
+        "longitude": "72.9702712",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Burger Bite The Grill House",
+        "address": "\nC4C9+W2G, Susan Road, near khyam resturant, near khayyam restaurant, Block Z Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4223037",
+        "longitude": "73.0454949",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Tasty Bites Pizza & Fast Foods",
+        "address": "\nAfridi Chowk, Hassan Center, Millat Rd, Millat Town Faisalabad, 37611, Pakistan",
+        "latitude": "31.4827729",
+        "longitude": "73.033588",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "King Cheezious Donner",
+        "address": "\n93MC+HR6, Block A Samanabad, Faisalabad, Pakistan",
+        "latitude": "31.3837955",
+        "longitude": "72.9999376",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Burger World",
+        "address": "\nJalvi Market, Jaranwala Rd, opposite Boy's High School, Akbar Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.3837955",
+        "longitude": "72.9999376",
+        "rating": "4.4 stars"
+    },
+    {
+        "name": "Al-Madina Fast Foods (Since 2010)",
+        "address": "\nKashif Ali (Urf Baba G Akbar Chowk, Gulistan Coloney, Faisalabad, 12345, Pakistan",
+        "latitude": "31.4040292",
+        "longitude": "73.0558547",
+        "rating": "4.0 stars"
+    },
+    {
+        "name": "Turkish grill burgers and wraps",
+        "address": "\n4 Sargodha Rd, near Crescent Mill Gate, Muslim Town B-Block Block A Muslim Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4599893",
+        "longitude": "73.0096044",
+        "rating": "4.0 stars"
+    },
+    {
+        "name": "Heaven Foods",
+        "address": "\nC3H2+XFF, Gulistan Rd, Raja Colony, Faisalabad, Pakistan",
+        "latitude": "31.4299345",
+        "longitude": "72.9790677",
+        "rating": "4.5 stars"
+    },
+    {
+        "name": "Hot Bite Fast Food",
+        "address": "\nMain Judge Wala Rd, Shahbaz Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4299345",
+        "longitude": "72.9790677",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Madni Shawarma Gulberg Main Branch",
+        "address": "\nGobind Pura Jinnah Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4299345",
+        "longitude": "72.9790677",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Al Beirut Broast",
+        "address": "\nplot #131-A, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4299345",
+        "longitude": "72.9790677",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Al-Aziz Broast & Ice Bar",
+        "address": "\n93VG+QWW, Samundri Road, opposite Novelty Pull, Samanabad, Faisalabad, Pakistan",
+        "latitude": "31.3944751",
+        "longitude": "73.0052233",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Bahraini Shawarma Food & Restaurants",
+        "address": "\nP 192, opposite police station, Gobind Pura Gulberg, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4243088",
+        "longitude": "72.9938805",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Brothers fast food point",
+        "address": "\nMillat road Haq bahu chowk brothers fast food Haq bahu chowk millat chowk, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4428746",
+        "longitude": "73.0228447",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Decent Grill Fish & Bar B Q",
+        "address": "\n6 Green Belt Rd, Block Z Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4192518",
+        "longitude": "73.0510176",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Brother's BBQ",
+        "address": "\nC2QX+4V3, Sadar Bazar Block B Ghulam Muhammad Abad, Faisalabad, Pakistan",
+        "latitude": "31.4377572",
+        "longitude": "72.9775643",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Baba Tikkah Kohinoor Branch",
+        "address": "\nKohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4210796",
+        "longitude": "72.9878776",
+        "rating": ""
+    },
+    {
+        "name": "Al Haaj Bundoo Khan",
+        "address": "\nPSO PUMP, Jaranwala Rd\u060c NEAR Hamayon Town, Faisalabad, Pakistan",
+        "latitude": "31.40063",
+        "longitude": "73.0750902",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Punjabi Dera \u067e\u0646\u062c\u0627\u0628\u06cc \u0688\u06cc\u0631\u06c1",
+        "address": "\nEden Orchard Main commercial market, Eden Orchard, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4833421",
+        "longitude": "73.0190018",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "New Punjabi BBQ",
+        "address": "\n94PF+6RC, Satayana Rd, Rehman Garden, Faisalabad, Pakistan",
+        "latitude": "31.3855729",
+        "longitude": "73.0524242",
+        "rating": "4.0 stars"
+    },
+    {
+        "name": "Khayyam- The Food Pavilion",
+        "address": "\nCanal Expy, Faisal Town Canal Road, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4563229",
+        "longitude": "73.0901622",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Dogar Restaurant",
+        "address": "\nUniversity Town Rd, F Block Millat Town, Faisalabad, Pakistan",
+        "latitude": "31.4943105",
+        "longitude": "73.0294477",
+        "rating": "4.3 stars"
+    },
+    {
+        "name": "Whites Castle Pizza Millat Chowk",
+        "address": "\nH 360A, Gulistan Colony, Faisalabad, Pakistan",
+        "latitude": "31.4475625",
+        "longitude": "72.9520157",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Stone Ove Pizza Valley Satyana Road Branch",
+        "address": "\nGateway tower, Satayana Rd, Batala Colony Faisalabad, Pakistan",
+        "latitude": "31.4504889",
+        "longitude": "72.9401454",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Oregano Pizza",
+        "address": "\nnear BC Tower, Jinnah Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4189002",
+        "longitude": "72.9253227",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Pizza Plex",
+        "address": "\nF3VF+4CR, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4189002",
+        "longitude": "72.9253227",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Slice of Choice",
+        "address": "\nFirst Floor, Allied Bank Building, 309-A Gulberg Rd, opp. National Hospital, Block B, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4206464",
+        "longitude": "72.9179936",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Pizza House & cafe",
+        "address": "\nG3H7+RX3, Sargodha Rd, opp. city housing, Kamal Pur Faisalabad, Pakistan",
+        "latitude": "31.5295034",
+        "longitude": "72.9207139",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "The Baketown Sargodha Road",
+        "address": "\nSargodha Rd, near Metro Cash n Carry, Block A FDA City, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4624657",
+        "longitude": "72.9281292",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "ABF Pizza & Burger",
+        "address": "\nJhang Rd, near Gourment Bakery, Qasim Abad, Faisalabad, Pakistan",
+        "latitude": "31.4124158",
+        "longitude": "72.9217045",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Delicious Pizza",
+        "address": "\nHouse no A, 206, Fawara Chowk, Block C People's Colony no.2, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4131888",
+        "longitude": "72.971814",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Hafiz pizza",
+        "address": "\n94W3+CWG, Mehr Rashid Rd, Haseeb Shaheed Colony Muhammadabad, Faisalabad, Pakistan",
+        "latitude": "31.4131888",
+        "longitude": "72.971814",
+        "rating": "9% busy at 4\u202fAM."
+    },
+    {
+        "name": "Brim Burgers ( Faisalabad )",
+        "address": "\nGreen avenue, Faisalabad, Pakistan",
+        "latitude": "31.4507697",
+        "longitude": "73.0809058",
+        "rating": "4.5 stars"
+    },
+    {
+        "name": "De Grill",
+        "address": "\nHassan Commercial Market, W Canal Rd, Zia Colony Faisalabad, 38000, Pakistan",
+        "latitude": "31.4405576",
+        "longitude": "73.0645606",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Burger, Fries & Co.",
+        "address": "\nbehind al-fateh store, Kohinoor City Faisalabad, 38000, Pakistan",
+        "latitude": "31.4111738",
+        "longitude": "73.0456394",
+        "rating": "4.2 stars"
+    },
+    {
+        "name": "Burger Fille`",
+        "address": "\ntown, Model bazar, Main Susan Road, near fizan e madina, Madina, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4224856",
+        "longitude": "73.0472094",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Foodies 27",
+        "address": "\nC445+RFW, Pak China Chowk, D Ground Rd owner of Imdad bhai, Hakeem Sultan Ahmad Dawoodi Rd, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4071174",
+        "longitude": "73.0366043",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Hafiz Burger Point",
+        "address": "\nC3R3+QJF, Block E Ghulam Muhammad Abad, Faisalabad, Pakistan",
+        "latitude": "31.4419437",
+        "longitude": "72.9819597",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Rapid.pk",
+        "address": "\nBlock, Street 5, Ayesha Blvd, Abdullah Gardens Faisalabad, Pakistan",
+        "latitude": "31.4483063",
+        "longitude": "73.0999112",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Eldorado",
+        "address": "\nC4Q3+MR6, Gulistan Colony Gulistan Colony 1, Faisalabad, Pakistan",
+        "latitude": "31.4391585",
+        "longitude": "73.0324222",
+        "rating": "4.7 stars"
+    },
+    {
+        "name": "Brillo (Branch 3)",
+        "address": "\nSargodha Rd, opposite Shell Petrol Pump, Block B Muslim Town, Faisalabad, Pakistan",
+        "latitude": "31.4596032",
+        "longitude": "73.0104899",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Malik burger point",
+        "address": "\nPlot 454, Ayub Colony, Faisalabad, Pakistan",
+        "latitude": "31.4095113",
+        "longitude": "72.9880789",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "FSD Shawarma co.",
+        "address": "\nIdeal Road, Imam Bargah Rd, opp. Chaman Ice Cream, Jinnah Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4215224",
+        "longitude": "72.9927279",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Sultan Shawarma - Lyallpur Galleria",
+        "address": "\n3rd floor, Lyallpur Galleria Mall, Food Court, Main W Canal Rd, Saeed Colony Nasar Ullah Khan Town, Faislabad, 38000, Pakistan",
+        "latitude": "31.4215224",
+        "longitude": "72.9927279",
+        "rating": ""
+    },
+    {
+        "name": "New Captain Shawarma",
+        "address": "\nC498+P54, Arfa Kareem Rd, Block Z Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4241079",
+        "longitude": "72.993681",
+        "rating": ""
+    },
+    {
+        "name": "HHQ Shwarma",
+        "address": "\nC4F9+7GW Susan Road Officer, 1 colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4440483",
+        "longitude": "73.0236486",
+        "rating": ""
+    },
+    {
+        "name": "Rana muzammil shawarma point",
+        "address": "\nC5V5+WPH, Unnamed Road, Char Chak, Faisalabad, Pakistan",
+        "latitude": "31.4448011",
+        "longitude": "73.0872545",
+        "rating": "17% busy at 4\u202fAM."
+    },
+    {
+        "name": "Shawarma Master",
+        "address": "\nC3C6+C3C, Gulberg Rd, Gulberg, Faisalabad, Pakistan",
+        "latitude": "31.4374754",
+        "longitude": "72.9776634",
+        "rating": "4.8 stars"
+    },
+    {
+        "name": "GYRO",
+        "address": "\nchock, 328-B peoples colony no.1 Harrianwala, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4425591",
+        "longitude": "73.0294449",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Bhaiya Biryani and Kitchen",
+        "address": "\nPakistan chowk APTPMA ROAD, B block Amin Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4133678",
+        "longitude": "73.0443655",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Biryani Master Faisalabad",
+        "address": "\n573 B1 Satayana Rd, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4059853",
+        "longitude": "73.0290631",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Biryani Max",
+        "address": "\nBlock H Wapda City, Faisalabad, Pakistan",
+        "latitude": "31.4994375",
+        "longitude": "73.1465897",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Mr Roll & Miss Biryani",
+        "address": "\nC3F8+96X, Gulberg Thana Rd, Jinnah Colony, Faisalabad, Pakistan",
+        "latitude": "31.4234859",
+        "longitude": "72.9935211",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Tandoori Restaurant Faisalabad",
+        "address": "\n6-A, Kohinoor City, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4129211",
+        "longitude": "73.0441421",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Data Chicken Biryani",
+        "address": "\nPanjtani chowk, Street Number 17, Farooqabad Mansoorabad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4129211",
+        "longitude": "73.0441421",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "New Tabish Bariyani",
+        "address": "\n134b D Ground Rd, D Ground Block B People's Colony No 1, Faisalabad, Pakistan",
+        "latitude": "31.4129211",
+        "longitude": "73.0441421",
+        "rating": ""
+    },
+    {
+        "name": "Butt Biryani \u00ae\ufe0f",
+        "address": "\n564 - B, Satayana Rd, near Ideal Bakery, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4051967",
+        "longitude": "73.0304228",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Data Hajvery Chicken Biryani",
+        "address": "\nStreet No 15/16 Main Bazzar Mansoorabad, Mansoorabad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4051967",
+        "longitude": "73.0304228",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "Marhaba Mahal",
+        "address": "\n204 RB East W Canal Rd, next to Babu Petroleum, Jahan E Andalus, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4051967",
+        "longitude": "73.0304228",
+        "rating": ""
+    },
+    {
+        "name": "Masala House",
+        "address": "\nSecond Floor, Boulevard Mall, East, Canal Rd, Saeed Colony Faisalabad, 38000, Pakistan",
+        "latitude": "31.4313539",
+        "longitude": "73.0508697",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Tariq Murgh Palao",
+        "address": "\nSargodha Rd, Afshan Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4503818",
+        "longitude": "73.0138281",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Tabish Biryani House",
+        "address": "\n139 D Ground, Block B People's Colony No 1, Faisalabad, Pakistan",
+        "latitude": "31.4127393",
+        "longitude": "73.0441703",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Shahryar Restaurant",
+        "address": "\nJail Rd, Akbarabad, Faisalabad, 38001, Pakistan",
+        "latitude": "31.4459547",
+        "longitude": "73.0083158",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Chiniot Biryani & Kunna",
+        "address": "\n1304/B Chen One Rd, Pilot Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4104214",
+        "longitude": "73.0301446",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Karachi Standard Biryani",
+        "address": "\nRaja Rd, Gulistan Colony, Faisalabad, Pakistan",
+        "latitude": "31.4104214",
+        "longitude": "73.0301446",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Cool N2 Creamery & cafe (Faisalabad)",
+        "address": "\nPlot No, 818 Bilal Rd, Civil Lines, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4328151",
+        "longitude": "73.0082699",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Layers Bakeshop - Kohinoor City",
+        "address": "\n117-A Main Blvd, Kohinoor City Faisalabad, 37000, Pakistan",
+        "latitude": "31.4135124",
+        "longitude": "73.0440077",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Sweet Creme - Canal Road, Faisalabad",
+        "address": "\nW Canal Rd, Jahan E Andalus, Faisalabad, 74000, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Twist - The Dessert Shop",
+        "address": "\nPlot # 291, East, C487+P52, Susan Road, Kohinoor City Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": ""
+    },
+    {
+        "name": "Meer Sweets & Bakers",
+        "address": "\n20A, 3 Hakeem Sultan Ahmad Dawoodi Rd, near makki hospital, D Ground Block C People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": ""
+    },
+    {
+        "name": "Sweet Creme \u2013 Milat Chowk, Faisalabad",
+        "address": "\n360A Millat Chowk, Gulistan Colony 2, Faisalabad, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": ""
+    },
+    {
+        "name": "Shimla Sweets & Bakers",
+        "address": "\n64-A, 64-A Main Blvd, Batala Colony Faisalabad, 38000, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": ""
+    },
+    {
+        "name": "Ideal Bakery & Sweets",
+        "address": "\nGulistan, 262 Millat Road, Colony, Faisalabad, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": ""
+    },
+    {
+        "name": "Nagina Sweets & Bakers",
+        "address": "\nD Type Colony Rd, Block A Samanabad, Faisalabad, Pakistan",
+        "latitude": "31.4527403",
+        "longitude": "73.0845885",
+        "rating": ""
+    },
+    {
+        "name": "Super Ideal Sweets & Bakers",
+        "address": "\nJinnah Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4219524",
+        "longitude": "72.9919346",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Assal Yadgar Sweets & Bakers",
+        "address": "\n322-B, Shaheen Chowk, Saddar Bazar, beside Best Bite Pizza, Sadar Bazar Block B Ghulam Muhammad Abad, Faisalabad, 38900, Pakistan",
+        "latitude": "31.437858",
+        "longitude": "72.9771105",
+        "rating": ""
+    },
+    {
+        "name": "Pastry shop",
+        "address": "\nHassan market, Kashmir pull Eden garden East, W Canal Rd, Faisalabad, Pakistan",
+        "latitude": "31.4403107",
+        "longitude": "73.0641216",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Chaghi 25 Ice Cream & Juices Parlor",
+        "address": "\nC38C+59H, Kotwali Rd\u060c opposite GC university, Santpura Faisalabad, Pakistan",
+        "latitude": "31.4216646",
+        "longitude": "73.0452546",
+        "rating": ""
+    },
+    {
+        "name": "New Chaman Ice Cream",
+        "address": "\nJinnah colony near ideal Sweet Gulberg Thana Road, Imam Bargah Rd, Faisalabad, Pakistan",
+        "latitude": "31.4154494",
+        "longitude": "72.9988734",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Jay Bees Kohinoor",
+        "address": "\nC478+M52, Kohinoor Rd, Kohinoor City Faisalabad, Pakistan",
+        "latitude": "31.4154494",
+        "longitude": "72.9988734",
+        "rating": ""
+    },
+    {
+        "name": "Robbiya by Jamil",
+        "address": "\nMS Centre, 243-D, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.414139",
+        "longitude": "73.0432871",
+        "rating": ""
+    },
+    {
+        "name": "Arshad IceBar\u00ae Gelato Since 1982",
+        "address": "\nKabortanwala Chowk GM Abad, Civil, qawtar, Faisalabad, Pakistan",
+        "latitude": "31.4340148",
+        "longitude": "72.9711153",
+        "rating": ""
+    },
+    {
+        "name": "Chashni",
+        "address": "\n130 Kohinoor City Rd, Kohinoor City Faisalabad, Pakistan",
+        "latitude": "31.4140215",
+        "longitude": "73.0432821",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Top Ideal Sweets & Bakers",
+        "address": "\nSargodha Rd, Lasani Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4140215",
+        "longitude": "73.0432821",
+        "rating": ""
+    },
+    {
+        "name": "Welcome Sweets And Bakers",
+        "address": "\nC28G+H38\u060c P404/40\u060c Main Road, Kokian Wala, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4181165",
+        "longitude": "72.9543784",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "CakeOnline.pk",
+        "address": "\nShalimar Rd, Waris Pura, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4181165",
+        "longitude": "72.9543784",
+        "rating": ""
+    },
+    {
+        "name": "Yasir Tea Stall & Cafe",
+        "address": "\nSatayana Rd, Block B, Peoples Colony 1, Block B People's Colony No 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4052047",
+        "longitude": "73.0302276",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "gutwala tea shop",
+        "address": "\nF58R+9RQ, Chak No 199 Rb, Faisalabad, Pakistan",
+        "latitude": "31.4659535",
+        "longitude": "73.1200151",
+        "rating": "9% busy at 4\u202fAM."
+    },
+    {
+        "name": "Daara Tea Stall and Milk Shop",
+        "address": "\nC4H7+XRM, Farooqabad Mansoorabad, Faisalabad, Pakistan",
+        "latitude": "31.4299502",
+        "longitude": "73.0424461",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Bashir Tea Stall",
+        "address": "\nC3CJ+4G7 wakeelan wali, Street No. 5, Katchery Bazar Clock Tower, Faisalabad, 38000, Pakistan",
+        "latitude": "31.420296",
+        "longitude": "73.0091989",
+        "rating": "10% busy at 4\u202fAM."
+    },
+    {
+        "name": "Tea point",
+        "address": "\nC38C+9VJ, Imam Bargah Rd, Santpura Douglaspura, Faisalabad, Pakistan",
+        "latitude": "31.4159689",
+        "longitude": "73.0000305",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Saleem Teastall \u2615",
+        "address": "\nMuhammadi market, Sargodha Rd, Mustaffabad Islam Nagar, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4400979",
+        "longitude": "73.017846",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "Feel Great Tea Co.",
+        "address": "\nChak 208 W Canal Rd, Amin Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4412302",
+        "longitude": "73.0621851",
+        "rating": "53% busy at 4\u202fAM."
+    },
+    {
+        "name": "Chai Piyali",
+        "address": "\nMillat Chowk Lahore - Sheikhupura - Faisalabad Rd, near Laraib Banquet, Gulistan Colony 2, Faisalabad, Pakistan",
+        "latitude": "31.4473745",
+        "longitude": "73.023056",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Mashallah tea stall",
+        "address": "\nF58R+9R5, Chak No 199 Rb, Faisalabad, Pakistan",
+        "latitude": "31.4658676",
+        "longitude": "73.1200412",
+        "rating": "51% busy at 4\u202fAM."
+    },
+    {
+        "name": "Tea stall",
+        "address": "\nF56G+MVP, West Canal Road, Faisalabad, Pakistan",
+        "latitude": "31.4617242",
+        "longitude": "73.1051074",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "liaqat tea stall",
+        "address": "\nC2GP+4FX, Unnamed Road, Main Bazaar Azam Abad Muneerabad, Faisalabad, Pakistan",
+        "latitude": "31.4253613",
+        "longitude": "72.9641423",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "Younis Tea Stall \u062c\u0648\u0646\u0627 \u0686\u0627\u0626\u06d2 \u0648\u0627\u0644\u0627",
+        "address": "\nC373+6VC, Afghanabad Rd, Lakard Mandi, Faisalabad, Pakistan",
+        "latitude": "31.4130664",
+        "longitude": "72.9825408",
+        "rating": "3.2 stars"
+    },
+    {
+        "name": "Chai Sutta cafe And Nashta point",
+        "address": "\nP-33 university road, Dhobi Ghat Faisalabad, Pakistan",
+        "latitude": "31.4199076",
+        "longitude": "72.9988485",
+        "rating": "35% busy at 4\u202fAM."
+    },
+    {
+        "name": "Bismillah milk shop and tea stall",
+        "address": "\n114 B.Samosa chowk, D Ground Block B People's Colony No 1, Faisalabad, Pakistan",
+        "latitude": "31.4078834",
+        "longitude": "73.0360599",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Sufi barkat Ali Milk And Tea stall shop",
+        "address": "\nC48C+6CM, Road No. 104, Block Y Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4078834",
+        "longitude": "73.0360599",
+        "rating": "0% busy at 5\u202fAM."
+    },
+    {
+        "name": "Mana Tea Stall",
+        "address": "\nC3HV+6QR General Bus Stand, Faisalabad, Pakistan",
+        "latitude": "31.428109",
+        "longitude": "73.0222855",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "Chiragh Deen Milk Shop Faisalabad",
+        "address": "\nShop number 5 Street Number 46 Waheed Park Abdullah Pur, 38000, Pakistan",
+        "latitude": "31.4249547",
+        "longitude": "73.0392833",
+        "rating": "30% busy at 4\u202fAM."
+    },
+    {
+        "name": "Sakhi Data Tea stall",
+        "address": "\nC4F3+HRP, Street Number 19, Abdullahpur, Faisalabad, Pakistan",
+        "latitude": "31.4249547",
+        "longitude": "73.0392833",
+        "rating": "4.0 stars"
+    },
+    {
+        "name": "Ice Cream Box",
+        "address": "\nopp. Chatri Wali Ground, Jinnah Colony, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4207602",
+        "longitude": "72.9938266",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Chaman Dairy Ice Cream",
+        "address": "\nC497+GM4, Susan Road, Madina Town, Faisalabad, 38860, Pakistan",
+        "latitude": "31.4187742",
+        "longitude": "73.0421016",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Mezzo Dairy Icecream",
+        "address": "\n64-A, Main Blvd, near Shimla bakery, Batala Colony Faisalabad, 38000, Pakistan",
+        "latitude": "31.4187742",
+        "longitude": "73.0421016",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Ikhlaq Ice cream ,Milk shop and Juice Bar",
+        "address": "\nKashmir Rd, opposite circle club, Amin Town, Faisalabad, 38600, Pakistan",
+        "latitude": "31.4187742",
+        "longitude": "73.0421016",
+        "rating": "28% busy at 4\u202fAM."
+    },
+    {
+        "name": "N'ice Cream 2",
+        "address": "\nBabar Chowk, Arham St, near Saim Pan Shop, Officer Colony 2, Faisalabad, Pakistan",
+        "latitude": "31.4174705",
+        "longitude": "73.0582272",
+        "rating": "5.0 stars"
+    },
+    {
+        "name": "Sialkot Tawa Ice Cream",
+        "address": "\nC3WW+F9Q, millat chowk, opposite ideal bakers, Taj Colony, Faisalabad, Pakistan",
+        "latitude": "31.4462077",
+        "longitude": "73.0238882",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Chaman Ice Bar",
+        "address": "\nC3G5+43R, Tariq Rd, Raja Colony Awami Colony 1, Faisalabad, Pakistan",
+        "latitude": "31.4253654",
+        "longitude": "72.9855303",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Ice cream wholesale Hub faisalabad",
+        "address": "\n1 Street No. 3, Afghanabad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4305908",
+        "longitude": "72.9766561",
+        "rating": ""
+    },
+    {
+        "name": "Yadgar Dairy Icecream",
+        "address": "\nShaheen Chowk, Sadar Bazar Ghulam Muhammad Abad, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4305908",
+        "longitude": "72.9766561",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Sialkot tawa ice cream",
+        "address": "\n93MC+V7H, D Type Colony Rd, Block A Samanabad, Faisalabad, Pakistan",
+        "latitude": "31.3846804",
+        "longitude": "72.9986363",
+        "rating": "4.1 stars"
+    },
+    {
+        "name": "Al-Kausar Ice Cream Bar 4",
+        "address": "\nC3MP+GPJ, Iqbal Stadium, Iqbal Stadium Rd, New Civil Lines, Civil Lines, Civil Lines, Faisalabad, 38850, Pakistan",
+        "latitude": "31.4338463",
+        "longitude": "73.0146601",
+        "rating": "0% busy at 6\u202fAM."
+    },
+    {
+        "name": "Hotel One Faisalabad",
+        "address": "\nPark, 99-C, off Hashmat Road, near Pasban, Faisalabad, Pakistan",
+        "latitude": "31.407365",
+        "longitude": "73.0433092",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "HOTEL GRAND FAISALABAD",
+        "address": "\n\u0633\u0648\u0633\u0627\u06ba \u0631\u0648\u0688\u060c, Block Z \u0645\u062f\u06cc\u0646\u06c1 \u0679\u0627\u0624\u0646\u060c \u0641\u06cc\u0635\u0644 \u0622\u0628\u0627\u062f, Faisalabad, 38000, Pakistan",
+        "latitude": "31.407365",
+        "longitude": "73.0433092",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Babar House",
+        "address": "\nBabar House Muhammadi coloney, Zainab Rd, opposite zainab masjid, Madina Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.407365",
+        "longitude": "73.0433092",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Grace Hotel and Restaurant Faisalabad",
+        "address": "\nQadimi Shehar\u060c Circular Rd, Chiniot Bazar, Faisalabad, 38000, Pakistan",
+        "latitude": "31.407365",
+        "longitude": "73.0433092",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Prince Hotel",
+        "address": "\nC3GR+7J3, Sargodha Rd\u060c near Mian Trust Hospital, Faisalabad, Pakistan",
+        "latitude": "31.4228373",
+        "longitude": "73.0069369",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Prime View Hotel",
+        "address": "\nnear Daewoo Bus Stop, beside honda show room, Akbarabad Faisalabad, 38000, Pakistan",
+        "latitude": "31.4228373",
+        "longitude": "73.0069369",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Silk Hotel",
+        "address": "\nC498+F55, Susan Road, Madina Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4228373",
+        "longitude": "73.0069369",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Royal Suites hotel",
+        "address": "\nopposite Aziz fatima hospital, Block H Gulistan Colony 1, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4442044",
+        "longitude": "73.0274895",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "EXECUTIVE LODGES (HOTEL)",
+        "address": "\nC3JV+FC4, Civil Lines, Faisalabad, Pakistan",
+        "latitude": "31.4442044",
+        "longitude": "73.0274895",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "West Inn Hotel Faisalabad",
+        "address": "\n123-Regency International, 949 Mall Road, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4639632",
+        "longitude": "73.0104056",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Fine Star Hotel",
+        "address": "\n1x1 madina town Susan road Faisalabad 1x1, Susan Road, Madina Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4250199",
+        "longitude": "73.0503595",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "CIVIC HOTEL FAISALABAD",
+        "address": "\nP-19 W Canal Rd, Amin Town, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4250199",
+        "longitude": "73.0503595",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Al-Madina Hotel & Apartments",
+        "address": "\n1st Floor Askari, Bank Building, opposite Chase UP, Faisalabad, Pakistan",
+        "latitude": "31.4215733",
+        "longitude": "73.0176569",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Shaheen Palace",
+        "address": "\nF5GM+2CX, Faisalabad, Pakistan",
+        "latitude": "31.4751073",
+        "longitude": "73.1115104",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Moon Hotel",
+        "address": "\nRailway Rd, opposite Standard Chartered Bank, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4165307",
+        "longitude": "73.0163782",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Prime Hotel",
+        "address": "\nAllah Ditta Pracha Road, Douglas Pura Douglaspura, Faisalabad, 38900, Pakistan",
+        "latitude": "31.4173534",
+        "longitude": "73.0010134",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "RizQ Hotel",
+        "address": "\nP, 143 Rajbah Rd, near Railway Station, Faisalabad, 38000, Pakistan",
+        "latitude": "31.4460248",
+        "longitude": "73.0076253",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Al Noor Hotel \u0627\u0644\u0646\u0648\u0631 \u06c1\u0648\u0679\u0644",
+        "address": "\nC37C+G9F, Rajbah Rd, Santpura Faisalabad, Pakistan",
+        "latitude": "31.4460248",
+        "longitude": "73.0076253",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Al farooq hotel",
+        "address": "\nC3HV+43H, Shoiab Bilal Market, Faisalabad, Pakistan",
+        "latitude": "31.4460248",
+        "longitude": "73.0076253",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Adeel Boys Hostel Faisalabad",
+        "address": "\nC455+6FG, D Ground Block B People's Colony No 1, Faisalabad, Pakistan",
+        "latitude": "31.408075",
+        "longitude": "73.036614",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Avari Xpress Hotel Faisalabad",
+        "address": "\n12C Jaranwala Rd, Kohinoor City Faisalabad, Pakistan",
+        "latitude": "31.407365",
+        "longitude": "73.0433092",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "\u06af\u06cc\u0633\u0679 \u06c1\u0627\u0624\u0633",
+        "address": "\nUniversity of Agriculture, Faisalabad, Pakistan",
+        "latitude": "31.4316737",
+        "longitude": "72.9984746",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Habib Guest House",
+        "address": "\nC4C7+2VP, Rafhan Mill Rd, Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4200781",
+        "longitude": "73.0426069",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Royal Palace guest house",
+        "address": "\nEden garden, 208 Chak 208 Rd, Madina Town, Faisalabad, Pakistan",
+        "latitude": "31.4280543",
+        "longitude": "73.0733184",
+        "rating": "Free parking available"
+    },
+    {
+        "name": "Lyallpur Backpackers Guest House",
+        "address": "\n150/A, People's Colony No 1, Faisalabad, 38060, Pakistan",
+        "latitude": "31.4143195",
+        "longitude": "73.0302638",
+        "rating": "Free parking available"
+    }
+]

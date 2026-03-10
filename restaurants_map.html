@@ -1,0 +1,5453 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_32bd81a7e5120e967746b6c5dc1ac6c1 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_32bd81a7e5120e967746b6c5dc1ac6c1" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_32bd81a7e5120e967746b6c5dc1ac6c1 = L.map(
+                "map_32bd81a7e5120e967746b6c5dc1ac6c1",
+                {
+                    center: [31.418, 73.079],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 12,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e9e370fd6e0263ef3d0862b87dc56349 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_e9e370fd6e0263ef3d0862b87dc56349.addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+            var marker_9019c8d4ce5251bc7bbb63edfdd65ddf = L.marker(
+                [31.4225101, 73.0820957],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d4b3133cf5bdfd58fc8ddbde3ed0befd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b4d184f4b1f7111b00271f10f2d7279 = $(`<div id="html_2b4d184f4b1f7111b00271f10f2d7279" style="width: 100.0%; height: 100.0%;"><br><br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_d4b3133cf5bdfd58fc8ddbde3ed0befd.setContent(html_2b4d184f4b1f7111b00271f10f2d7279);
+            
+        
+
+        marker_9019c8d4ce5251bc7bbb63edfdd65ddf.bindPopup(popup_d4b3133cf5bdfd58fc8ddbde3ed0befd)
+        ;
+
+        
+    
+    
+            var marker_4d4ccbbea917dcf975d627eab1c03196 = L.marker(
+                [31.441257, 73.1000997],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_809e10042fbf73491dce2432efd4ca24 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b9ca53c8195ca93329c161c6bbcb04e = $(`<div id="html_2b9ca53c8195ca93329c161c6bbcb04e" style="width: 100.0%; height: 100.0%;">Silver Spoon Restaurant<br> C4RP+GF, Zia Colony Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_809e10042fbf73491dce2432efd4ca24.setContent(html_2b9ca53c8195ca93329c161c6bbcb04e);
+            
+        
+
+        marker_4d4ccbbea917dcf975d627eab1c03196.bindPopup(popup_809e10042fbf73491dce2432efd4ca24)
+        ;
+
+        
+    
+    
+            var marker_522b11032dd254b83a8808f74eeb9ef3 = L.marker(
+                [31.412151, 73.079936],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5e3c6306f85f84ebc37941e87a782843 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5fb9a0b1fa2399029de34049dc361026 = $(`<div id="html_5fb9a0b1fa2399029de34049dc361026" style="width: 100.0%; height: 100.0%;">Portobello<br> Shop No.68-73, Do Burj Plaza, Kohinoor City Rd, Kohinoor City, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_5e3c6306f85f84ebc37941e87a782843.setContent(html_5fb9a0b1fa2399029de34049dc361026);
+            
+        
+
+        marker_522b11032dd254b83a8808f74eeb9ef3.bindPopup(popup_5e3c6306f85f84ebc37941e87a782843)
+        ;
+
+        
+    
+    
+            var marker_59047cd7618a0d531fd6e5eb9ccb4e4c = L.marker(
+                [31.4313466, 73.0868749],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5eb6bed5262eef634c92ccd01a8251d8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_055bf8ffd6ba62670cb721c8acdaf058 = $(`<div id="html_055bf8ffd6ba62670cb721c8acdaf058" style="width: 100.0%; height: 100.0%;">The Melting Swan<br> Ground Floor, The Boulevard Mall, Canal Expy, Saeed Colony Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_5eb6bed5262eef634c92ccd01a8251d8.setContent(html_055bf8ffd6ba62670cb721c8acdaf058);
+            
+        
+
+        marker_59047cd7618a0d531fd6e5eb9ccb4e4c.bindPopup(popup_5eb6bed5262eef634c92ccd01a8251d8)
+        ;
+
+        
+    
+    
+            var marker_53657d75f0a911eef7ff44e3693f0335 = L.marker(
+                [31.4313466, 73.0868749],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_923788eefb217f7b3790323bbd2d9bcf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_821c438bda5e44748387e3c2a37dcb68 = $(`<div id="html_821c438bda5e44748387e3c2a37dcb68" style="width: 100.0%; height: 100.0%;">Salt'n Pepper Faisalabad<br> 14 Kohinoor City Rd, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_923788eefb217f7b3790323bbd2d9bcf.setContent(html_821c438bda5e44748387e3c2a37dcb68);
+            
+        
+
+        marker_53657d75f0a911eef7ff44e3693f0335.bindPopup(popup_923788eefb217f7b3790323bbd2d9bcf)
+        ;
+
+        
+    
+    
+            var marker_2a499ec268350ed84cb1aac0104b1332 = L.marker(
+                [31.4492532, 73.1177313],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d2dcb06f7861065888edf8ae637720df = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3592c1aa800bef06d9d6f43a3d24a08 = $(`<div id="html_d3592c1aa800bef06d9d6f43a3d24a08" style="width: 100.0%; height: 100.0%;">Cravings Faisalabad<br> 175-C Malik St, Green Avenue Raza Town, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_d2dcb06f7861065888edf8ae637720df.setContent(html_d3592c1aa800bef06d9d6f43a3d24a08);
+            
+        
+
+        marker_2a499ec268350ed84cb1aac0104b1332.bindPopup(popup_d2dcb06f7861065888edf8ae637720df)
+        ;
+
+        
+    
+    
+            var marker_438b16eaa4577d22f18644cd761ce086 = L.marker(
+                [31.4133678, 73.0804144],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_15ba0c910dcc22398e8c468287abab8a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9455bf0ff9962dcadc0b9899e9b98787 = $(`<div id="html_9455bf0ff9962dcadc0b9899e9b98787" style="width: 100.0%; height: 100.0%;">Silver Spoon Continental Restaurant<br> Jamia Masjid، 116-P Near, Kohinoor City, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_15ba0c910dcc22398e8c468287abab8a.setContent(html_9455bf0ff9962dcadc0b9899e9b98787);
+            
+        
+
+        marker_438b16eaa4577d22f18644cd761ce086.bindPopup(popup_15ba0c910dcc22398e8c468287abab8a)
+        ;
+
+        
+    
+    
+            var marker_fab66f47b29484e46dcd98a6cc8a6a1d = L.marker(
+                [31.4133678, 73.0804144],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9f9f45161d6dc42b4c086ee6fc40f50c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0bf5308a7e0bd78a5ad9d6744e407680 = $(`<div id="html_0bf5308a7e0bd78a5ad9d6744e407680" style="width: 100.0%; height: 100.0%;">Cafe Cilantro<br> Shop No.68-73, Do Burj Plaza, Kohinoor City Rd, Kohinoor City Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_9f9f45161d6dc42b4c086ee6fc40f50c.setContent(html_0bf5308a7e0bd78a5ad9d6744e407680);
+            
+        
+
+        marker_fab66f47b29484e46dcd98a6cc8a6a1d.bindPopup(popup_9f9f45161d6dc42b4c086ee6fc40f50c)
+        ;
+
+        
+    
+    
+            var marker_264af8ba43dadbc4646d27fe42000d4f = L.marker(
+                [31.4133678, 73.0804144],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ff04600bfdfe7c2d2879c6aeb811b376 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_860565c364f5603fc6e364770bae5a91 = $(`<div id="html_860565c364f5603fc6e364770bae5a91" style="width: 100.0%; height: 100.0%;">Quilim Restaurant<br> C457+47J Hashmat Ali, Khan Rd, Block C People's Colony No 1, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_ff04600bfdfe7c2d2879c6aeb811b376.setContent(html_860565c364f5603fc6e364770bae5a91);
+            
+        
+
+        marker_264af8ba43dadbc4646d27fe42000d4f.bindPopup(popup_ff04600bfdfe7c2d2879c6aeb811b376)
+        ;
+
+        
+    
+    
+            var marker_fd81db40f6f1c508d0a747f5ef786a6b = L.marker(
+                [31.4355839, 73.092626],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_96f074114c9a1feaa1534f1b7d3a782b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_299c884a70b5ca04a4ad33e4ada861e5 = $(`<div id="html_299c884a70b5ca04a4ad33e4ada861e5" style="width: 100.0%; height: 100.0%;">Golden Bowl<br> Green Mall East, W Canal Rd, Saeed Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_96f074114c9a1feaa1534f1b7d3a782b.setContent(html_299c884a70b5ca04a4ad33e4ada861e5);
+            
+        
+
+        marker_fd81db40f6f1c508d0a747f5ef786a6b.bindPopup(popup_96f074114c9a1feaa1534f1b7d3a782b)
+        ;
+
+        
+    
+    
+            var marker_9a665430122af46301c67416b3b61c25 = L.marker(
+                [31.4127393, 73.0802192],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c2b508b26a7d9aff3bd1c279063cfcfb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c98f8188b2cf98055cf5fd5e95d6d5b1 = $(`<div id="html_c98f8188b2cf98055cf5fd5e95d6d5b1" style="width: 100.0%; height: 100.0%;">Zam Zam Restaurant Desi & Continental Cuisine<br> 6-A, Kohinoor City, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c2b508b26a7d9aff3bd1c279063cfcfb.setContent(html_c98f8188b2cf98055cf5fd5e95d6d5b1);
+            
+        
+
+        marker_9a665430122af46301c67416b3b61c25.bindPopup(popup_c2b508b26a7d9aff3bd1c279063cfcfb)
+        ;
+
+        
+    
+    
+            var marker_1594ba5994609a6fbc6b1480899c2fe3 = L.marker(
+                [31.4118078, 73.0812101],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6d28ca810bc406231756c423e2f6c090 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4668ab63632a33928ea1ffabdcca413b = $(`<div id="html_4668ab63632a33928ea1ffabdcca413b" style="width: 100.0%; height: 100.0%;">Nando's Faisalabad<br> Plot No. 6، C478+6CQ، Mall 2, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6d28ca810bc406231756c423e2f6c090.setContent(html_4668ab63632a33928ea1ffabdcca413b);
+            
+        
+
+        marker_1594ba5994609a6fbc6b1480899c2fe3.bindPopup(popup_6d28ca810bc406231756c423e2f6c090)
+        ;
+
+        
+    
+    
+            var marker_d6f9d8ce74749bb09b43db84cf5b99b5 = L.marker(
+                [31.4530097, 73.1208878],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8333dab2b7dd1705c1e6ca88486db137 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3d2185b3c0b6c6aa35b501212defaad1 = $(`<div id="html_3d2185b3c0b6c6aa35b501212defaad1" style="width: 100.0%; height: 100.0%;">Baba Tikkah Canal Road Branch<br> W Canal Rd, near 204 Chak Road, Jahan E Andalus, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_8333dab2b7dd1705c1e6ca88486db137.setContent(html_3d2185b3c0b6c6aa35b501212defaad1);
+            
+        
+
+        marker_d6f9d8ce74749bb09b43db84cf5b99b5.bindPopup(popup_8333dab2b7dd1705c1e6ca88486db137)
+        ;
+
+        
+    
+    
+            var marker_8f70a770c7fc17be32241c24acbed7d6 = L.marker(
+                [31.4303701, 73.0448625],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ef948d768214ae666377fad77787ddd2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8db16149dbfc033bbab9c08fd9b835f = $(`<div id="html_f8db16149dbfc033bbab9c08fd9b835f" style="width: 100.0%; height: 100.0%;">TURKISH RESTAURANT<br> Lahore - Sheikhupura - Faisalabad Rd, near misaq ul mall, opposite Imtiaz mart, Nishatabad, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_ef948d768214ae666377fad77787ddd2.setContent(html_f8db16149dbfc033bbab9c08fd9b835f);
+            
+        
+
+        marker_8f70a770c7fc17be32241c24acbed7d6.bindPopup(popup_ef948d768214ae666377fad77787ddd2)
+        ;
+
+        
+    
+    
+            var marker_1810769dc6e2b5523f4ee35e7db3ddb9 = L.marker(
+                [31.4303701, 73.0448625],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_54a19c59f7e5161406a15b980d7ad3d4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d8bd27a22749179ad43802b89232cb13 = $(`<div id="html_d8bd27a22749179ad43802b89232cb13" style="width: 100.0%; height: 100.0%;">Sachi - The Asian Fusion<br> 7th Faisal Ln, adjacent Sitara Tower, Civil Lines, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_54a19c59f7e5161406a15b980d7ad3d4.setContent(html_d8bd27a22749179ad43802b89232cb13);
+            
+        
+
+        marker_1810769dc6e2b5523f4ee35e7db3ddb9.bindPopup(popup_54a19c59f7e5161406a15b980d7ad3d4)
+        ;
+
+        
+    
+    
+            var marker_f7538e7f1746f63229cdfab0727fade9 = L.marker(
+                [31.4119758, 73.0811309],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_030b5ce53441ff3e494074a1764b5a2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_209ed9405c657cf03d4c649eed2eb789 = $(`<div id="html_209ed9405c657cf03d4c649eed2eb789" style="width: 100.0%; height: 100.0%;">14th Street Pizza Co. - Faisalabad<br> Legacy Tower, Kohinoor City Rd, Kohinoor City, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_030b5ce53441ff3e494074a1764b5a2b.setContent(html_209ed9405c657cf03d4c649eed2eb789);
+            
+        
+
+        marker_f7538e7f1746f63229cdfab0727fade9.bindPopup(popup_030b5ce53441ff3e494074a1764b5a2b)
+        ;
+
+        
+    
+    
+            var marker_5b271b814cc27178749d3218afaed04c = L.marker(
+                [31.4189951, 73.0321691],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_81c811fce6a8a15b84851bd3eab12a6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9aa06f4226f8803e91bf7a0b9577de17 = $(`<div id="html_9aa06f4226f8803e91bf7a0b9577de17" style="width: 100.0%; height: 100.0%;">Whites Castle Pizza Jinnah Colony<br> C399+H8M, 63-A Imam Bargah Rd, near BC Tower, Jinnah Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_81c811fce6a8a15b84851bd3eab12a6a.setContent(html_9aa06f4226f8803e91bf7a0b9577de17);
+            
+        
+
+        marker_5b271b814cc27178749d3218afaed04c.bindPopup(popup_81c811fce6a8a15b84851bd3eab12a6a)
+        ;
+
+        
+    
+    
+            var marker_f4d43c790b7af4c7090cbe7c6131a636 = L.marker(
+                [31.4372705, 73.0948124],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9fb75ef192ec3a2634f96b32dca4af46 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2c363b98fac42ee71d3e640608f0c39e = $(`<div id="html_2c363b98fac42ee71d3e640608f0c39e" style="width: 100.0%; height: 100.0%;">Pak Verowall Dera Restaurant<br> East Canal Road, On Service Rd, near Lyallpur Galleria, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_9fb75ef192ec3a2634f96b32dca4af46.setContent(html_2c363b98fac42ee71d3e640608f0c39e);
+            
+        
+
+        marker_f4d43c790b7af4c7090cbe7c6131a636.bindPopup(popup_9fb75ef192ec3a2634f96b32dca4af46)
+        ;
+
+        
+    
+    
+            var marker_74facf57306dd39d51cb231cf8a3c539 = L.marker(
+                [31.3965495, 73.0408497],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6004fb6669304cc47b01624db194a09c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d5332a3d40701f1b9c3bdd20337d8d52 = $(`<div id="html_d5332a3d40701f1b9c3bdd20337d8d52" style="width: 100.0%; height: 100.0%;">Nadeem Cafe & Family Restaurant<br> Satayana Rd, opposite Nadeem Cafe, Shahzad Colony Burhan Mohalla, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6004fb6669304cc47b01624db194a09c.setContent(html_d5332a3d40701f1b9c3bdd20337d8d52);
+            
+        
+
+        marker_74facf57306dd39d51cb231cf8a3c539.bindPopup(popup_6004fb6669304cc47b01624db194a09c)
+        ;
+
+        
+    
+    
+            var marker_bdeb2b6162f56abbcd7f5e384544fd59 = L.marker(
+                [31.3945447, 72.9923036],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_0a01358fe940ab2a0d25900bdbc92640 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e568df7c6b7a598034c84311072c1e07 = $(`<div id="html_e568df7c6b7a598034c84311072c1e07" style="width: 100.0%; height: 100.0%;">Dessert Café<br> 93V8+C4V, Main Rd, Samanabad, Faisalabad, 38000, Pakistan<br>Rating: 33% busy at 12 AM.</div>`)[0];
+                popup_0a01358fe940ab2a0d25900bdbc92640.setContent(html_e568df7c6b7a598034c84311072c1e07);
+            
+        
+
+        marker_bdeb2b6162f56abbcd7f5e384544fd59.bindPopup(popup_0a01358fe940ab2a0d25900bdbc92640)
+        ;
+
+        
+    
+    
+            var marker_41530c4ee5bba2187abf919c04720275 = L.marker(
+                [31.4065667, 73.0290818],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a546479df6761cb6f82e43290b3a4fd4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_048795fa8977fdcc1070aad88bb73fd5 = $(`<div id="html_048795fa8977fdcc1070aad88bb73fd5" style="width: 100.0%; height: 100.0%;">Hideout Cafe rooftop<br> peoples colony no 1 Block B 577, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_a546479df6761cb6f82e43290b3a4fd4.setContent(html_048795fa8977fdcc1070aad88bb73fd5);
+            
+        
+
+        marker_41530c4ee5bba2187abf919c04720275.bindPopup(popup_a546479df6761cb6f82e43290b3a4fd4)
+        ;
+
+        
+    
+    
+            var marker_ba64543c5783bf8a9777058590e2e184 = L.marker(
+                [31.4136761, 73.0439464],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_4ed843ca4b1c918a1a4b718c8662a105 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d1697cc01571ffeb50a4dda53cce8f4 = $(`<div id="html_4d1697cc01571ffeb50a4dda53cce8f4" style="width: 100.0%; height: 100.0%;">Main Street Cafe<br> C478+FCF, Owais Rd, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_4ed843ca4b1c918a1a4b718c8662a105.setContent(html_4d1697cc01571ffeb50a4dda53cce8f4);
+            
+        
+
+        marker_ba64543c5783bf8a9777058590e2e184.bindPopup(popup_4ed843ca4b1c918a1a4b718c8662a105)
+        ;
+
+        
+    
+    
+            var marker_23cd1aeb8e3610f985bd33f3ebf5e1ad = L.marker(
+                [31.4136761, 73.0439464],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2a9a4bb2987407501341d6c7e114dca0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_490a4ec44d2a51087cf2e393f5a10b2d = $(`<div id="html_490a4ec44d2a51087cf2e393f5a10b2d" style="width: 100.0%; height: 100.0%;">Coco Rush Café<br> Green Mall East, W Canal Rd, Saeed Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_2a9a4bb2987407501341d6c7e114dca0.setContent(html_490a4ec44d2a51087cf2e393f5a10b2d);
+            
+        
+
+        marker_23cd1aeb8e3610f985bd33f3ebf5e1ad.bindPopup(popup_2a9a4bb2987407501341d6c7e114dca0)
+        ;
+
+        
+    
+    
+            var marker_1d0058f2c597b42f6f3f411a1a800073 = L.marker(
+                [31.4135731, 73.043253],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_3eab43b920ad4dad05f5d9a3a770e97b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f87c4e6ae6f765d9faa0d54b0054e458 = $(`<div id="html_f87c4e6ae6f765d9faa0d54b0054e458" style="width: 100.0%; height: 100.0%;">Whytes Coffee<br> 3-A Kohinoor Rd, Kohinoor City Faisalabad, 38090, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_3eab43b920ad4dad05f5d9a3a770e97b.setContent(html_f87c4e6ae6f765d9faa0d54b0054e458);
+            
+        
+
+        marker_1d0058f2c597b42f6f3f411a1a800073.bindPopup(popup_3eab43b920ad4dad05f5d9a3a770e97b)
+        ;
+
+        
+    
+    
+            var marker_ecc8085dfb1ce72deb1049351e5bfc25 = L.marker(
+                [31.4313539, 73.0508697],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_fc0af135f86c8da4e461617ba5b62e16 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_84661b41989cd12b1e713c03c67886a2 = $(`<div id="html_84661b41989cd12b1e713c03c67886a2" style="width: 100.0%; height: 100.0%;">Chai Shaai<br> 14a Kohinoor City Rd, Kohinoor City Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_fc0af135f86c8da4e461617ba5b62e16.setContent(html_84661b41989cd12b1e713c03c67886a2);
+            
+        
+
+        marker_ecc8085dfb1ce72deb1049351e5bfc25.bindPopup(popup_fc0af135f86c8da4e461617ba5b62e16)
+        ;
+
+        
+    
+    
+            var marker_9e4231d414e683d51b01f66391dd606b = L.marker(
+                [31.4160361, 72.9946849],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_67cd9d0ce3d22711619c3f749081d747 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_497378a50752aa3e29e4ec4a37854129 = $(`<div id="html_497378a50752aa3e29e4ec4a37854129" style="width: 100.0%; height: 100.0%;">Cafe Bombay<br> C388+CP7, Gurunanakpura, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_67cd9d0ce3d22711619c3f749081d747.setContent(html_497378a50752aa3e29e4ec4a37854129);
+            
+        
+
+        marker_9e4231d414e683d51b01f66391dd606b.bindPopup(popup_67cd9d0ce3d22711619c3f749081d747)
+        ;
+
+        
+    
+    
+            var marker_d8938e52a4f067b9b706c11528af8373 = L.marker(
+                [31.4276515, 73.0789578],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2a7f7e76faf1c1e8d63f7e83c94dabba = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e5a903cc0a3c770a83d5095a31009df2 = $(`<div id="html_e5a903cc0a3c770a83d5095a31009df2" style="width: 100.0%; height: 100.0%;">Quetta Cafe (Al Rehman)<br> C5H2+3C7, Madina Commercial Street, Road, opposite Maharaja BBQ, Eden Garden Executive Block, Pakistan<br>Rating: 9% busy at 4 AM.</div>`)[0];
+                popup_2a7f7e76faf1c1e8d63f7e83c94dabba.setContent(html_e5a903cc0a3c770a83d5095a31009df2);
+            
+        
+
+        marker_d8938e52a4f067b9b706c11528af8373.bindPopup(popup_2a7f7e76faf1c1e8d63f7e83c94dabba)
+        ;
+
+        
+    
+    
+            var marker_1bd59f43a792426a80d37d16d4c6592d = L.marker(
+                [31.4116192, 73.0416556],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8c3bd7bb06a189bb50bc4282ff30632e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92eae9dbce35b771e77645da41eb8548 = $(`<div id="html_92eae9dbce35b771e77645da41eb8548" style="width: 100.0%; height: 100.0%;">The Dynasty Restaurant & Banquets<br> 2-A, People’s Colony, Jaranwala Rd, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_8c3bd7bb06a189bb50bc4282ff30632e.setContent(html_92eae9dbce35b771e77645da41eb8548);
+            
+        
+
+        marker_1bd59f43a792426a80d37d16d4c6592d.bindPopup(popup_8c3bd7bb06a189bb50bc4282ff30632e)
+        ;
+
+        
+    
+    
+            var marker_abc29722b2550f7c9d728c0b6eb7ff3a = L.marker(
+                [31.4552518, 73.0875123],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_11d2c93e8a2b2e4a8c96e28f51b0a890 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1d8f98a5584f6102da71826c48002a06 = $(`<div id="html_1d8f98a5584f6102da71826c48002a06" style="width: 100.0%; height: 100.0%;">HABBITS CAFE N PIZZERIA - Canal Road<br> Habbits cafe, W Canal Rd, near faisal town, Faisal Town Canal Road, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_11d2c93e8a2b2e4a8c96e28f51b0a890.setContent(html_1d8f98a5584f6102da71826c48002a06);
+            
+        
+
+        marker_abc29722b2550f7c9d728c0b6eb7ff3a.bindPopup(popup_11d2c93e8a2b2e4a8c96e28f51b0a890)
+        ;
+
+        
+    
+    
+            var marker_71a6e21feef2f92f829800fb8004b005 = L.marker(
+                [31.431382, 73.0505852],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c44e5a41e61920e4ce8369516155a86d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_628233791e063d9356cb0ffbbf0fc2cc = $(`<div id="html_628233791e063d9356cb0ffbbf0fc2cc" style="width: 100.0%; height: 100.0%;">Coffee & Co.<br> The Boulevard Mall, East, W Canal Rd, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c44e5a41e61920e4ce8369516155a86d.setContent(html_628233791e063d9356cb0ffbbf0fc2cc);
+            
+        
+
+        marker_71a6e21feef2f92f829800fb8004b005.bindPopup(popup_c44e5a41e61920e4ce8369516155a86d)
+        ;
+
+        
+    
+    
+            var marker_2ff994dbd15abcd1397d962ba52ec222 = L.marker(
+                [31.431382, 73.0505852],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d47975adf61a88166430693336f8f122 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ca689e38944e95d66eadf8e126015ac4 = $(`<div id="html_ca689e38944e95d66eadf8e126015ac4" style="width: 100.0%; height: 100.0%;">Coffee X<br> 2nd floor shop no 45 & 46, Misaq ul mall, Ashrafabad, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_d47975adf61a88166430693336f8f122.setContent(html_ca689e38944e95d66eadf8e126015ac4);
+            
+        
+
+        marker_2ff994dbd15abcd1397d962ba52ec222.bindPopup(popup_d47975adf61a88166430693336f8f122)
+        ;
+
+        
+    
+    
+            var marker_37bb3489f0659f089628ba1b50d9b568 = L.marker(
+                [31.4265698, 73.0293927],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6f1a00cd430f65d8378150437afca0ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ec9fa3ff12eb31cc6b6bf42f04964abe = $(`<div id="html_ec9fa3ff12eb31cc6b6bf42f04964abe" style="width: 100.0%; height: 100.0%;">Midnight Cafe<br> C4G2+HJV, Tariqabad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6f1a00cd430f65d8378150437afca0ff.setContent(html_ec9fa3ff12eb31cc6b6bf42f04964abe);
+            
+        
+
+        marker_37bb3489f0659f089628ba1b50d9b568.bindPopup(popup_6f1a00cd430f65d8378150437afca0ff)
+        ;
+
+        
+    
+    
+            var marker_b8160508b92f1f25fd0832033af0b1ae = L.marker(
+                [31.4254583, 73.0498401],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_839f9a079b4781cc2bfcf61e6b1eb845 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d9ce9bd0726b55e5d2ab6cb6e365ea16 = $(`<div id="html_d9ce9bd0726b55e5d2ab6cb6e365ea16" style="width: 100.0%; height: 100.0%;">The Cafe<br> C4GC+5QP, Saif Ullah Shaheed Rd, Block Z Block X Madina Town, Faisalabad, Pakistan<br>Rating: 28% busy at 4 AM.</div>`)[0];
+                popup_839f9a079b4781cc2bfcf61e6b1eb845.setContent(html_d9ce9bd0726b55e5d2ab6cb6e365ea16);
+            
+        
+
+        marker_b8160508b92f1f25fd0832033af0b1ae.bindPopup(popup_839f9a079b4781cc2bfcf61e6b1eb845)
+        ;
+
+        
+    
+    
+            var marker_269ab46aeab55c2114725e937e7955b3 = L.marker(
+                [31.4304591, 73.0088464],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6d1d61528075a99fc9bc49b2e28ebcbf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2309f9f8725960c9681a0436e3c80b8e = $(`<div id="html_2309f9f8725960c9681a0436e3c80b8e" style="width: 100.0%; height: 100.0%;">Gloria Jean's Coffees - Civil Lines<br> Bilal Rd, Civil Lines, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_6d1d61528075a99fc9bc49b2e28ebcbf.setContent(html_2309f9f8725960c9681a0436e3c80b8e);
+            
+        
+
+        marker_269ab46aeab55c2114725e937e7955b3.bindPopup(popup_6d1d61528075a99fc9bc49b2e28ebcbf)
+        ;
+
+        
+    
+    
+            var marker_cce29c16a361afee401efa61aaaabc53 = L.marker(
+                [31.4553696, 73.0880844],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_355bc62d8eeef288fe4cc2d3c427e043 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_029b2874be19975a5a8ac0d622144422 = $(`<div id="html_029b2874be19975a5a8ac0d622144422" style="width: 100.0%; height: 100.0%;">Gloria Jean’s - Canal Road<br> Raza Garden, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_355bc62d8eeef288fe4cc2d3c427e043.setContent(html_029b2874be19975a5a8ac0d622144422);
+            
+        
+
+        marker_cce29c16a361afee401efa61aaaabc53.bindPopup(popup_355bc62d8eeef288fe4cc2d3c427e043)
+        ;
+
+        
+    
+    
+            var marker_002bba47e68711da0607b5c167bb08d2 = L.marker(
+                [31.4503106, 73.0809014],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_083c75b376cea9959e44ed5e6a1ec115 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_009b02c7e05d1e764508175e9ffca1f4 = $(`<div id="html_009b02c7e05d1e764508175e9ffca1f4" style="width: 100.0%; height: 100.0%;">Artisan coffee roaster<br> F523+45H, Canal Expy, Raza Town, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_083c75b376cea9959e44ed5e6a1ec115.setContent(html_009b02c7e05d1e764508175e9ffca1f4);
+            
+        
+
+        marker_002bba47e68711da0607b5c167bb08d2.bindPopup(popup_083c75b376cea9959e44ed5e6a1ec115)
+        ;
+
+        
+    
+    
+            var marker_af815eda19d441e259e0a643ffa17c84 = L.marker(
+                [31.4335908, 73.0126459],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d8ed598e8c72d12ad80d9590a87e3e54 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8775b9049d7ac509edf89de594f3b4be = $(`<div id="html_8775b9049d7ac509edf89de594f3b4be" style="width: 100.0%; height: 100.0%;">A. Cafe<br> C3MM+CVQ, Faisalabad Cricket Stadium, Civil Lines, Faisalabad, 38000, Pakistan<br>Rating: 3.0 stars</div>`)[0];
+                popup_d8ed598e8c72d12ad80d9590a87e3e54.setContent(html_8775b9049d7ac509edf89de594f3b4be);
+            
+        
+
+        marker_af815eda19d441e259e0a643ffa17c84.bindPopup(popup_d8ed598e8c72d12ad80d9590a87e3e54)
+        ;
+
+        
+    
+    
+            var marker_6d0af7407a32b6a54ac276318a7c8830 = L.marker(
+                [31.4483056, 72.9907068],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_0ae0d99410d6bf430541144248a78e88 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b8eacb0be743e420550dc66ba8a6cf9 = $(`<div id="html_8b8eacb0be743e420550dc66ba8a6cf9" style="width: 100.0%; height: 100.0%;">Gujjar cafe .2. گجر کیفے<br> Rajput Rd, Factory Area, Faisalabad, 38001, Pakistan<br>Rating: 15% busy at 4 AM.</div>`)[0];
+                popup_0ae0d99410d6bf430541144248a78e88.setContent(html_8b8eacb0be743e420550dc66ba8a6cf9);
+            
+        
+
+        marker_6d0af7407a32b6a54ac276318a7c8830.bindPopup(popup_0ae0d99410d6bf430541144248a78e88)
+        ;
+
+        
+    
+    
+            var marker_f758e40e6bb82274404138188fde5509 = L.marker(
+                [31.4064867, 72.9742072],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_63feac0665532d986f48a2b0418b2ac4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67cca140c4d2b91687cd1613d60bafe0 = $(`<div id="html_67cca140c4d2b91687cd1613d60bafe0" style="width: 100.0%; height: 100.0%;">COFFEE CANVA<br> C, 24 Jhang Rd, Squre Boath Chowk Gulfishan Colony, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_63feac0665532d986f48a2b0418b2ac4.setContent(html_67cca140c4d2b91687cd1613d60bafe0);
+            
+        
+
+        marker_f758e40e6bb82274404138188fde5509.bindPopup(popup_63feac0665532d986f48a2b0418b2ac4)
+        ;
+
+        
+    
+    
+            var marker_4e45171de74d1ab3f4053d275e258b9a = L.marker(
+                [31.4479503, 73.024638],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_e869b7fc213750bdf6f488fd168a8d81 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d77424d142f18872e56b8ebda9865415 = $(`<div id="html_d77424d142f18872e56b8ebda9865415" style="width: 100.0%; height: 100.0%;">Hira Moti Cafe<br> Hira moti cafe, H 358A Millat Chowk, opposite Family Mart, Gulistan Colony, Faisalabad, Pakistan<br>Rating: 53% busy at 12 AM.</div>`)[0];
+                popup_e869b7fc213750bdf6f488fd168a8d81.setContent(html_d77424d142f18872e56b8ebda9865415);
+            
+        
+
+        marker_4e45171de74d1ab3f4053d275e258b9a.bindPopup(popup_e869b7fc213750bdf6f488fd168a8d81)
+        ;
+
+        
+    
+    
+            var marker_5cf40e7e35e7b22dc53c42d0d17f9315 = L.marker(
+                [31.3873039, 72.9959626],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a0832a22b43bf11ba1185f046afa5277 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a352d4c1bd99f2ada34b150feb656b56 = $(`<div id="html_a352d4c1bd99f2ada34b150feb656b56" style="width: 100.0%; height: 100.0%;">Quetta sardar cafe<br> Madni chowk, Block A Samanabad, Faisalabad, Pakistan<br>Rating: 40% busy at 4 AM.</div>`)[0];
+                popup_a0832a22b43bf11ba1185f046afa5277.setContent(html_a352d4c1bd99f2ada34b150feb656b56);
+            
+        
+
+        marker_5cf40e7e35e7b22dc53c42d0d17f9315.bindPopup(popup_a0832a22b43bf11ba1185f046afa5277)
+        ;
+
+        
+    
+    
+            var marker_131203da6863da2227903c3c400c5c91 = L.marker(
+                [31.414171, 73.0421823],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_108214d244a254d35d988612df724bde = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_916288ec5e9580feb4d257fe56e0c78b = $(`<div id="html_916288ec5e9580feb4d257fe56e0c78b" style="width: 100.0%; height: 100.0%;">Corniche Cafe<br> Kohi E Noor Road, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_108214d244a254d35d988612df724bde.setContent(html_916288ec5e9580feb4d257fe56e0c78b);
+            
+        
+
+        marker_131203da6863da2227903c3c400c5c91.bindPopup(popup_108214d244a254d35d988612df724bde)
+        ;
+
+        
+    
+    
+            var marker_1e9e082c505c9455bb05b592ec640f57 = L.marker(
+                [31.4154429, 73.0434178],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_7dfe01c08951fdf5606865ab5efcc12c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a5c12e9e5de911a8137a789c7162719a = $(`<div id="html_a5c12e9e5de911a8137a789c7162719a" style="width: 100.0%; height: 100.0%;">Vape Studio<br> P-28 Commercial, College Road، near Hockey Stadium, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 4.9 stars</div>`)[0];
+                popup_7dfe01c08951fdf5606865ab5efcc12c.setContent(html_a5c12e9e5de911a8137a789c7162719a);
+            
+        
+
+        marker_1e9e082c505c9455bb05b592ec640f57.bindPopup(popup_7dfe01c08951fdf5606865ab5efcc12c)
+        ;
+
+        
+    
+    
+            var marker_919526702fd093355abf9cef0b2c9091 = L.marker(
+                [31.4398788, 72.9741569],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_53d388c65dd349bad7271dcd47b27395 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_139bbc3ead5675ae27d6fca21e59ec24 = $(`<div id="html_139bbc3ead5675ae27d6fca21e59ec24" style="width: 100.0%; height: 100.0%;">Malik G Cafe<br> 307 Saddar Bazar, Block B Ghulam Muhammad Abad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_53d388c65dd349bad7271dcd47b27395.setContent(html_139bbc3ead5675ae27d6fca21e59ec24);
+            
+        
+
+        marker_919526702fd093355abf9cef0b2c9091.bindPopup(popup_53d388c65dd349bad7271dcd47b27395)
+        ;
+
+        
+    
+    
+            var marker_6a2cb76fd8a7c39d4c16387459811c9c = L.marker(
+                [31.427468, 73.0510366],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_f5cfcec9e0c2b62993dfd7354af73fe4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7861a2edad32ae029183d301546eaaa0 = $(`<div id="html_7861a2edad32ae029183d301546eaaa0" style="width: 100.0%; height: 100.0%;">99 CAFE & FOODS<br> Main Susan Road, near al habib bank, Block W Madina Town, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_f5cfcec9e0c2b62993dfd7354af73fe4.setContent(html_7861a2edad32ae029183d301546eaaa0);
+            
+        
+
+        marker_6a2cb76fd8a7c39d4c16387459811c9c.bindPopup(popup_f5cfcec9e0c2b62993dfd7354af73fe4)
+        ;
+
+        
+    
+    
+            var marker_a546f58123e054359261a6e4a35f942d = L.marker(
+                [31.4761324, 72.9929416],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_34e5aa94c2edcd6ff20303059ebafccc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_47e121b1b74adaf59a26662e177aed24 = $(`<div id="html_47e121b1b74adaf59a26662e177aed24" style="width: 100.0%; height: 100.0%;">Good food Faisalabad<br> F3G8+76Q, Gate Karim city Daewoo Road, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_34e5aa94c2edcd6ff20303059ebafccc.setContent(html_47e121b1b74adaf59a26662e177aed24);
+            
+        
+
+        marker_a546f58123e054359261a6e4a35f942d.bindPopup(popup_34e5aa94c2edcd6ff20303059ebafccc)
+        ;
+
+        
+    
+    
+            var marker_4fd8824881cb3861dd1a6539231c252c = L.marker(
+                [31.4761324, 72.9929416],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8027cf06c47ea37c27b7b898478bfcfe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_92900d547216a158a7aaddf7f93fa3f5 = $(`<div id="html_92900d547216a158a7aaddf7f93fa3f5" style="width: 100.0%; height: 100.0%;">CP Five Star<br> Address 14B Corner, Kohinoor Rd, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_8027cf06c47ea37c27b7b898478bfcfe.setContent(html_92900d547216a158a7aaddf7f93fa3f5);
+            
+        
+
+        marker_4fd8824881cb3861dd1a6539231c252c.bindPopup(popup_8027cf06c47ea37c27b7b898478bfcfe)
+        ;
+
+        
+    
+    
+            var marker_2cbae33338bed646351912b4113a4f71 = L.marker(
+                [31.4107022, 73.0472018],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9e4c0ff6a192c45d1be1235cc5da5533 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f8383aef9dda1e6e42c05f99bf58271b = $(`<div id="html_f8383aef9dda1e6e42c05f99bf58271b" style="width: 100.0%; height: 100.0%;">Burger Bites | The Grill House | Fast food in Faisalabad<br> Khawaja Gardens, Hilal Rd, near Rabbani Colony, Haseeb Shaheed Colony Rabbani Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_9e4c0ff6a192c45d1be1235cc5da5533.setContent(html_f8383aef9dda1e6e42c05f99bf58271b);
+            
+        
+
+        marker_2cbae33338bed646351912b4113a4f71.bindPopup(popup_9e4c0ff6a192c45d1be1235cc5da5533)
+        ;
+
+        
+    
+    
+            var marker_d5bf60f177bae1eb4fb7aea9764a04ae = L.marker(
+                [31.3924705, 73.0336478],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_20e654cd94c545152d72ceb61d71ae6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_30d72899d3fb52892e29a038bce631bb = $(`<div id="html_30d72899d3fb52892e29a038bce631bb" style="width: 100.0%; height: 100.0%;">EGGLUCK x COFFEE<br> C4C8+5PJ, Susan Road, Block Z Madina Town, Faisalabad, 38000, Pakistan<br>Rating: 4.2 stars</div>`)[0];
+                popup_20e654cd94c545152d72ceb61d71ae6e.setContent(html_30d72899d3fb52892e29a038bce631bb);
+            
+        
+
+        marker_d5bf60f177bae1eb4fb7aea9764a04ae.bindPopup(popup_20e654cd94c545152d72ceb61d71ae6e)
+        ;
+
+        
+    
+    
+            var marker_aa8df89821fb860e6145a0a082a7a499 = L.marker(
+                [31.3924705, 73.0336478],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_48a7941b48eda0bb6f7c5821261df030 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6ebf4a18a91c18d625a830f4d9172974 = $(`<div id="html_6ebf4a18a91c18d625a830f4d9172974" style="width: 100.0%; height: 100.0%;">Tipsy Dine<br> 341_B, People's colony no 1, McDonald's drive through road, behind ideal bakery, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_48a7941b48eda0bb6f7c5821261df030.setContent(html_6ebf4a18a91c18d625a830f4d9172974);
+            
+        
+
+        marker_aa8df89821fb860e6145a0a082a7a499.bindPopup(popup_48a7941b48eda0bb6f7c5821261df030)
+        ;
+
+        
+    
+    
+            var marker_d952adf6f76e356b8ea664e820d2d5b7 = L.marker(
+                [31.3924705, 73.0336478],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_4b803a144fc0242ef1b5a55eb10bc2d0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_34d1a9a76733829d59295147aa0ca9f5 = $(`<div id="html_34d1a9a76733829d59295147aa0ca9f5" style="width: 100.0%; height: 100.0%;">Sheikh Burger Point- Sheikh's Food<br> 356-A, near Sheikh Burger, Small D Ground Block A People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_4b803a144fc0242ef1b5a55eb10bc2d0.setContent(html_34d1a9a76733829d59295147aa0ca9f5);
+            
+        
+
+        marker_d952adf6f76e356b8ea664e820d2d5b7.bindPopup(popup_4b803a144fc0242ef1b5a55eb10bc2d0)
+        ;
+
+        
+    
+    
+            var marker_e5578fc4408832e148936f54c85b4d0b = L.marker(
+                [31.3924705, 73.0336478],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_517d8e9ec9f6992ee85c2e08fe592fbe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a23c3253ce5f4309bcd700dcc1741115 = $(`<div id="html_a23c3253ce5f4309bcd700dcc1741115" style="width: 100.0%; height: 100.0%;">Zaitoon<br> 334 B Satayana Rd, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_517d8e9ec9f6992ee85c2e08fe592fbe.setContent(html_a23c3253ce5f4309bcd700dcc1741115);
+            
+        
+
+        marker_e5578fc4408832e148936f54c85b4d0b.bindPopup(popup_517d8e9ec9f6992ee85c2e08fe592fbe)
+        ;
+
+        
+    
+    
+            var marker_5f8881dbacfa3b14ab5f89cc40d8bb80 = L.marker(
+                [31.4399814, 72.9489019],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_fa46ba24e7e27aae55d032dc45a53ff3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6177bef991c7ed33c994462f21039153 = $(`<div id="html_6177bef991c7ed33c994462f21039153" style="width: 100.0%; height: 100.0%;">The Best Fast Food<br> street #7 Narwala Rd, marzi pura Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_fa46ba24e7e27aae55d032dc45a53ff3.setContent(html_6177bef991c7ed33c994462f21039153);
+            
+        
+
+        marker_5f8881dbacfa3b14ab5f89cc40d8bb80.bindPopup(popup_fa46ba24e7e27aae55d032dc45a53ff3)
+        ;
+
+        
+    
+    
+            var marker_1d78c4874439bd793328e6089cb7640c = L.marker(
+                [31.4377557, 73.060124],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_42640b4c857562dc0dbde0b901f8d456 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f71e3ee56e741fd3aaccd4a0a0915e83 = $(`<div id="html_f71e3ee56e741fd3aaccd4a0a0915e83" style="width: 100.0%; height: 100.0%;">Burger Lab lyallpur Galleria Mall Faisalabad<br> Galleria, W Canal Rd, Saeed Colony Nasar Ullah Khan Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_42640b4c857562dc0dbde0b901f8d456.setContent(html_f71e3ee56e741fd3aaccd4a0a0915e83);
+            
+        
+
+        marker_1d78c4874439bd793328e6089cb7640c.bindPopup(popup_42640b4c857562dc0dbde0b901f8d456)
+        ;
+
+        
+    
+    
+            var marker_ab9807d3857ceb79114facde2744f89b = L.marker(
+                [31.4925257, 73.0013836],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_f84fca3b71652d3a3f5492aafd532e8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5355596dd43c709598c15496d7d78496 = $(`<div id="html_5355596dd43c709598c15496d7d78496" style="width: 100.0%; height: 100.0%;">K.H Fast Food & BBQ<br> Sargodha Rd, Muslim Town 3, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_f84fca3b71652d3a3f5492aafd532e8b.setContent(html_5355596dd43c709598c15496d7d78496);
+            
+        
+
+        marker_ab9807d3857ceb79114facde2744f89b.bindPopup(popup_f84fca3b71652d3a3f5492aafd532e8b)
+        ;
+
+        
+    
+    
+            var marker_6055631227f27ba135a671f921ed9f3d = L.marker(
+                [31.4064835, 73.0404041],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_bd95c85405ab5ff8d55fc4cf5dd6c656 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9d76985038cf7ed5d5d16e1e6699f29a = $(`<div id="html_9d76985038cf7ed5d5d16e1e6699f29a" style="width: 100.0%; height: 100.0%;">Donner branch # 1<br> Corner small, near chaps hair saloon, D Ground Block A People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_bd95c85405ab5ff8d55fc4cf5dd6c656.setContent(html_9d76985038cf7ed5d5d16e1e6699f29a);
+            
+        
+
+        marker_6055631227f27ba135a671f921ed9f3d.bindPopup(popup_bd95c85405ab5ff8d55fc4cf5dd6c656)
+        ;
+
+        
+    
+    
+            var marker_3c12c5c4733fc36d98c626eccedca399 = L.marker(
+                [31.4510568, 73.081233],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_84498cfd8e68ebb814c17638b574477e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8f87b63a70e65cc75ab949f15a947c84 = $(`<div id="html_8f87b63a70e65cc75ab949f15a947c84" style="width: 100.0%; height: 100.0%;">Hardee's - Green Avenue, Canal Road, Faisalabad<br> P17, Street # 204 W Canal Rd, P Green Avenue, Faisalabad, 37000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_84498cfd8e68ebb814c17638b574477e.setContent(html_8f87b63a70e65cc75ab949f15a947c84);
+            
+        
+
+        marker_3c12c5c4733fc36d98c626eccedca399.bindPopup(popup_84498cfd8e68ebb814c17638b574477e)
+        ;
+
+        
+    
+    
+            var marker_a19d098f438160bf930d845f6f7e3bd8 = L.marker(
+                [31.4510568, 73.081233],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ebd3234ae03bf343ed72461a2336ac0d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_64d685c3df9d809cee2983b96718dc01 = $(`<div id="html_64d685c3df9d809cee2983b96718dc01" style="width: 100.0%; height: 100.0%;">Hey Man Fast Food & Chinese Bite<br> ground, 36/B Main D Ground Near City Mega Mart Main D Ground 36/B, D Faisalabad, Pakistan<br>Rating: 68% busy at 12 AM.</div>`)[0];
+                popup_ebd3234ae03bf343ed72461a2336ac0d.setContent(html_64d685c3df9d809cee2983b96718dc01);
+            
+        
+
+        marker_a19d098f438160bf930d845f6f7e3bd8.bindPopup(popup_ebd3234ae03bf343ed72461a2336ac0d)
+        ;
+
+        
+    
+    
+            var marker_236da33b8bc6dafe40c007923cfa441b = L.marker(
+                [31.4068972, 73.0369416],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a6b852e2e5ab7e56fe8dc71642a7b322 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_14337cf517d207fe5e7fbb61bdb9c662 = $(`<div id="html_14337cf517d207fe5e7fbb61bdb9c662" style="width: 100.0%; height: 100.0%;">Haqania Foods<br> Gulberg Rd, opposite Gulberg Police Station, Gobind Pura Gobindpura, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_a6b852e2e5ab7e56fe8dc71642a7b322.setContent(html_14337cf517d207fe5e7fbb61bdb9c662);
+            
+        
+
+        marker_236da33b8bc6dafe40c007923cfa441b.bindPopup(popup_a6b852e2e5ab7e56fe8dc71642a7b322)
+        ;
+
+        
+    
+    
+            var marker_ca0dee870871b97a368e9c067d397079 = L.marker(
+                [31.4242597, 72.9938338],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_fe44dac2e169655d5c32b025463a1b52 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_419c228b9fc296219e310b7226826363 = $(`<div id="html_419c228b9fc296219e310b7226826363" style="width: 100.0%; height: 100.0%;">BRILLO Faisalabad<br> Gulberg Thana Rd, Gobindpura, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_fe44dac2e169655d5c32b025463a1b52.setContent(html_419c228b9fc296219e310b7226826363);
+            
+        
+
+        marker_ca0dee870871b97a368e9c067d397079.bindPopup(popup_fe44dac2e169655d5c32b025463a1b52)
+        ;
+
+        
+    
+    
+            var marker_c9fb9a7394c8caff892123bab8aeed3d = L.marker(
+                [31.4280378, 73.0317323],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c156674d1a2cd60d1cfe5a09703aa1fd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a22df59087de1dd9f063be1a677b6e58 = $(`<div id="html_a22df59087de1dd9f063be1a677b6e58" style="width: 100.0%; height: 100.0%;">EATO fast food restaurant<br> Street Number 17, Tariqabad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c156674d1a2cd60d1cfe5a09703aa1fd.setContent(html_a22df59087de1dd9f063be1a677b6e58);
+            
+        
+
+        marker_c9fb9a7394c8caff892123bab8aeed3d.bindPopup(popup_c156674d1a2cd60d1cfe5a09703aa1fd)
+        ;
+
+        
+    
+    
+            var marker_f214474fd4d325011e647bf2f4b58694 = L.marker(
+                [31.4249007, 73.0505164],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ab545831adc418730a0f3772b6ab1b8c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2b9c1688f370e19ece913d79214c5b63 = $(`<div id="html_2b9c1688f370e19ece913d79214c5b63" style="width: 100.0%; height: 100.0%;">Arab Foods<br> C4FF+X29, Block X Madina Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_ab545831adc418730a0f3772b6ab1b8c.setContent(html_2b9c1688f370e19ece913d79214c5b63);
+            
+        
+
+        marker_f214474fd4d325011e647bf2f4b58694.bindPopup(popup_ab545831adc418730a0f3772b6ab1b8c)
+        ;
+
+        
+    
+    
+            var marker_b554c8e7500ede7e3df24f434a316dc4 = L.marker(
+                [31.4530418, 73.0847407],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_191acaf20f6feacf8df00a1892ee691f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8dd660c6a3e7f5636d308f95cc7a0632 = $(`<div id="html_8dd660c6a3e7f5636d308f95cc7a0632" style="width: 100.0%; height: 100.0%;">The Fries Factory<br> besides Baba Tikkah, The Fries Factory,Service Canal Rd, Canal, Road, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_191acaf20f6feacf8df00a1892ee691f.setContent(html_8dd660c6a3e7f5636d308f95cc7a0632);
+            
+        
+
+        marker_b554c8e7500ede7e3df24f434a316dc4.bindPopup(popup_191acaf20f6feacf8df00a1892ee691f)
+        ;
+
+        
+    
+    
+            var marker_d9b7149c20b1cb0f75297dae18dd4035 = L.marker(
+                [31.421581, 72.9926976],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a30969532da29834f7386e95f3c2bd6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c18aedeb1d3302d4b6ff397d60777fc0 = $(`<div id="html_c18aedeb1d3302d4b6ff397d60777fc0" style="width: 100.0%; height: 100.0%;">Kashmiri Foods<br> Jinnah, Imam bargah / ideal road, beside sweet cream, Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_a30969532da29834f7386e95f3c2bd6c.setContent(html_c18aedeb1d3302d4b6ff397d60777fc0);
+            
+        
+
+        marker_d9b7149c20b1cb0f75297dae18dd4035.bindPopup(popup_a30969532da29834f7386e95f3c2bd6c)
+        ;
+
+        
+    
+    
+            var marker_89c04f136153f4a204f916a30ca79538 = L.marker(
+                [31.421581, 72.9926976],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_db5ff23b3d3c1d4dd625064d43335d6b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28b6c7639f7f749a1de3943b85a06702 = $(`<div id="html_28b6c7639f7f749a1de3943b85a06702" style="width: 100.0%; height: 100.0%;">THE DON PIZZA RESTAURANT<br> Imam Bargah Rd, Jinnah Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_db5ff23b3d3c1d4dd625064d43335d6b.setContent(html_28b6c7639f7f749a1de3943b85a06702);
+            
+        
+
+        marker_89c04f136153f4a204f916a30ca79538.bindPopup(popup_db5ff23b3d3c1d4dd625064d43335d6b)
+        ;
+
+        
+    
+    
+            var marker_0d28ca54b66f3293c8fa242d5561ef47 = L.marker(
+                [31.4119758, 73.045082],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6c19cefffd68c7ae64040ed46f7185b8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6d712b01041010027bd2a47c54a1e9e3 = $(`<div id="html_6d712b01041010027bd2a47c54a1e9e3" style="width: 100.0%; height: 100.0%;">Madina fast foods<br> St.no.4 Usman town, Lower Canal Rd, Hamayon Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6c19cefffd68c7ae64040ed46f7185b8.setContent(html_6d712b01041010027bd2a47c54a1e9e3);
+            
+        
+
+        marker_0d28ca54b66f3293c8fa242d5561ef47.bindPopup(popup_6c19cefffd68c7ae64040ed46f7185b8)
+        ;
+
+        
+    
+    
+            var marker_c2273fbafae3b026aa974361d8276f9f = L.marker(
+                [31.419349, 72.9883881],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1d833bdb9ce3a46af51d8c69b219e6a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c26c6a5e217725c2a37e0523a787f1cf = $(`<div id="html_c26c6a5e217725c2a37e0523a787f1cf" style="width: 100.0%; height: 100.0%;">Knife Chicken<br> C396+P5Q, Gulberg C Gulberg, Faisalabad, Pakistan<br>Rating: 4.1 stars</div>`)[0];
+                popup_1d833bdb9ce3a46af51d8c69b219e6a3.setContent(html_c26c6a5e217725c2a37e0523a787f1cf);
+            
+        
+
+        marker_c2273fbafae3b026aa974361d8276f9f.bindPopup(popup_1d833bdb9ce3a46af51d8c69b219e6a3)
+        ;
+
+        
+    
+    
+            var marker_c8cd134f1c6e0abd6623fd6ac1eed35d = L.marker(
+                [31.451557, 73.0810913],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5ab9b262f600f29a4ac55ee492f02139 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5cab08bb531734a0fa5d73a6a4f5fffc = $(`<div id="html_5cab08bb531734a0fa5d73a6a4f5fffc" style="width: 100.0%; height: 100.0%;">Marhaba Fri Chicks (MFC)<br> E W Canal Rd, Jahan E Andalus, Faisalabad, Pakistan<br>Rating: 21% busy at 4 AM.</div>`)[0];
+                popup_5ab9b262f600f29a4ac55ee492f02139.setContent(html_5cab08bb531734a0fa5d73a6a4f5fffc);
+            
+        
+
+        marker_c8cd134f1c6e0abd6623fd6ac1eed35d.bindPopup(popup_5ab9b262f600f29a4ac55ee492f02139)
+        ;
+
+        
+    
+    
+            var marker_7a7e31f2cfece870401543842bde1315 = L.marker(
+                [31.3877189, 72.9964035],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a61130463f9af3e606c5558b5676f328 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a0c0039b53a74283c1080bdd1182fbc5 = $(`<div id="html_a0c0039b53a74283c1080bdd1182fbc5" style="width: 100.0%; height: 100.0%;">Ali Burger & Tikka Shop<br> 10, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_a61130463f9af3e606c5558b5676f328.setContent(html_a0c0039b53a74283c1080bdd1182fbc5);
+            
+        
+
+        marker_7a7e31f2cfece870401543842bde1315.bindPopup(popup_a61130463f9af3e606c5558b5676f328)
+        ;
+
+        
+    
+    
+            var marker_fc984238df68a3df9b5538d829f5717c = L.marker(
+                [31.4020415, 73.033225],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_03945c948d8abc5e5ed4c37825f5db77 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f1c91ac8f01a0e912af88571317f200b = $(`<div id="html_f1c91ac8f01a0e912af88571317f200b" style="width: 100.0%; height: 100.0%;">Hardee's<br> C424+P6J Gateway Tower, Satayana Rd, Batala Colony Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_03945c948d8abc5e5ed4c37825f5db77.setContent(html_f1c91ac8f01a0e912af88571317f200b);
+            
+        
+
+        marker_fc984238df68a3df9b5538d829f5717c.bindPopup(popup_03945c948d8abc5e5ed4c37825f5db77)
+        ;
+
+        
+    
+    
+            var marker_ae5f92a35eb406c3b75aa79819c05c7f = L.marker(
+                [31.4529089, 73.0266309],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_143744eed4f4533665570372ea447294 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18dfb137ff4e71a94c628ed11e5b9e68 = $(`<div id="html_18dfb137ff4e71a94c628ed11e5b9e68" style="width: 100.0%; height: 100.0%;">CHEESE LAND<br> HEAVEN BANQUET HALL, Millat Rd, Noorpur, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_143744eed4f4533665570372ea447294.setContent(html_18dfb137ff4e71a94c628ed11e5b9e68);
+            
+        
+
+        marker_ae5f92a35eb406c3b75aa79819c05c7f.bindPopup(popup_143744eed4f4533665570372ea447294)
+        ;
+
+        
+    
+    
+            var marker_11322643778a807792fa650fef965898 = L.marker(
+                [31.4349697, 73.0794809],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_43207538cb5e8d3fb3f5082ce1400b72 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5483b13449a9458285734cd9d86b1226 = $(`<div id="html_5483b13449a9458285734cd9d86b1226" style="width: 100.0%; height: 100.0%;">MQ Fast Food<br> Shop 16, E-Block Eden Garden Rd, Eden Valley Faisalabad, 38000, Pakistan<br>Rating: 30% busy at 4 AM.</div>`)[0];
+                popup_43207538cb5e8d3fb3f5082ce1400b72.setContent(html_5483b13449a9458285734cd9d86b1226);
+            
+        
+
+        marker_11322643778a807792fa650fef965898.bindPopup(popup_43207538cb5e8d3fb3f5082ce1400b72)
+        ;
+
+        
+    
+    
+            var marker_1c30a06228687377910d399491527209 = L.marker(
+                [31.4068596, 73.0365349],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_374ebce2832405ede19f977c18967c38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_899803c1e52e57c8e19f4f9925515b49 = $(`<div id="html_899803c1e52e57c8e19f4f9925515b49" style="width: 100.0%; height: 100.0%;">The Food Hub<br> C445+PFR, near City Mega Mart, D Ground Block B People's Colony No 1, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_374ebce2832405ede19f977c18967c38.setContent(html_899803c1e52e57c8e19f4f9925515b49);
+            
+        
+
+        marker_1c30a06228687377910d399491527209.bindPopup(popup_374ebce2832405ede19f977c18967c38)
+        ;
+
+        
+    
+    
+            var marker_e810da21f9b0dc9e48fe078a01b91689 = L.marker(
+                [31.4149755, 72.9983159],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8355836a030cca62f42e439636de2890 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_380cca9acfa6a32ba93064ca8f7d6eb5 = $(`<div id="html_380cca9acfa6a32ba93064ca8f7d6eb5" style="width: 100.0%; height: 100.0%;">Doctor Saucy<br> Building No. 12 Illama Iqbal Road Sanat Pura, near Gc University, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_8355836a030cca62f42e439636de2890.setContent(html_380cca9acfa6a32ba93064ca8f7d6eb5);
+            
+        
+
+        marker_e810da21f9b0dc9e48fe078a01b91689.bindPopup(popup_8355836a030cca62f42e439636de2890)
+        ;
+
+        
+    
+    
+            var marker_3a9511d36c3b7ce074487df242968689 = L.marker(
+                [31.4225101, 73.0460468],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_75bc63f9db6067c1a989cd9711340da0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc4607898bfcc04ed86fe9057722ee3c = $(`<div id="html_bc4607898bfcc04ed86fe9057722ee3c" style="width: 100.0%; height: 100.0%;">Fine Dine - Best Restaurant in Faisalabad<br> Susan Road, opposite Faizan e Madina, Officer Colony 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_75bc63f9db6067c1a989cd9711340da0.setContent(html_bc4607898bfcc04ed86fe9057722ee3c);
+            
+        
+
+        marker_3a9511d36c3b7ce074487df242968689.bindPopup(popup_75bc63f9db6067c1a989cd9711340da0)
+        ;
+
+        
+    
+    
+            var marker_a52d2a6f59fa93845638553b292a8580 = L.marker(
+                [31.4225101, 73.0460468],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5a886e08f97740505ed43d3fe7e691c5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b8d96397395681f61dc5783dc65981ff = $(`<div id="html_b8d96397395681f61dc5783dc65981ff" style="width: 100.0%; height: 100.0%;">foodwar<br> behid united bakery, G.m abad ,Narwala road, chowk, kabotran wala Faisalabad, 38900, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_5a886e08f97740505ed43d3fe7e691c5.setContent(html_b8d96397395681f61dc5783dc65981ff);
+            
+        
+
+        marker_a52d2a6f59fa93845638553b292a8580.bindPopup(popup_5a886e08f97740505ed43d3fe7e691c5)
+        ;
+
+        
+    
+    
+            var marker_e6e203d318f7d348ccde247eb940d9e7 = L.marker(
+                [31.427905, 72.9895189],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_225915c04291b08c6b24a75c6b7e1295 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dde0111c3edbcbfcf9cf67fde8e7a7fe = $(`<div id="html_dde0111c3edbcbfcf9cf67fde8e7a7fe" style="width: 100.0%; height: 100.0%;">EASTERN OVEN FAISALABAD<br> 17 A GULBERG NARWALA ROAD, GULBERG A, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_225915c04291b08c6b24a75c6b7e1295.setContent(html_dde0111c3edbcbfcf9cf67fde8e7a7fe);
+            
+        
+
+        marker_e6e203d318f7d348ccde247eb940d9e7.bindPopup(popup_225915c04291b08c6b24a75c6b7e1295)
+        ;
+
+        
+    
+    
+            var marker_93cece6561c9123d6791129719e42c54 = L.marker(
+                [31.4052315, 73.0346153],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6031fdd4d104c74cee60715d4ded3458 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c28aa8bc61b220e65cd660ce1d2f2f37 = $(`<div id="html_c28aa8bc61b220e65cd660ce1d2f2f37" style="width: 100.0%; height: 100.0%;">Brillo (Place Of Quality)<br> Usman Aziz Street، Near Harianwala Chowk, Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6031fdd4d104c74cee60715d4ded3458.setContent(html_c28aa8bc61b220e65cd660ce1d2f2f37);
+            
+        
+
+        marker_93cece6561c9123d6791129719e42c54.bindPopup(popup_6031fdd4d104c74cee60715d4ded3458)
+        ;
+
+        
+    
+    
+            var marker_537e60bd49931c398fd6a919b23d660a = L.marker(
+                [31.4204163, 72.9901932],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2518ae38c0e40d0cd36d0c4b2ca8c408 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f3218d8195771ff63b6910d064f7e5ea = $(`<div id="html_f3218d8195771ff63b6910d064f7e5ea" style="width: 100.0%; height: 100.0%;">Deep fried<br> C3C6+5W7, Gulberg Thana Rd, Jinnah Colony, Faisalabad, Pakistan<br>Rating: 34% busy at 4 AM.</div>`)[0];
+                popup_2518ae38c0e40d0cd36d0c4b2ca8c408.setContent(html_f3218d8195771ff63b6910d064f7e5ea);
+            
+        
+
+        marker_537e60bd49931c398fd6a919b23d660a.bindPopup(popup_2518ae38c0e40d0cd36d0c4b2ca8c408)
+        ;
+
+        
+    
+    
+            var marker_7bb89e3df6742422d46e5f3ef6508b58 = L.marker(
+                [31.4199594, 73.032814],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_4e6823d1c4f54687395ccae07f4654ae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_28b74b4e6515d1b3c744e138260f6dc7 = $(`<div id="html_28b74b4e6515d1b3c744e138260f6dc7" style="width: 100.0%; height: 100.0%;">Hot Energy Fast Food Restaurant<br> First Floor Ashraf Sweets and Bakers Amtex Square, Abdullahpur, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_4e6823d1c4f54687395ccae07f4654ae.setContent(html_28b74b4e6515d1b3c744e138260f6dc7);
+            
+        
+
+        marker_7bb89e3df6742422d46e5f3ef6508b58.bindPopup(popup_4e6823d1c4f54687395ccae07f4654ae)
+        ;
+
+        
+    
+    
+            var marker_b5025a5baf59109452bde0e42f91b798 = L.marker(
+                [31.4331271, 73.0066817],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_033861a57fea8f4e47fc6782580096b5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6195a6daa512d2ec1ecd183a77320614 = $(`<div id="html_6195a6daa512d2ec1ecd183a77320614" style="width: 100.0%; height: 100.0%;">Ostro Grill and Pizzeria "Jail Road"<br> P, 17A Jail Rd, Civil Lines, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_033861a57fea8f4e47fc6782580096b5.setContent(html_6195a6daa512d2ec1ecd183a77320614);
+            
+        
+
+        marker_b5025a5baf59109452bde0e42f91b798.bindPopup(popup_033861a57fea8f4e47fc6782580096b5)
+        ;
+
+        
+    
+    
+            var marker_0d6d335d6bcd4affbeb4a6bec7dedde5 = L.marker(
+                [31.4331271, 73.0066817],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_670497bdcad6725571b9e422457111f2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9ed7f1324e74fd45f4148943581e6dba = $(`<div id="html_9ed7f1324e74fd45f4148943581e6dba" style="width: 100.0%; height: 100.0%;">Shah G Fast Food<br> Tanga wala chowk, Street No. 2, Islam Nagar Faisalabad, Pakistan<br>Rating: 0% busy at 1 AM.</div>`)[0];
+                popup_670497bdcad6725571b9e422457111f2.setContent(html_9ed7f1324e74fd45f4148943581e6dba);
+            
+        
+
+        marker_0d6d335d6bcd4affbeb4a6bec7dedde5.bindPopup(popup_670497bdcad6725571b9e422457111f2)
+        ;
+
+        
+    
+    
+            var marker_9cce3067e73eabbe9f9f1fec7557eecc = L.marker(
+                [31.4331271, 73.0066817],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_993baaa188d79c49ed3705f7f4c1b7b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_93c35b7b6d0e4f4b592759cd2a6857c3 = $(`<div id="html_93c35b7b6d0e4f4b592759cd2a6857c3" style="width: 100.0%; height: 100.0%;">AD Fast Food<br> Bolay di Jhuggi, opposite PTCL exchange, Faisalabad, 38000, Pakistan<br>Rating: 4.7 stars</div>`)[0];
+                popup_993baaa188d79c49ed3705f7f4c1b7b3.setContent(html_93c35b7b6d0e4f4b592759cd2a6857c3);
+            
+        
+
+        marker_9cce3067e73eabbe9f9f1fec7557eecc.bindPopup(popup_993baaa188d79c49ed3705f7f4c1b7b3)
+        ;
+
+        
+    
+    
+            var marker_f5b01a3d78427afc8aa1d3a03d0bdd88 = L.marker(
+                [31.4051306, 72.9702712],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_eb95190d505f77f4d087f7559e378b2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_154ceed4a04de8ef7f936e9eaaff876a = $(`<div id="html_154ceed4a04de8ef7f936e9eaaff876a" style="width: 100.0%; height: 100.0%;">Hot Chicks<br> C24R+3W5, Gulfishan Colony Main Rd, Gulfishan Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_eb95190d505f77f4d087f7559e378b2b.setContent(html_154ceed4a04de8ef7f936e9eaaff876a);
+            
+        
+
+        marker_f5b01a3d78427afc8aa1d3a03d0bdd88.bindPopup(popup_eb95190d505f77f4d087f7559e378b2b)
+        ;
+
+        
+    
+    
+            var marker_b7525a119f3bc9fc2738e557a7768caf = L.marker(
+                [31.4223037, 73.0454949],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1bbf3c8854773fdbd01da2ae906b4fae = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4909f73dc2bd0cd0a63f8694ea810d78 = $(`<div id="html_4909f73dc2bd0cd0a63f8694ea810d78" style="width: 100.0%; height: 100.0%;">Burger Bite The Grill House<br> C4C9+W2G, Susan Road, near khyam resturant, near khayyam restaurant, Block Z Madina Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1bbf3c8854773fdbd01da2ae906b4fae.setContent(html_4909f73dc2bd0cd0a63f8694ea810d78);
+            
+        
+
+        marker_b7525a119f3bc9fc2738e557a7768caf.bindPopup(popup_1bbf3c8854773fdbd01da2ae906b4fae)
+        ;
+
+        
+    
+    
+            var marker_429c719613d14305e03e1cf5315105b4 = L.marker(
+                [31.4827729, 73.033588],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2eba2d5b48716435758e8ec2d7f699d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3f2b1d9ddb6357c281a06fa4b35823f = $(`<div id="html_e3f2b1d9ddb6357c281a06fa4b35823f" style="width: 100.0%; height: 100.0%;">Tasty Bites Pizza & Fast Foods<br> Afridi Chowk, Hassan Center, Millat Rd, Millat Town Faisalabad, 37611, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_2eba2d5b48716435758e8ec2d7f699d5.setContent(html_e3f2b1d9ddb6357c281a06fa4b35823f);
+            
+        
+
+        marker_429c719613d14305e03e1cf5315105b4.bindPopup(popup_2eba2d5b48716435758e8ec2d7f699d5)
+        ;
+
+        
+    
+    
+            var marker_1f1f2547b822f24f5a40801e80949db4 = L.marker(
+                [31.3837955, 72.9999376],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_29bf1224bd46fd68a49d03ad817d412e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36a39b03cf40846c2e08afa160c65287 = $(`<div id="html_36a39b03cf40846c2e08afa160c65287" style="width: 100.0%; height: 100.0%;">King Cheezious Donner<br> 93MC+HR6, Block A Samanabad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_29bf1224bd46fd68a49d03ad817d412e.setContent(html_36a39b03cf40846c2e08afa160c65287);
+            
+        
+
+        marker_1f1f2547b822f24f5a40801e80949db4.bindPopup(popup_29bf1224bd46fd68a49d03ad817d412e)
+        ;
+
+        
+    
+    
+            var marker_58de1081e40a2ecb29350101a16c5dba = L.marker(
+                [31.3837955, 72.9999376],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ace1864c5162da70421f6660887d1864 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8654b377fa486dd28d8714edb6da0b51 = $(`<div id="html_8654b377fa486dd28d8714edb6da0b51" style="width: 100.0%; height: 100.0%;">Burger World<br> Jalvi Market, Jaranwala Rd, opposite Boy's High School, Akbar Colony, Faisalabad, 38000, Pakistan<br>Rating: 4.4 stars</div>`)[0];
+                popup_ace1864c5162da70421f6660887d1864.setContent(html_8654b377fa486dd28d8714edb6da0b51);
+            
+        
+
+        marker_58de1081e40a2ecb29350101a16c5dba.bindPopup(popup_ace1864c5162da70421f6660887d1864)
+        ;
+
+        
+    
+    
+            var marker_b9dd9679fbb29dbd64c1e545d0d814db = L.marker(
+                [31.4040292, 73.0558547],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_bc3b71e7e702ea53c9fbfdaf171ae1b2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53df0de911a0cbcb18a2ad5ca01f17bf = $(`<div id="html_53df0de911a0cbcb18a2ad5ca01f17bf" style="width: 100.0%; height: 100.0%;">Al-Madina Fast Foods (Since 2010)<br> Kashif Ali (Urf Baba G Akbar Chowk, Gulistan Coloney, Faisalabad, 12345, Pakistan<br>Rating: 4.0 stars</div>`)[0];
+                popup_bc3b71e7e702ea53c9fbfdaf171ae1b2.setContent(html_53df0de911a0cbcb18a2ad5ca01f17bf);
+            
+        
+
+        marker_b9dd9679fbb29dbd64c1e545d0d814db.bindPopup(popup_bc3b71e7e702ea53c9fbfdaf171ae1b2)
+        ;
+
+        
+    
+    
+            var marker_27897f478529e759eeaa05b1f14e59d8 = L.marker(
+                [31.4599893, 73.0096044],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1f2e5c52d0e41c33ef451c57c47cf4f6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_95718edf3d3a4d445d17a70720a48620 = $(`<div id="html_95718edf3d3a4d445d17a70720a48620" style="width: 100.0%; height: 100.0%;">Turkish grill burgers and wraps<br> 4 Sargodha Rd, near Crescent Mill Gate, Muslim Town B-Block Block A Muslim Town, Faisalabad, 38000, Pakistan<br>Rating: 4.0 stars</div>`)[0];
+                popup_1f2e5c52d0e41c33ef451c57c47cf4f6.setContent(html_95718edf3d3a4d445d17a70720a48620);
+            
+        
+
+        marker_27897f478529e759eeaa05b1f14e59d8.bindPopup(popup_1f2e5c52d0e41c33ef451c57c47cf4f6)
+        ;
+
+        
+    
+    
+            var marker_5d229b5e1b47ac491d3073fcbd05d74c = L.marker(
+                [31.4299345, 72.9790677],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_363c9bb93c3c1dceb0497e0f49a220b3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_36345ef6ce659e326b1a5ce0208179c2 = $(`<div id="html_36345ef6ce659e326b1a5ce0208179c2" style="width: 100.0%; height: 100.0%;">Heaven Foods<br> C3H2+XFF, Gulistan Rd, Raja Colony, Faisalabad, Pakistan<br>Rating: 4.5 stars</div>`)[0];
+                popup_363c9bb93c3c1dceb0497e0f49a220b3.setContent(html_36345ef6ce659e326b1a5ce0208179c2);
+            
+        
+
+        marker_5d229b5e1b47ac491d3073fcbd05d74c.bindPopup(popup_363c9bb93c3c1dceb0497e0f49a220b3)
+        ;
+
+        
+    
+    
+            var marker_517aaf60a1402cdf32f952f03a7bd4d7 = L.marker(
+                [31.4299345, 72.9790677],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6a29a2fcc500973c1bae7c5379c059bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8fb151248fb775c37c5ad0791d1377a7 = $(`<div id="html_8fb151248fb775c37c5ad0791d1377a7" style="width: 100.0%; height: 100.0%;">Hot Bite Fast Food<br> Main Judge Wala Rd, Shahbaz Town, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6a29a2fcc500973c1bae7c5379c059bb.setContent(html_8fb151248fb775c37c5ad0791d1377a7);
+            
+        
+
+        marker_517aaf60a1402cdf32f952f03a7bd4d7.bindPopup(popup_6a29a2fcc500973c1bae7c5379c059bb)
+        ;
+
+        
+    
+    
+            var marker_2a9e97fc442ced5ea748af6ac16bb77f = L.marker(
+                [31.4299345, 72.9790677],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_354e9c2da2f304ffd07c485582c989c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_53a52048df2f6972d54455a70766e102 = $(`<div id="html_53a52048df2f6972d54455a70766e102" style="width: 100.0%; height: 100.0%;">Madni Shawarma Gulberg Main Branch<br> Gobind Pura Jinnah Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_354e9c2da2f304ffd07c485582c989c9.setContent(html_53a52048df2f6972d54455a70766e102);
+            
+        
+
+        marker_2a9e97fc442ced5ea748af6ac16bb77f.bindPopup(popup_354e9c2da2f304ffd07c485582c989c9)
+        ;
+
+        
+    
+    
+            var marker_863311f32241c7e376ef92e2c43c9d24 = L.marker(
+                [31.4299345, 72.9790677],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1ff81e25514d01e057b056b792fd4ce0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf8a7814df83ee45ed216a4e1b6b4bd5 = $(`<div id="html_bf8a7814df83ee45ed216a4e1b6b4bd5" style="width: 100.0%; height: 100.0%;">Al Beirut Broast<br> plot #131-A, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1ff81e25514d01e057b056b792fd4ce0.setContent(html_bf8a7814df83ee45ed216a4e1b6b4bd5);
+            
+        
+
+        marker_863311f32241c7e376ef92e2c43c9d24.bindPopup(popup_1ff81e25514d01e057b056b792fd4ce0)
+        ;
+
+        
+    
+    
+            var marker_93c24e574de48b08380eac4ae646c79d = L.marker(
+                [31.3944751, 73.0052233],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_b2a91c7db59b6a1ac413698ad8995564 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e519104884670cd40d5489b7d2fe688f = $(`<div id="html_e519104884670cd40d5489b7d2fe688f" style="width: 100.0%; height: 100.0%;">Al-Aziz Broast & Ice Bar<br> 93VG+QWW, Samundri Road, opposite Novelty Pull, Samanabad, Faisalabad, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_b2a91c7db59b6a1ac413698ad8995564.setContent(html_e519104884670cd40d5489b7d2fe688f);
+            
+        
+
+        marker_93c24e574de48b08380eac4ae646c79d.bindPopup(popup_b2a91c7db59b6a1ac413698ad8995564)
+        ;
+
+        
+    
+    
+            var marker_b6de0a17973b9541e7bd576a9cc1f606 = L.marker(
+                [31.4243088, 72.9938805],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a53bcf6a3039d311be852e70ed7a7c29 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_99b3712d951978542ef38d32dfc5ef92 = $(`<div id="html_99b3712d951978542ef38d32dfc5ef92" style="width: 100.0%; height: 100.0%;">Bahraini Shawarma Food & Restaurants<br> P 192, opposite police station, Gobind Pura Gulberg, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_a53bcf6a3039d311be852e70ed7a7c29.setContent(html_99b3712d951978542ef38d32dfc5ef92);
+            
+        
+
+        marker_b6de0a17973b9541e7bd576a9cc1f606.bindPopup(popup_a53bcf6a3039d311be852e70ed7a7c29)
+        ;
+
+        
+    
+    
+            var marker_96e8a6123feaaf7794ed304f2c6bca99 = L.marker(
+                [31.4428746, 73.0228447],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_14d3cf4408a4f2e00cc0ffd1833119ee = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cdd6986897a05f004dbab8aad397f0e2 = $(`<div id="html_cdd6986897a05f004dbab8aad397f0e2" style="width: 100.0%; height: 100.0%;">Brothers fast food point<br> Millat road Haq bahu chowk brothers fast food Haq bahu chowk millat chowk, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_14d3cf4408a4f2e00cc0ffd1833119ee.setContent(html_cdd6986897a05f004dbab8aad397f0e2);
+            
+        
+
+        marker_96e8a6123feaaf7794ed304f2c6bca99.bindPopup(popup_14d3cf4408a4f2e00cc0ffd1833119ee)
+        ;
+
+        
+    
+    
+            var marker_a5fe9e3f617eb7d7506e18556ea360cf = L.marker(
+                [31.4192518, 73.0510176],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_64b411d85f4004591495bf76eb893914 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dad4dc8aac7957b7aeb8abeca9d7962 = $(`<div id="html_0dad4dc8aac7957b7aeb8abeca9d7962" style="width: 100.0%; height: 100.0%;">Decent Grill Fish & Bar B Q<br> 6 Green Belt Rd, Block Z Madina Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_64b411d85f4004591495bf76eb893914.setContent(html_0dad4dc8aac7957b7aeb8abeca9d7962);
+            
+        
+
+        marker_a5fe9e3f617eb7d7506e18556ea360cf.bindPopup(popup_64b411d85f4004591495bf76eb893914)
+        ;
+
+        
+    
+    
+            var marker_3188e5f997330faf0b4adf6bd46cc34d = L.marker(
+                [31.4377572, 72.9775643],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_452b9da80586b195401eb4cc404f6417 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_178079b76d088367426d07194e8ee391 = $(`<div id="html_178079b76d088367426d07194e8ee391" style="width: 100.0%; height: 100.0%;">Brother's BBQ<br> C2QX+4V3, Sadar Bazar Block B Ghulam Muhammad Abad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_452b9da80586b195401eb4cc404f6417.setContent(html_178079b76d088367426d07194e8ee391);
+            
+        
+
+        marker_3188e5f997330faf0b4adf6bd46cc34d.bindPopup(popup_452b9da80586b195401eb4cc404f6417)
+        ;
+
+        
+    
+    
+            var marker_a995e755cde9448594f3fa22eea67fbb = L.marker(
+                [31.4210796, 72.9878776],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_3ae96ee06b8cd0bb6f04eb61f5db176f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cc76699fe4dd2db986a758256281079 = $(`<div id="html_2cc76699fe4dd2db986a758256281079" style="width: 100.0%; height: 100.0%;">Baba Tikkah Kohinoor Branch<br> Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_3ae96ee06b8cd0bb6f04eb61f5db176f.setContent(html_2cc76699fe4dd2db986a758256281079);
+            
+        
+
+        marker_a995e755cde9448594f3fa22eea67fbb.bindPopup(popup_3ae96ee06b8cd0bb6f04eb61f5db176f)
+        ;
+
+        
+    
+    
+            var marker_1dcb8e9fa805df4cdeb91368effb342a = L.marker(
+                [31.40063, 73.0750902],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_7befd70fd759a507f714ecb1e93ab16c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ed3c2e5edfecddcb2ba048fb3944f879 = $(`<div id="html_ed3c2e5edfecddcb2ba048fb3944f879" style="width: 100.0%; height: 100.0%;">Al Haaj Bundoo Khan<br> PSO PUMP, Jaranwala Rd، NEAR Hamayon Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_7befd70fd759a507f714ecb1e93ab16c.setContent(html_ed3c2e5edfecddcb2ba048fb3944f879);
+            
+        
+
+        marker_1dcb8e9fa805df4cdeb91368effb342a.bindPopup(popup_7befd70fd759a507f714ecb1e93ab16c)
+        ;
+
+        
+    
+    
+            var marker_05ccc99036c5b46ed14e095b58f0e68d = L.marker(
+                [31.4833421, 73.0190018],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_4450ccf53d4e095cbfc9fae07e618abc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_50077935ae01ebcb525caf4a2e33e376 = $(`<div id="html_50077935ae01ebcb525caf4a2e33e376" style="width: 100.0%; height: 100.0%;">Punjabi Dera پنجابی ڈیرہ<br> Eden Orchard Main commercial market, Eden Orchard, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_4450ccf53d4e095cbfc9fae07e618abc.setContent(html_50077935ae01ebcb525caf4a2e33e376);
+            
+        
+
+        marker_05ccc99036c5b46ed14e095b58f0e68d.bindPopup(popup_4450ccf53d4e095cbfc9fae07e618abc)
+        ;
+
+        
+    
+    
+            var marker_7794ce4d43fad9d42e1848e779df5645 = L.marker(
+                [31.3855729, 73.0524242],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_98c41fb64ff68990d61f1bccb4377226 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e33f8eeb1815675502c2b74c93e3830f = $(`<div id="html_e33f8eeb1815675502c2b74c93e3830f" style="width: 100.0%; height: 100.0%;">New Punjabi BBQ<br> 94PF+6RC, Satayana Rd, Rehman Garden, Faisalabad, Pakistan<br>Rating: 4.0 stars</div>`)[0];
+                popup_98c41fb64ff68990d61f1bccb4377226.setContent(html_e33f8eeb1815675502c2b74c93e3830f);
+            
+        
+
+        marker_7794ce4d43fad9d42e1848e779df5645.bindPopup(popup_98c41fb64ff68990d61f1bccb4377226)
+        ;
+
+        
+    
+    
+            var marker_53d564ad93b8a91b7ab1effe3b3a98d6 = L.marker(
+                [31.4563229, 73.0901622],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_bbefa148f2db17595de4bd96597d06e9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a97c2a5bd9b021ed7c0f647f022bd404 = $(`<div id="html_a97c2a5bd9b021ed7c0f647f022bd404" style="width: 100.0%; height: 100.0%;">Khayyam- The Food Pavilion<br> Canal Expy, Faisal Town Canal Road, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_bbefa148f2db17595de4bd96597d06e9.setContent(html_a97c2a5bd9b021ed7c0f647f022bd404);
+            
+        
+
+        marker_53d564ad93b8a91b7ab1effe3b3a98d6.bindPopup(popup_bbefa148f2db17595de4bd96597d06e9)
+        ;
+
+        
+    
+    
+            var marker_fa8c481fbbe18a956b36bd41b8509289 = L.marker(
+                [31.4943105, 73.0294477],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_f6df69bd1e8ac2a5f26d139336678254 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_439874f1d0e0d972360ecac7117fd5b1 = $(`<div id="html_439874f1d0e0d972360ecac7117fd5b1" style="width: 100.0%; height: 100.0%;">Dogar Restaurant<br> University Town Rd, F Block Millat Town, Faisalabad, Pakistan<br>Rating: 4.3 stars</div>`)[0];
+                popup_f6df69bd1e8ac2a5f26d139336678254.setContent(html_439874f1d0e0d972360ecac7117fd5b1);
+            
+        
+
+        marker_fa8c481fbbe18a956b36bd41b8509289.bindPopup(popup_f6df69bd1e8ac2a5f26d139336678254)
+        ;
+
+        
+    
+    
+            var marker_b88f8f4b3d2c20dd482101c725bc727c = L.marker(
+                [31.4475625, 72.9520157],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a71d52234cec87f86b83181514b62b6a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4d3394e276171717fd7daacec7b2dcc4 = $(`<div id="html_4d3394e276171717fd7daacec7b2dcc4" style="width: 100.0%; height: 100.0%;">Whites Castle Pizza Millat Chowk<br> H 360A, Gulistan Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_a71d52234cec87f86b83181514b62b6a.setContent(html_4d3394e276171717fd7daacec7b2dcc4);
+            
+        
+
+        marker_b88f8f4b3d2c20dd482101c725bc727c.bindPopup(popup_a71d52234cec87f86b83181514b62b6a)
+        ;
+
+        
+    
+    
+            var marker_20f160c4c1f2b0e853046d2eb78d10ac = L.marker(
+                [31.4504889, 72.9401454],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_20fe830b6190fb7f49569e814fe2fb8b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5667eab6c2ca392d3fdd0615556340f8 = $(`<div id="html_5667eab6c2ca392d3fdd0615556340f8" style="width: 100.0%; height: 100.0%;">Stone Ove Pizza Valley Satyana Road Branch<br> Gateway tower, Satayana Rd, Batala Colony Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_20fe830b6190fb7f49569e814fe2fb8b.setContent(html_5667eab6c2ca392d3fdd0615556340f8);
+            
+        
+
+        marker_20f160c4c1f2b0e853046d2eb78d10ac.bindPopup(popup_20fe830b6190fb7f49569e814fe2fb8b)
+        ;
+
+        
+    
+    
+            var marker_64dca6cf55b599c9f62eec3aae9612e6 = L.marker(
+                [31.4189002, 72.9253227],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_398c221b333ab0684e6bfb7041f539fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_721ee6be0af978e45b871be9a9d3f530 = $(`<div id="html_721ee6be0af978e45b871be9a9d3f530" style="width: 100.0%; height: 100.0%;">Oregano Pizza<br> near BC Tower, Jinnah Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_398c221b333ab0684e6bfb7041f539fa.setContent(html_721ee6be0af978e45b871be9a9d3f530);
+            
+        
+
+        marker_64dca6cf55b599c9f62eec3aae9612e6.bindPopup(popup_398c221b333ab0684e6bfb7041f539fa)
+        ;
+
+        
+    
+    
+            var marker_bd39f8450f1db6625869fc9f9a960efb = L.marker(
+                [31.4189002, 72.9253227],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_65659c6eb4094d3cc9a1768bcd1d7fb8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_77a3e729f7e9de37e24d85a214528174 = $(`<div id="html_77a3e729f7e9de37e24d85a214528174" style="width: 100.0%; height: 100.0%;">Pizza Plex<br> F3VF+4CR, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_65659c6eb4094d3cc9a1768bcd1d7fb8.setContent(html_77a3e729f7e9de37e24d85a214528174);
+            
+        
+
+        marker_bd39f8450f1db6625869fc9f9a960efb.bindPopup(popup_65659c6eb4094d3cc9a1768bcd1d7fb8)
+        ;
+
+        
+    
+    
+            var marker_13d2c6f5c1fed60e91adc1adfcd2b0c8 = L.marker(
+                [31.4206464, 72.9179936],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_aff966ce2beeb2848c2592e5c42e82f8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_756062d73a251c2949de56a8776a3555 = $(`<div id="html_756062d73a251c2949de56a8776a3555" style="width: 100.0%; height: 100.0%;">Slice of Choice<br> First Floor, Allied Bank Building, 309-A Gulberg Rd, opp. National Hospital, Block B, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_aff966ce2beeb2848c2592e5c42e82f8.setContent(html_756062d73a251c2949de56a8776a3555);
+            
+        
+
+        marker_13d2c6f5c1fed60e91adc1adfcd2b0c8.bindPopup(popup_aff966ce2beeb2848c2592e5c42e82f8)
+        ;
+
+        
+    
+    
+            var marker_e0f819bc840fcf0af17a5afbe9194a0e = L.marker(
+                [31.5295034, 72.9207139],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ed415d2ff4c75d6416c01e9ee066ce2d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9fd5aa098d95a1d2842aa06c38683688 = $(`<div id="html_9fd5aa098d95a1d2842aa06c38683688" style="width: 100.0%; height: 100.0%;">Pizza House & cafe<br> G3H7+RX3, Sargodha Rd, opp. city housing, Kamal Pur Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_ed415d2ff4c75d6416c01e9ee066ce2d.setContent(html_9fd5aa098d95a1d2842aa06c38683688);
+            
+        
+
+        marker_e0f819bc840fcf0af17a5afbe9194a0e.bindPopup(popup_ed415d2ff4c75d6416c01e9ee066ce2d)
+        ;
+
+        
+    
+    
+            var marker_d9c66667346defc4bed2c2e84c686dc7 = L.marker(
+                [31.4624657, 72.9281292],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6e09c279473c988d0292e98d829a0686 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0dc01ff3b066f45737d22291b5911be6 = $(`<div id="html_0dc01ff3b066f45737d22291b5911be6" style="width: 100.0%; height: 100.0%;">The Baketown Sargodha Road<br> Sargodha Rd, near Metro Cash n Carry, Block A FDA City, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6e09c279473c988d0292e98d829a0686.setContent(html_0dc01ff3b066f45737d22291b5911be6);
+            
+        
+
+        marker_d9c66667346defc4bed2c2e84c686dc7.bindPopup(popup_6e09c279473c988d0292e98d829a0686)
+        ;
+
+        
+    
+    
+            var marker_ace1f03e68867e594b97d4c4a9500c66 = L.marker(
+                [31.4124158, 72.9217045],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_e6261f20a551fe9d1862f4a0ff0bfb9b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f9b743be726d8ebccc3fd599cecea3af = $(`<div id="html_f9b743be726d8ebccc3fd599cecea3af" style="width: 100.0%; height: 100.0%;">ABF Pizza & Burger<br> Jhang Rd, near Gourment Bakery, Qasim Abad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_e6261f20a551fe9d1862f4a0ff0bfb9b.setContent(html_f9b743be726d8ebccc3fd599cecea3af);
+            
+        
+
+        marker_ace1f03e68867e594b97d4c4a9500c66.bindPopup(popup_e6261f20a551fe9d1862f4a0ff0bfb9b)
+        ;
+
+        
+    
+    
+            var marker_7c889c315fa2af0ab5ba3bdef2f5cc9d = L.marker(
+                [31.4131888, 72.971814],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_71d90109e1cb829125e309181fa54497 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_83f1dc7b6e2134e06fd3f31ccbecdba6 = $(`<div id="html_83f1dc7b6e2134e06fd3f31ccbecdba6" style="width: 100.0%; height: 100.0%;">Delicious Pizza<br> House no A, 206, Fawara Chowk, Block C People's Colony no.2, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_71d90109e1cb829125e309181fa54497.setContent(html_83f1dc7b6e2134e06fd3f31ccbecdba6);
+            
+        
+
+        marker_7c889c315fa2af0ab5ba3bdef2f5cc9d.bindPopup(popup_71d90109e1cb829125e309181fa54497)
+        ;
+
+        
+    
+    
+            var marker_32cd945fe45d0f206accf43e40bf221c = L.marker(
+                [31.4131888, 72.971814],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_bd0978c4014c2f3142a0a9b6ab68115c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6e619e0bc7f574c9a775743fc895f2e7 = $(`<div id="html_6e619e0bc7f574c9a775743fc895f2e7" style="width: 100.0%; height: 100.0%;">Hafiz pizza<br> 94W3+CWG, Mehr Rashid Rd, Haseeb Shaheed Colony Muhammadabad, Faisalabad, Pakistan<br>Rating: 9% busy at 4 AM.</div>`)[0];
+                popup_bd0978c4014c2f3142a0a9b6ab68115c.setContent(html_6e619e0bc7f574c9a775743fc895f2e7);
+            
+        
+
+        marker_32cd945fe45d0f206accf43e40bf221c.bindPopup(popup_bd0978c4014c2f3142a0a9b6ab68115c)
+        ;
+
+        
+    
+    
+            var marker_1b37c505e8fbf2852506f802976074e8 = L.marker(
+                [31.4507697, 73.0809058],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_06b6c42d9fb01432948961bf70d0f64e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_09fd716e1a3ee3aea4d44f869011f349 = $(`<div id="html_09fd716e1a3ee3aea4d44f869011f349" style="width: 100.0%; height: 100.0%;">Brim Burgers ( Faisalabad )<br> Green avenue, Faisalabad, Pakistan<br>Rating: 4.5 stars</div>`)[0];
+                popup_06b6c42d9fb01432948961bf70d0f64e.setContent(html_09fd716e1a3ee3aea4d44f869011f349);
+            
+        
+
+        marker_1b37c505e8fbf2852506f802976074e8.bindPopup(popup_06b6c42d9fb01432948961bf70d0f64e)
+        ;
+
+        
+    
+    
+            var marker_2d5c683d2ca1b64c1d52cbb72e84cc71 = L.marker(
+                [31.4405576, 73.0645606],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_014f2052d7f71232be9b4b2890ee4e86 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e65eaa9f658effa4383920d0155a8992 = $(`<div id="html_e65eaa9f658effa4383920d0155a8992" style="width: 100.0%; height: 100.0%;">De Grill<br> Hassan Commercial Market, W Canal Rd, Zia Colony Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_014f2052d7f71232be9b4b2890ee4e86.setContent(html_e65eaa9f658effa4383920d0155a8992);
+            
+        
+
+        marker_2d5c683d2ca1b64c1d52cbb72e84cc71.bindPopup(popup_014f2052d7f71232be9b4b2890ee4e86)
+        ;
+
+        
+    
+    
+            var marker_414ab9d55693495498cb0c6f905a87de = L.marker(
+                [31.4111738, 73.0456394],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ffa24f3199d2a7332b6ba88d1ad704c2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_273ed1e04075dd91bccc84e68478cf2f = $(`<div id="html_273ed1e04075dd91bccc84e68478cf2f" style="width: 100.0%; height: 100.0%;">Burger, Fries & Co.<br> behind al-fateh store, Kohinoor City Faisalabad, 38000, Pakistan<br>Rating: 4.2 stars</div>`)[0];
+                popup_ffa24f3199d2a7332b6ba88d1ad704c2.setContent(html_273ed1e04075dd91bccc84e68478cf2f);
+            
+        
+
+        marker_414ab9d55693495498cb0c6f905a87de.bindPopup(popup_ffa24f3199d2a7332b6ba88d1ad704c2)
+        ;
+
+        
+    
+    
+            var marker_0360f04c8cc44a0759fd458103a3ed81 = L.marker(
+                [31.4224856, 73.0472094],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5f92b12b81a3c2af2a727fc75e117c2c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_31060ffcbf1684f546ecde895b8fe4df = $(`<div id="html_31060ffcbf1684f546ecde895b8fe4df" style="width: 100.0%; height: 100.0%;">Burger Fille\`<br> town, Model bazar, Main Susan Road, near fizan e madina, Madina, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_5f92b12b81a3c2af2a727fc75e117c2c.setContent(html_31060ffcbf1684f546ecde895b8fe4df);
+            
+        
+
+        marker_0360f04c8cc44a0759fd458103a3ed81.bindPopup(popup_5f92b12b81a3c2af2a727fc75e117c2c)
+        ;
+
+        
+    
+    
+            var marker_030851fb213661a407164bfdf6855800 = L.marker(
+                [31.4071174, 73.0366043],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c57546b89ddd244fbc8025e5b48efb96 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c403545046e2952aaf20e76fd4f1153f = $(`<div id="html_c403545046e2952aaf20e76fd4f1153f" style="width: 100.0%; height: 100.0%;">Foodies 27<br> C445+RFW, Pak China Chowk, D Ground Rd owner of Imdad bhai, Hakeem Sultan Ahmad Dawoodi Rd, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c57546b89ddd244fbc8025e5b48efb96.setContent(html_c403545046e2952aaf20e76fd4f1153f);
+            
+        
+
+        marker_030851fb213661a407164bfdf6855800.bindPopup(popup_c57546b89ddd244fbc8025e5b48efb96)
+        ;
+
+        
+    
+    
+            var marker_5045132944e6080a769d2a6b20a30a3a = L.marker(
+                [31.4419437, 72.9819597],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_37e90076dbef65b662616fa881c05176 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ea62a40c9de88b9f5f5e96bc69b1d4fe = $(`<div id="html_ea62a40c9de88b9f5f5e96bc69b1d4fe" style="width: 100.0%; height: 100.0%;">Hafiz Burger Point<br> C3R3+QJF, Block E Ghulam Muhammad Abad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_37e90076dbef65b662616fa881c05176.setContent(html_ea62a40c9de88b9f5f5e96bc69b1d4fe);
+            
+        
+
+        marker_5045132944e6080a769d2a6b20a30a3a.bindPopup(popup_37e90076dbef65b662616fa881c05176)
+        ;
+
+        
+    
+    
+            var marker_71e48a0de267ebd99e7def1cabed489a = L.marker(
+                [31.4483063, 73.0999112],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1026359bc1e6ed967ae5886cf8388fa6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e7f2e41c0c3976a1989618346987f078 = $(`<div id="html_e7f2e41c0c3976a1989618346987f078" style="width: 100.0%; height: 100.0%;">Rapid.pk<br> Block, Street 5, Ayesha Blvd, Abdullah Gardens Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1026359bc1e6ed967ae5886cf8388fa6.setContent(html_e7f2e41c0c3976a1989618346987f078);
+            
+        
+
+        marker_71e48a0de267ebd99e7def1cabed489a.bindPopup(popup_1026359bc1e6ed967ae5886cf8388fa6)
+        ;
+
+        
+    
+    
+            var marker_98d600e5c889f7421b8ab07fa746c34a = L.marker(
+                [31.4391585, 73.0324222],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2b1091fcb60de0f1373548f0bd6b630b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0147d99ecabfde6346041764c453fa28 = $(`<div id="html_0147d99ecabfde6346041764c453fa28" style="width: 100.0%; height: 100.0%;">Eldorado<br> C4Q3+MR6, Gulistan Colony Gulistan Colony 1, Faisalabad, Pakistan<br>Rating: 4.7 stars</div>`)[0];
+                popup_2b1091fcb60de0f1373548f0bd6b630b.setContent(html_0147d99ecabfde6346041764c453fa28);
+            
+        
+
+        marker_98d600e5c889f7421b8ab07fa746c34a.bindPopup(popup_2b1091fcb60de0f1373548f0bd6b630b)
+        ;
+
+        
+    
+    
+            var marker_c6c0ec542b6f09ae551e1d1ad8e5915b = L.marker(
+                [31.4596032, 73.0104899],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_e09599a4c3e8a0287ff6a2334888124c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ae2696bc5dd05836d94ab9742f595683 = $(`<div id="html_ae2696bc5dd05836d94ab9742f595683" style="width: 100.0%; height: 100.0%;">Brillo (Branch 3)<br> Sargodha Rd, opposite Shell Petrol Pump, Block B Muslim Town, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_e09599a4c3e8a0287ff6a2334888124c.setContent(html_ae2696bc5dd05836d94ab9742f595683);
+            
+        
+
+        marker_c6c0ec542b6f09ae551e1d1ad8e5915b.bindPopup(popup_e09599a4c3e8a0287ff6a2334888124c)
+        ;
+
+        
+    
+    
+            var marker_1e4e34c0f5622c5ac341658ca2dc6128 = L.marker(
+                [31.4095113, 72.9880789],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_fedde9f7c7e35166990d0c088312fc2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7a394007766ae4b3a33499f479dd4d24 = $(`<div id="html_7a394007766ae4b3a33499f479dd4d24" style="width: 100.0%; height: 100.0%;">Malik burger point<br> Plot 454, Ayub Colony, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_fedde9f7c7e35166990d0c088312fc2b.setContent(html_7a394007766ae4b3a33499f479dd4d24);
+            
+        
+
+        marker_1e4e34c0f5622c5ac341658ca2dc6128.bindPopup(popup_fedde9f7c7e35166990d0c088312fc2b)
+        ;
+
+        
+    
+    
+            var marker_ab061723d6b8ffedfa784995468477ca = L.marker(
+                [31.4215224, 72.9927279],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2b1c7d35c0e2413683668d2e4f62533c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0c312176de0228f353eb7cb1eb8cff49 = $(`<div id="html_0c312176de0228f353eb7cb1eb8cff49" style="width: 100.0%; height: 100.0%;">FSD Shawarma co.<br> Ideal Road, Imam Bargah Rd, opp. Chaman Ice Cream, Jinnah Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_2b1c7d35c0e2413683668d2e4f62533c.setContent(html_0c312176de0228f353eb7cb1eb8cff49);
+            
+        
+
+        marker_ab061723d6b8ffedfa784995468477ca.bindPopup(popup_2b1c7d35c0e2413683668d2e4f62533c)
+        ;
+
+        
+    
+    
+            var marker_6c19fba03699b9e25e2ec4537aa02369 = L.marker(
+                [31.4215224, 72.9927279],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8740d03d94266241c4d85c500853dbe2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ef1b38d5f1abf7ca8e4528cdf6724593 = $(`<div id="html_ef1b38d5f1abf7ca8e4528cdf6724593" style="width: 100.0%; height: 100.0%;">Sultan Shawarma - Lyallpur Galleria<br> 3rd floor, Lyallpur Galleria Mall, Food Court, Main W Canal Rd, Saeed Colony Nasar Ullah Khan Town, Faislabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_8740d03d94266241c4d85c500853dbe2.setContent(html_ef1b38d5f1abf7ca8e4528cdf6724593);
+            
+        
+
+        marker_6c19fba03699b9e25e2ec4537aa02369.bindPopup(popup_8740d03d94266241c4d85c500853dbe2)
+        ;
+
+        
+    
+    
+            var marker_124cb5bb2c15aa7fd4aae596540d31f8 = L.marker(
+                [31.4241079, 72.993681],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ab0d7021714593dc2c7a524718907f5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_69d265d5d5693436ebeca6106e03ec89 = $(`<div id="html_69d265d5d5693436ebeca6106e03ec89" style="width: 100.0%; height: 100.0%;">New Captain Shawarma<br> C498+P54, Arfa Kareem Rd, Block Z Madina Town, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_ab0d7021714593dc2c7a524718907f5e.setContent(html_69d265d5d5693436ebeca6106e03ec89);
+            
+        
+
+        marker_124cb5bb2c15aa7fd4aae596540d31f8.bindPopup(popup_ab0d7021714593dc2c7a524718907f5e)
+        ;
+
+        
+    
+    
+            var marker_599aa9afdec96a647ed3be75e479d3c7 = L.marker(
+                [31.4440483, 73.0236486],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_26c4479425e18d220b8bd14bf8ea7117 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2a62b988c3399e8ad6487eceac472f07 = $(`<div id="html_2a62b988c3399e8ad6487eceac472f07" style="width: 100.0%; height: 100.0%;">HHQ Shwarma<br> C4F9+7GW Susan Road Officer, 1 colony, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_26c4479425e18d220b8bd14bf8ea7117.setContent(html_2a62b988c3399e8ad6487eceac472f07);
+            
+        
+
+        marker_599aa9afdec96a647ed3be75e479d3c7.bindPopup(popup_26c4479425e18d220b8bd14bf8ea7117)
+        ;
+
+        
+    
+    
+            var marker_bf26fac59b1e5accbeeb4123f620ebe9 = L.marker(
+                [31.4448011, 73.0872545],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_b4f2c8d1b6d0742805a2403fda22552b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_068f601ac8be7a23e0a17fde569d5663 = $(`<div id="html_068f601ac8be7a23e0a17fde569d5663" style="width: 100.0%; height: 100.0%;">Rana muzammil shawarma point<br> C5V5+WPH, Unnamed Road, Char Chak, Faisalabad, Pakistan<br>Rating: 17% busy at 4 AM.</div>`)[0];
+                popup_b4f2c8d1b6d0742805a2403fda22552b.setContent(html_068f601ac8be7a23e0a17fde569d5663);
+            
+        
+
+        marker_bf26fac59b1e5accbeeb4123f620ebe9.bindPopup(popup_b4f2c8d1b6d0742805a2403fda22552b)
+        ;
+
+        
+    
+    
+            var marker_b4a854ea3b732d1dfb9f65bf8c37cb58 = L.marker(
+                [31.4374754, 72.9776634],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9fb5e07d2b8c15dca92824522ae0c573 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_de68940ad231bf3cec8632f2e5f92c1c = $(`<div id="html_de68940ad231bf3cec8632f2e5f92c1c" style="width: 100.0%; height: 100.0%;">Shawarma Master<br> C3C6+C3C, Gulberg Rd, Gulberg, Faisalabad, Pakistan<br>Rating: 4.8 stars</div>`)[0];
+                popup_9fb5e07d2b8c15dca92824522ae0c573.setContent(html_de68940ad231bf3cec8632f2e5f92c1c);
+            
+        
+
+        marker_b4a854ea3b732d1dfb9f65bf8c37cb58.bindPopup(popup_9fb5e07d2b8c15dca92824522ae0c573)
+        ;
+
+        
+    
+    
+            var marker_cfa5883adb91b4004bcd24cdf4ef3821 = L.marker(
+                [31.4425591, 73.0294449],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1ffca408e597dcf52d5f10b163d2d530 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e984e6e017cd43116cffbbbfce750597 = $(`<div id="html_e984e6e017cd43116cffbbbfce750597" style="width: 100.0%; height: 100.0%;">GYRO<br> chock, 328-B peoples colony no.1 Harrianwala, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1ffca408e597dcf52d5f10b163d2d530.setContent(html_e984e6e017cd43116cffbbbfce750597);
+            
+        
+
+        marker_cfa5883adb91b4004bcd24cdf4ef3821.bindPopup(popup_1ffca408e597dcf52d5f10b163d2d530)
+        ;
+
+        
+    
+    
+            var marker_652f4880e134dc8b2bfbd90e00456173 = L.marker(
+                [31.4133678, 73.0443655],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1c04d26493c08199cf03edfb2ac76be5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_847546261d20b8bcb60d70fc04a51661 = $(`<div id="html_847546261d20b8bcb60d70fc04a51661" style="width: 100.0%; height: 100.0%;">Bhaiya Biryani and Kitchen<br> Pakistan chowk APTPMA ROAD, B block Amin Town, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1c04d26493c08199cf03edfb2ac76be5.setContent(html_847546261d20b8bcb60d70fc04a51661);
+            
+        
+
+        marker_652f4880e134dc8b2bfbd90e00456173.bindPopup(popup_1c04d26493c08199cf03edfb2ac76be5)
+        ;
+
+        
+    
+    
+            var marker_b319637e9e6a10f5dd1a5067e937f65d = L.marker(
+                [31.4059853, 73.0290631],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8569cc9e1ff46cd2524a0b929a7c82c3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b42e2e79b70eeec6cb4a705573af6377 = $(`<div id="html_b42e2e79b70eeec6cb4a705573af6377" style="width: 100.0%; height: 100.0%;">Biryani Master Faisalabad<br> 573 B1 Satayana Rd, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_8569cc9e1ff46cd2524a0b929a7c82c3.setContent(html_b42e2e79b70eeec6cb4a705573af6377);
+            
+        
+
+        marker_b319637e9e6a10f5dd1a5067e937f65d.bindPopup(popup_8569cc9e1ff46cd2524a0b929a7c82c3)
+        ;
+
+        
+    
+    
+            var marker_456a9e06dcf6cd8e0a5e3f32d728df2d = L.marker(
+                [31.4994375, 73.1465897],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1ff5e139fa03fdc35932f681da9308bd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b84d39ff718bab46ceb4094ca6ff316 = $(`<div id="html_9b84d39ff718bab46ceb4094ca6ff316" style="width: 100.0%; height: 100.0%;">Biryani Max<br> Block H Wapda City, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1ff5e139fa03fdc35932f681da9308bd.setContent(html_9b84d39ff718bab46ceb4094ca6ff316);
+            
+        
+
+        marker_456a9e06dcf6cd8e0a5e3f32d728df2d.bindPopup(popup_1ff5e139fa03fdc35932f681da9308bd)
+        ;
+
+        
+    
+    
+            var marker_0c95472c7f01328a36eb76117eec13e8 = L.marker(
+                [31.4234859, 72.9935211],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_06d7f5505b3a89ac12a0610095d6bc01 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_703b8dabeb012b5bea76fd20c1c7cb2e = $(`<div id="html_703b8dabeb012b5bea76fd20c1c7cb2e" style="width: 100.0%; height: 100.0%;">Mr Roll & Miss Biryani<br> C3F8+96X, Gulberg Thana Rd, Jinnah Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_06d7f5505b3a89ac12a0610095d6bc01.setContent(html_703b8dabeb012b5bea76fd20c1c7cb2e);
+            
+        
+
+        marker_0c95472c7f01328a36eb76117eec13e8.bindPopup(popup_06d7f5505b3a89ac12a0610095d6bc01)
+        ;
+
+        
+    
+    
+            var marker_17a79c20c0073db26d51eeda0da7376b = L.marker(
+                [31.4129211, 73.0441421],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_181f7b3200ba3a0fa96aae4326a338fa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9bb169c0da13c948b33250d59deda2d4 = $(`<div id="html_9bb169c0da13c948b33250d59deda2d4" style="width: 100.0%; height: 100.0%;">Tandoori Restaurant Faisalabad<br> 6-A, Kohinoor City, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_181f7b3200ba3a0fa96aae4326a338fa.setContent(html_9bb169c0da13c948b33250d59deda2d4);
+            
+        
+
+        marker_17a79c20c0073db26d51eeda0da7376b.bindPopup(popup_181f7b3200ba3a0fa96aae4326a338fa)
+        ;
+
+        
+    
+    
+            var marker_e2bc073bc98a6bf20b2db714deaaa2b8 = L.marker(
+                [31.4129211, 73.0441421],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1a37067018826c283f9d9349d0417b2e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a3eba96c7e8a37dda22ae5fa426c98a1 = $(`<div id="html_a3eba96c7e8a37dda22ae5fa426c98a1" style="width: 100.0%; height: 100.0%;">Data Chicken Biryani<br> Panjtani chowk, Street Number 17, Farooqabad Mansoorabad, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_1a37067018826c283f9d9349d0417b2e.setContent(html_a3eba96c7e8a37dda22ae5fa426c98a1);
+            
+        
+
+        marker_e2bc073bc98a6bf20b2db714deaaa2b8.bindPopup(popup_1a37067018826c283f9d9349d0417b2e)
+        ;
+
+        
+    
+    
+            var marker_1f379be6ab9d4011fa88a3188a40fb7f = L.marker(
+                [31.4129211, 73.0441421],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_7acff261db226807e502ccf04e2182f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a1eaa797d03efd8490274ba58887d802 = $(`<div id="html_a1eaa797d03efd8490274ba58887d802" style="width: 100.0%; height: 100.0%;">New Tabish Bariyani<br> 134b D Ground Rd, D Ground Block B People's Colony No 1, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_7acff261db226807e502ccf04e2182f4.setContent(html_a1eaa797d03efd8490274ba58887d802);
+            
+        
+
+        marker_1f379be6ab9d4011fa88a3188a40fb7f.bindPopup(popup_7acff261db226807e502ccf04e2182f4)
+        ;
+
+        
+    
+    
+            var marker_8a041a9f69c7bb7996e99678a90f7338 = L.marker(
+                [31.4051967, 73.0304228],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_0808e73af720ea3774cb4adaca5a8bc5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_05b82759518691dca5e22cfa9df4dfda = $(`<div id="html_05b82759518691dca5e22cfa9df4dfda" style="width: 100.0%; height: 100.0%;">Butt Biryani ®️<br> 564 - B, Satayana Rd, near Ideal Bakery, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_0808e73af720ea3774cb4adaca5a8bc5.setContent(html_05b82759518691dca5e22cfa9df4dfda);
+            
+        
+
+        marker_8a041a9f69c7bb7996e99678a90f7338.bindPopup(popup_0808e73af720ea3774cb4adaca5a8bc5)
+        ;
+
+        
+    
+    
+            var marker_210d9a0fb87fcbab1f1058ac82d48cc4 = L.marker(
+                [31.4051967, 73.0304228],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_70aa6887c02450bbd7b5191a2608a7e2 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ff5a44f6e4648bb687e0d3d343acad68 = $(`<div id="html_ff5a44f6e4648bb687e0d3d343acad68" style="width: 100.0%; height: 100.0%;">Data Hajvery Chicken Biryani<br> Street No 15/16 Main Bazzar Mansoorabad, Mansoorabad, Faisalabad, 38000, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_70aa6887c02450bbd7b5191a2608a7e2.setContent(html_ff5a44f6e4648bb687e0d3d343acad68);
+            
+        
+
+        marker_210d9a0fb87fcbab1f1058ac82d48cc4.bindPopup(popup_70aa6887c02450bbd7b5191a2608a7e2)
+        ;
+
+        
+    
+    
+            var marker_819cada4ee34f53d60fb10076c164835 = L.marker(
+                [31.4051967, 73.0304228],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2c742993e74670670990d9c2df0b5bc9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8bb45fa1ce7353611eb53624ff6a43d3 = $(`<div id="html_8bb45fa1ce7353611eb53624ff6a43d3" style="width: 100.0%; height: 100.0%;">Marhaba Mahal<br> 204 RB East W Canal Rd, next to Babu Petroleum, Jahan E Andalus, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_2c742993e74670670990d9c2df0b5bc9.setContent(html_8bb45fa1ce7353611eb53624ff6a43d3);
+            
+        
+
+        marker_819cada4ee34f53d60fb10076c164835.bindPopup(popup_2c742993e74670670990d9c2df0b5bc9)
+        ;
+
+        
+    
+    
+            var marker_831fa71c6a38869081e6d19b576c391f = L.marker(
+                [31.4313539, 73.0508697],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_16e1ddb718b66d2f1c99cdc436f8fe75 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b14286705c5b0a02576a4ae06ac8e43a = $(`<div id="html_b14286705c5b0a02576a4ae06ac8e43a" style="width: 100.0%; height: 100.0%;">Masala House<br> Second Floor, Boulevard Mall, East, Canal Rd, Saeed Colony Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_16e1ddb718b66d2f1c99cdc436f8fe75.setContent(html_b14286705c5b0a02576a4ae06ac8e43a);
+            
+        
+
+        marker_831fa71c6a38869081e6d19b576c391f.bindPopup(popup_16e1ddb718b66d2f1c99cdc436f8fe75)
+        ;
+
+        
+    
+    
+            var marker_3ff85156c19348a8e4903b1f4e177cfc = L.marker(
+                [31.4503818, 73.0138281],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_b60947e0c5f723abae9d148539dc89a5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f88818e5ade94585a20f22bf900c8cbf = $(`<div id="html_f88818e5ade94585a20f22bf900c8cbf" style="width: 100.0%; height: 100.0%;">Tariq Murgh Palao<br> Sargodha Rd, Afshan Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_b60947e0c5f723abae9d148539dc89a5.setContent(html_f88818e5ade94585a20f22bf900c8cbf);
+            
+        
+
+        marker_3ff85156c19348a8e4903b1f4e177cfc.bindPopup(popup_b60947e0c5f723abae9d148539dc89a5)
+        ;
+
+        
+    
+    
+            var marker_dab49e44a6479ddee71497b54cca9bd8 = L.marker(
+                [31.4127393, 73.0441703],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9867698f6d39e991dc02312c5f465d8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11fb1f56aee17fc514538cbe9e04e438 = $(`<div id="html_11fb1f56aee17fc514538cbe9e04e438" style="width: 100.0%; height: 100.0%;">Tabish Biryani House<br> 139 D Ground, Block B People's Colony No 1, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_9867698f6d39e991dc02312c5f465d8e.setContent(html_11fb1f56aee17fc514538cbe9e04e438);
+            
+        
+
+        marker_dab49e44a6479ddee71497b54cca9bd8.bindPopup(popup_9867698f6d39e991dc02312c5f465d8e)
+        ;
+
+        
+    
+    
+            var marker_268b4cb190a67d358db326175726639e = L.marker(
+                [31.4459547, 73.0083158],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_b0a0e5fa21f34f08732f0dddf3fbd2ff = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f112be1d1636cffb0606a1731b90c4a = $(`<div id="html_7f112be1d1636cffb0606a1731b90c4a" style="width: 100.0%; height: 100.0%;">Shahryar Restaurant<br> Jail Rd, Akbarabad, Faisalabad, 38001, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_b0a0e5fa21f34f08732f0dddf3fbd2ff.setContent(html_7f112be1d1636cffb0606a1731b90c4a);
+            
+        
+
+        marker_268b4cb190a67d358db326175726639e.bindPopup(popup_b0a0e5fa21f34f08732f0dddf3fbd2ff)
+        ;
+
+        
+    
+    
+            var marker_aa49f29c5edebe15eba14ca165ac171a = L.marker(
+                [31.4104214, 73.0301446],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_cf3574059a38e4a143376422fef0ae41 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_268e6a24abd2b84d2377b10e17a7ac11 = $(`<div id="html_268e6a24abd2b84d2377b10e17a7ac11" style="width: 100.0%; height: 100.0%;">Chiniot Biryani & Kunna<br> 1304/B Chen One Rd, Pilot Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_cf3574059a38e4a143376422fef0ae41.setContent(html_268e6a24abd2b84d2377b10e17a7ac11);
+            
+        
+
+        marker_aa49f29c5edebe15eba14ca165ac171a.bindPopup(popup_cf3574059a38e4a143376422fef0ae41)
+        ;
+
+        
+    
+    
+            var marker_844c8976a854471c52aae4cf93c33ccb = L.marker(
+                [31.4104214, 73.0301446],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_de7dd1cf89ee3f7ad178deab0e6af68e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_336541c199a126234f9f86cb6cbfd0e4 = $(`<div id="html_336541c199a126234f9f86cb6cbfd0e4" style="width: 100.0%; height: 100.0%;">Karachi Standard Biryani<br> Raja Rd, Gulistan Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_de7dd1cf89ee3f7ad178deab0e6af68e.setContent(html_336541c199a126234f9f86cb6cbfd0e4);
+            
+        
+
+        marker_844c8976a854471c52aae4cf93c33ccb.bindPopup(popup_de7dd1cf89ee3f7ad178deab0e6af68e)
+        ;
+
+        
+    
+    
+            var marker_a286472df6ed1ff1ac2aa925a93df05c = L.marker(
+                [31.4328151, 73.0082699],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ee3b46b940ef5c6d28e12d2f70efac2f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b02decead63c5f85ef300be51d81cfd6 = $(`<div id="html_b02decead63c5f85ef300be51d81cfd6" style="width: 100.0%; height: 100.0%;">Cool N2 Creamery & cafe (Faisalabad)<br> Plot No, 818 Bilal Rd, Civil Lines, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_ee3b46b940ef5c6d28e12d2f70efac2f.setContent(html_b02decead63c5f85ef300be51d81cfd6);
+            
+        
+
+        marker_a286472df6ed1ff1ac2aa925a93df05c.bindPopup(popup_ee3b46b940ef5c6d28e12d2f70efac2f)
+        ;
+
+        
+    
+    
+            var marker_80e67b1339fecdd6ff523de896eb9b1e = L.marker(
+                [31.4135124, 73.0440077],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_01ef58dd21b15ccf278f0202a7248d0e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9c1252590cb5588b87ed0c596417a62e = $(`<div id="html_9c1252590cb5588b87ed0c596417a62e" style="width: 100.0%; height: 100.0%;">Layers Bakeshop - Kohinoor City<br> 117-A Main Blvd, Kohinoor City Faisalabad, 37000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_01ef58dd21b15ccf278f0202a7248d0e.setContent(html_9c1252590cb5588b87ed0c596417a62e);
+            
+        
+
+        marker_80e67b1339fecdd6ff523de896eb9b1e.bindPopup(popup_01ef58dd21b15ccf278f0202a7248d0e)
+        ;
+
+        
+    
+    
+            var marker_3297eb67f077600a301e4839a24ee464 = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_08adb48bcbce9e8126c9ea1a5108c34d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_703a1bef553fdadef5a86f44d59b10a9 = $(`<div id="html_703a1bef553fdadef5a86f44d59b10a9" style="width: 100.0%; height: 100.0%;">Sweet Creme - Canal Road, Faisalabad<br> W Canal Rd, Jahan E Andalus, Faisalabad, 74000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_08adb48bcbce9e8126c9ea1a5108c34d.setContent(html_703a1bef553fdadef5a86f44d59b10a9);
+            
+        
+
+        marker_3297eb67f077600a301e4839a24ee464.bindPopup(popup_08adb48bcbce9e8126c9ea1a5108c34d)
+        ;
+
+        
+    
+    
+            var marker_a7ed84517660f3b16bf3bac6e6e632cc = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c7292328dea188e81e494eee5d4acfc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cd0345a5da46791a30663cd380ea7ec8 = $(`<div id="html_cd0345a5da46791a30663cd380ea7ec8" style="width: 100.0%; height: 100.0%;">Twist - The Dessert Shop<br> Plot # 291, East, C487+P52, Susan Road, Kohinoor City Madina Town, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_c7292328dea188e81e494eee5d4acfc8.setContent(html_cd0345a5da46791a30663cd380ea7ec8);
+            
+        
+
+        marker_a7ed84517660f3b16bf3bac6e6e632cc.bindPopup(popup_c7292328dea188e81e494eee5d4acfc8)
+        ;
+
+        
+    
+    
+            var marker_c112af02f6cc7bfbdf573b43acb0d4df = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_245160e7c4e3c12729fff583387a433a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_403cf3a043072cb24a21e43de4b249b4 = $(`<div id="html_403cf3a043072cb24a21e43de4b249b4" style="width: 100.0%; height: 100.0%;">Meer Sweets & Bakers<br> 20A, 3 Hakeem Sultan Ahmad Dawoodi Rd, near makki hospital, D Ground Block C People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_245160e7c4e3c12729fff583387a433a.setContent(html_403cf3a043072cb24a21e43de4b249b4);
+            
+        
+
+        marker_c112af02f6cc7bfbdf573b43acb0d4df.bindPopup(popup_245160e7c4e3c12729fff583387a433a)
+        ;
+
+        
+    
+    
+            var marker_c952ccb47742cb6a616c66decdb59d42 = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ff242eeae0f82bede28986d038b239fe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1b8b1ddc1793596ad3bae2371f8dad76 = $(`<div id="html_1b8b1ddc1793596ad3bae2371f8dad76" style="width: 100.0%; height: 100.0%;">Sweet Creme – Milat Chowk, Faisalabad<br> 360A Millat Chowk, Gulistan Colony 2, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_ff242eeae0f82bede28986d038b239fe.setContent(html_1b8b1ddc1793596ad3bae2371f8dad76);
+            
+        
+
+        marker_c952ccb47742cb6a616c66decdb59d42.bindPopup(popup_ff242eeae0f82bede28986d038b239fe)
+        ;
+
+        
+    
+    
+            var marker_a05fac7701f86737015db709820affc1 = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_430e16c4e894182bb0745854d2990091 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_6b00b5c94866342ee3b403fd400bcf9f = $(`<div id="html_6b00b5c94866342ee3b403fd400bcf9f" style="width: 100.0%; height: 100.0%;">Shimla Sweets & Bakers<br> 64-A, 64-A Main Blvd, Batala Colony Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_430e16c4e894182bb0745854d2990091.setContent(html_6b00b5c94866342ee3b403fd400bcf9f);
+            
+        
+
+        marker_a05fac7701f86737015db709820affc1.bindPopup(popup_430e16c4e894182bb0745854d2990091)
+        ;
+
+        
+    
+    
+            var marker_c27430f84c5038666324eba0702ea58c = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c7cc7a998fd72ccb15ea1079749ddf6e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0e4d04e83461fcdeee9d38e1907189b7 = $(`<div id="html_0e4d04e83461fcdeee9d38e1907189b7" style="width: 100.0%; height: 100.0%;">Ideal Bakery & Sweets<br> Gulistan, 262 Millat Road, Colony, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_c7cc7a998fd72ccb15ea1079749ddf6e.setContent(html_0e4d04e83461fcdeee9d38e1907189b7);
+            
+        
+
+        marker_c27430f84c5038666324eba0702ea58c.bindPopup(popup_c7cc7a998fd72ccb15ea1079749ddf6e)
+        ;
+
+        
+    
+    
+            var marker_ef3add25c1f1d053288f79d7924c3d63 = L.marker(
+                [31.4527403, 73.0845885],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_43ffa50e53e547084e3aeb2414e410af = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_355769cd14b2f367cd00dcb03f6d2e66 = $(`<div id="html_355769cd14b2f367cd00dcb03f6d2e66" style="width: 100.0%; height: 100.0%;">Nagina Sweets & Bakers<br> D Type Colony Rd, Block A Samanabad, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_43ffa50e53e547084e3aeb2414e410af.setContent(html_355769cd14b2f367cd00dcb03f6d2e66);
+            
+        
+
+        marker_ef3add25c1f1d053288f79d7924c3d63.bindPopup(popup_43ffa50e53e547084e3aeb2414e410af)
+        ;
+
+        
+    
+    
+            var marker_a77ae8e5949915932b92bc68df5aa928 = L.marker(
+                [31.4219524, 72.9919346],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6faa52c6cdec2eba9248b10d010fe534 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76bbdd6484576d11d934902bcccb533f = $(`<div id="html_76bbdd6484576d11d934902bcccb533f" style="width: 100.0%; height: 100.0%;">Super Ideal Sweets & Bakers<br> Jinnah Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_6faa52c6cdec2eba9248b10d010fe534.setContent(html_76bbdd6484576d11d934902bcccb533f);
+            
+        
+
+        marker_a77ae8e5949915932b92bc68df5aa928.bindPopup(popup_6faa52c6cdec2eba9248b10d010fe534)
+        ;
+
+        
+    
+    
+            var marker_c29908344d148522842bc3a86d39c939 = L.marker(
+                [31.437858, 72.9771105],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_22db4ac1ecbbf2d15ba2e146f91e7fc8 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8530c954bd1cdad96cbb3177d98387a = $(`<div id="html_c8530c954bd1cdad96cbb3177d98387a" style="width: 100.0%; height: 100.0%;">Assal Yadgar Sweets & Bakers<br> 322-B, Shaheen Chowk, Saddar Bazar, beside Best Bite Pizza, Sadar Bazar Block B Ghulam Muhammad Abad, Faisalabad, 38900, Pakistan<br>Rating: </div>`)[0];
+                popup_22db4ac1ecbbf2d15ba2e146f91e7fc8.setContent(html_c8530c954bd1cdad96cbb3177d98387a);
+            
+        
+
+        marker_c29908344d148522842bc3a86d39c939.bindPopup(popup_22db4ac1ecbbf2d15ba2e146f91e7fc8)
+        ;
+
+        
+    
+    
+            var marker_ce06b0d86fc741e4c6db0a564e4429d4 = L.marker(
+                [31.4403107, 73.0641216],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d42dab588bfc79ba9f413e2040e72a33 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e3999d4f6522f637a85dcad1a37ef308 = $(`<div id="html_e3999d4f6522f637a85dcad1a37ef308" style="width: 100.0%; height: 100.0%;">Pastry shop<br> Hassan market, Kashmir pull Eden garden East, W Canal Rd, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_d42dab588bfc79ba9f413e2040e72a33.setContent(html_e3999d4f6522f637a85dcad1a37ef308);
+            
+        
+
+        marker_ce06b0d86fc741e4c6db0a564e4429d4.bindPopup(popup_d42dab588bfc79ba9f413e2040e72a33)
+        ;
+
+        
+    
+    
+            var marker_229ebc13df9d1038139453add9b01bb5 = L.marker(
+                [31.4216646, 73.0452546],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_423f0d9e5a386e9c6b3a5629eeff70c6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e71200cda3512a28a288535847ffd5fd = $(`<div id="html_e71200cda3512a28a288535847ffd5fd" style="width: 100.0%; height: 100.0%;">Chaghi 25 Ice Cream & Juices Parlor<br> C38C+59H, Kotwali Rd، opposite GC university, Santpura Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_423f0d9e5a386e9c6b3a5629eeff70c6.setContent(html_e71200cda3512a28a288535847ffd5fd);
+            
+        
+
+        marker_229ebc13df9d1038139453add9b01bb5.bindPopup(popup_423f0d9e5a386e9c6b3a5629eeff70c6)
+        ;
+
+        
+    
+    
+            var marker_5e875c7c840548a3449f882566215d98 = L.marker(
+                [31.4154494, 72.9988734],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_cc8134f1d7ca4ce408bf796b58e13f7b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8a4e0910f5345e9f7dd0869ddff3a92c = $(`<div id="html_8a4e0910f5345e9f7dd0869ddff3a92c" style="width: 100.0%; height: 100.0%;">New Chaman Ice Cream<br> Jinnah colony near ideal Sweet Gulberg Thana Road, Imam Bargah Rd, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_cc8134f1d7ca4ce408bf796b58e13f7b.setContent(html_8a4e0910f5345e9f7dd0869ddff3a92c);
+            
+        
+
+        marker_5e875c7c840548a3449f882566215d98.bindPopup(popup_cc8134f1d7ca4ce408bf796b58e13f7b)
+        ;
+
+        
+    
+    
+            var marker_6ca4ee6141e42385ae400df7871cad42 = L.marker(
+                [31.4154494, 72.9988734],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ffe22c44492d836b49459bc9d8530507 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4a024de5c6512e2ce2054fc4fb564397 = $(`<div id="html_4a024de5c6512e2ce2054fc4fb564397" style="width: 100.0%; height: 100.0%;">Jay Bees Kohinoor<br> C478+M52, Kohinoor Rd, Kohinoor City Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_ffe22c44492d836b49459bc9d8530507.setContent(html_4a024de5c6512e2ce2054fc4fb564397);
+            
+        
+
+        marker_6ca4ee6141e42385ae400df7871cad42.bindPopup(popup_ffe22c44492d836b49459bc9d8530507)
+        ;
+
+        
+    
+    
+            var marker_4bb043736c5c07acbdbfaa22b9775ba0 = L.marker(
+                [31.414139, 73.0432871],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_653d5451a1c41650cdf863a3830fc71a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1916c428f5eaf469eebd1bc51242ea8a = $(`<div id="html_1916c428f5eaf469eebd1bc51242ea8a" style="width: 100.0%; height: 100.0%;">Robbiya by Jamil<br> MS Centre, 243-D, D Ground Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_653d5451a1c41650cdf863a3830fc71a.setContent(html_1916c428f5eaf469eebd1bc51242ea8a);
+            
+        
+
+        marker_4bb043736c5c07acbdbfaa22b9775ba0.bindPopup(popup_653d5451a1c41650cdf863a3830fc71a)
+        ;
+
+        
+    
+    
+            var marker_780ff309a89a849bb98a46fc39834969 = L.marker(
+                [31.4340148, 72.9711153],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_df8e57b14c41a9d53879bd7e7526ad6c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a337ecac6ad50130027dc2a1b907d530 = $(`<div id="html_a337ecac6ad50130027dc2a1b907d530" style="width: 100.0%; height: 100.0%;">Arshad IceBar® Gelato Since 1982<br> Kabortanwala Chowk GM Abad, Civil, qawtar, Faisalabad, Pakistan<br>Rating: </div>`)[0];
+                popup_df8e57b14c41a9d53879bd7e7526ad6c.setContent(html_a337ecac6ad50130027dc2a1b907d530);
+            
+        
+
+        marker_780ff309a89a849bb98a46fc39834969.bindPopup(popup_df8e57b14c41a9d53879bd7e7526ad6c)
+        ;
+
+        
+    
+    
+            var marker_721a0de99ec90a5b9b6134d265f7ceee = L.marker(
+                [31.4140215, 73.0432821],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_e25245d64d8c09661fac06f45526cc0f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_dca47ca69d44dc904797054f09272077 = $(`<div id="html_dca47ca69d44dc904797054f09272077" style="width: 100.0%; height: 100.0%;">Chashni<br> 130 Kohinoor City Rd, Kohinoor City Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_e25245d64d8c09661fac06f45526cc0f.setContent(html_dca47ca69d44dc904797054f09272077);
+            
+        
+
+        marker_721a0de99ec90a5b9b6134d265f7ceee.bindPopup(popup_e25245d64d8c09661fac06f45526cc0f)
+        ;
+
+        
+    
+    
+            var marker_e848a61164bf1eaa3dd1a336c3deb086 = L.marker(
+                [31.4140215, 73.0432821],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9d69e72ca0b8e2bf2281677c79025db3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5c909dee89ef900d8c2bdd241b1cd681 = $(`<div id="html_5c909dee89ef900d8c2bdd241b1cd681" style="width: 100.0%; height: 100.0%;">Top Ideal Sweets & Bakers<br> Sargodha Rd, Lasani Town, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_9d69e72ca0b8e2bf2281677c79025db3.setContent(html_5c909dee89ef900d8c2bdd241b1cd681);
+            
+        
+
+        marker_e848a61164bf1eaa3dd1a336c3deb086.bindPopup(popup_9d69e72ca0b8e2bf2281677c79025db3)
+        ;
+
+        
+    
+    
+            var marker_0843af1f69993895a708e965c78f5f7c = L.marker(
+                [31.4181165, 72.9543784],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c1111e6c5e27597d54b89353247f4522 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4080c8ae23c0930defd0e7bc1cf05246 = $(`<div id="html_4080c8ae23c0930defd0e7bc1cf05246" style="width: 100.0%; height: 100.0%;">Welcome Sweets And Bakers<br> C28G+H38، P404/40، Main Road, Kokian Wala, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_c1111e6c5e27597d54b89353247f4522.setContent(html_4080c8ae23c0930defd0e7bc1cf05246);
+            
+        
+
+        marker_0843af1f69993895a708e965c78f5f7c.bindPopup(popup_c1111e6c5e27597d54b89353247f4522)
+        ;
+
+        
+    
+    
+            var marker_0a42f679029b3a1eacf69963049df7eb = L.marker(
+                [31.4181165, 72.9543784],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_1fd8b9cd3ea6883af17349d695c413aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bf41f9ef39e07770dcbe21c30351872c = $(`<div id="html_bf41f9ef39e07770dcbe21c30351872c" style="width: 100.0%; height: 100.0%;">CakeOnline.pk<br> Shalimar Rd, Waris Pura, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_1fd8b9cd3ea6883af17349d695c413aa.setContent(html_bf41f9ef39e07770dcbe21c30351872c);
+            
+        
+
+        marker_0a42f679029b3a1eacf69963049df7eb.bindPopup(popup_1fd8b9cd3ea6883af17349d695c413aa)
+        ;
+
+        
+    
+    
+            var marker_dd80021f00598c633885f94aa952f595 = L.marker(
+                [31.4052047, 73.0302276],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d0215cad871feeca3e08294a1d205fb4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_022a9101cd97c672849c2dcf3e5f3f2d = $(`<div id="html_022a9101cd97c672849c2dcf3e5f3f2d" style="width: 100.0%; height: 100.0%;">Yasir Tea Stall & Cafe<br> Satayana Rd, Block B, Peoples Colony 1, Block B People's Colony No 1, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_d0215cad871feeca3e08294a1d205fb4.setContent(html_022a9101cd97c672849c2dcf3e5f3f2d);
+            
+        
+
+        marker_dd80021f00598c633885f94aa952f595.bindPopup(popup_d0215cad871feeca3e08294a1d205fb4)
+        ;
+
+        
+    
+    
+            var marker_2eb914924d1c23dcdf835bddf6467664 = L.marker(
+                [31.4659535, 73.1200151],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_792f67676cf44864a4a10b4d8679fd53 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e06588f1c6c39dc33194e9e3ab737732 = $(`<div id="html_e06588f1c6c39dc33194e9e3ab737732" style="width: 100.0%; height: 100.0%;">gutwala tea shop<br> F58R+9RQ, Chak No 199 Rb, Faisalabad, Pakistan<br>Rating: 9% busy at 4 AM.</div>`)[0];
+                popup_792f67676cf44864a4a10b4d8679fd53.setContent(html_e06588f1c6c39dc33194e9e3ab737732);
+            
+        
+
+        marker_2eb914924d1c23dcdf835bddf6467664.bindPopup(popup_792f67676cf44864a4a10b4d8679fd53)
+        ;
+
+        
+    
+    
+            var marker_293b4343b11c31c2b4e8bc560ce6a732 = L.marker(
+                [31.4299502, 73.0424461],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c8a0a66ac51ae273fced2aa0b76e3efe = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37277bc26dca843861262c91da5861cc = $(`<div id="html_37277bc26dca843861262c91da5861cc" style="width: 100.0%; height: 100.0%;">Daara Tea Stall and Milk Shop<br> C4H7+XRM, Farooqabad Mansoorabad, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c8a0a66ac51ae273fced2aa0b76e3efe.setContent(html_37277bc26dca843861262c91da5861cc);
+            
+        
+
+        marker_293b4343b11c31c2b4e8bc560ce6a732.bindPopup(popup_c8a0a66ac51ae273fced2aa0b76e3efe)
+        ;
+
+        
+    
+    
+            var marker_5d6c785b64b0aa908bfd306d69edbdeb = L.marker(
+                [31.420296, 73.0091989],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9bc85f3afbe8934c616a97371414fd9e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e1539d82120aaa929aa313fd3a53f3c6 = $(`<div id="html_e1539d82120aaa929aa313fd3a53f3c6" style="width: 100.0%; height: 100.0%;">Bashir Tea Stall<br> C3CJ+4G7 wakeelan wali, Street No. 5, Katchery Bazar Clock Tower, Faisalabad, 38000, Pakistan<br>Rating: 10% busy at 4 AM.</div>`)[0];
+                popup_9bc85f3afbe8934c616a97371414fd9e.setContent(html_e1539d82120aaa929aa313fd3a53f3c6);
+            
+        
+
+        marker_5d6c785b64b0aa908bfd306d69edbdeb.bindPopup(popup_9bc85f3afbe8934c616a97371414fd9e)
+        ;
+
+        
+    
+    
+            var marker_305b5724616a71e474ca03a53de1eb17 = L.marker(
+                [31.4159689, 73.0000305],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ff5ee670f488d9897799064ae8c208e3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c1aa8e16ca7bc6f71754c57fd04e34b5 = $(`<div id="html_c1aa8e16ca7bc6f71754c57fd04e34b5" style="width: 100.0%; height: 100.0%;">Tea point<br> C38C+9VJ, Imam Bargah Rd, Santpura Douglaspura, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_ff5ee670f488d9897799064ae8c208e3.setContent(html_c1aa8e16ca7bc6f71754c57fd04e34b5);
+            
+        
+
+        marker_305b5724616a71e474ca03a53de1eb17.bindPopup(popup_ff5ee670f488d9897799064ae8c208e3)
+        ;
+
+        
+    
+    
+            var marker_0f9a7faa52cc5084bec3ed802b0b993d = L.marker(
+                [31.4400979, 73.017846],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_577d2f5c6c608ce9f1ce58a6721dc483 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a05b981e1d7f775c3bbee538df810e52 = $(`<div id="html_a05b981e1d7f775c3bbee538df810e52" style="width: 100.0%; height: 100.0%;">Saleem Teastall ☕<br> Muhammadi market, Sargodha Rd, Mustaffabad Islam Nagar, Faisalabad, 38000, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_577d2f5c6c608ce9f1ce58a6721dc483.setContent(html_a05b981e1d7f775c3bbee538df810e52);
+            
+        
+
+        marker_0f9a7faa52cc5084bec3ed802b0b993d.bindPopup(popup_577d2f5c6c608ce9f1ce58a6721dc483)
+        ;
+
+        
+    
+    
+            var marker_58597da9d6136bd49d995252c3515dbb = L.marker(
+                [31.4412302, 73.0621851],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_27001d5e82b695fb28e9f7ffd2d946a0 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_325bf85e2a1d29b68411d322a4874f53 = $(`<div id="html_325bf85e2a1d29b68411d322a4874f53" style="width: 100.0%; height: 100.0%;">Feel Great Tea Co.<br> Chak 208 W Canal Rd, Amin Town, Faisalabad, 38000, Pakistan<br>Rating: 53% busy at 4 AM.</div>`)[0];
+                popup_27001d5e82b695fb28e9f7ffd2d946a0.setContent(html_325bf85e2a1d29b68411d322a4874f53);
+            
+        
+
+        marker_58597da9d6136bd49d995252c3515dbb.bindPopup(popup_27001d5e82b695fb28e9f7ffd2d946a0)
+        ;
+
+        
+    
+    
+            var marker_346fb3ca613924a0b8037e16158b80d2 = L.marker(
+                [31.4473745, 73.023056],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_10b917fbf9fd8ac5b43d351768ab8a95 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_4da49fbd427f61867cb8e188c21c4d93 = $(`<div id="html_4da49fbd427f61867cb8e188c21c4d93" style="width: 100.0%; height: 100.0%;">Chai Piyali<br> Millat Chowk Lahore - Sheikhupura - Faisalabad Rd, near Laraib Banquet, Gulistan Colony 2, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_10b917fbf9fd8ac5b43d351768ab8a95.setContent(html_4da49fbd427f61867cb8e188c21c4d93);
+            
+        
+
+        marker_346fb3ca613924a0b8037e16158b80d2.bindPopup(popup_10b917fbf9fd8ac5b43d351768ab8a95)
+        ;
+
+        
+    
+    
+            var marker_4ea5bd2100cf39de3bc08c43a675786f = L.marker(
+                [31.4658676, 73.1200412],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_dda21f988a41abceb04ce4c1d428db34 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b8c40002fc150009fe06d55986a7383 = $(`<div id="html_8b8c40002fc150009fe06d55986a7383" style="width: 100.0%; height: 100.0%;">Mashallah tea stall<br> F58R+9R5, Chak No 199 Rb, Faisalabad, Pakistan<br>Rating: 51% busy at 4 AM.</div>`)[0];
+                popup_dda21f988a41abceb04ce4c1d428db34.setContent(html_8b8c40002fc150009fe06d55986a7383);
+            
+        
+
+        marker_4ea5bd2100cf39de3bc08c43a675786f.bindPopup(popup_dda21f988a41abceb04ce4c1d428db34)
+        ;
+
+        
+    
+    
+            var marker_d5f2e1e7fe69b9c5d044d8f0438a1a70 = L.marker(
+                [31.4617242, 73.1051074],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6533f45959206f6b6fdd9bd509046caf = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_219d6c82876e22525c7924400dda7068 = $(`<div id="html_219d6c82876e22525c7924400dda7068" style="width: 100.0%; height: 100.0%;">Tea stall<br> F56G+MVP, West Canal Road, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_6533f45959206f6b6fdd9bd509046caf.setContent(html_219d6c82876e22525c7924400dda7068);
+            
+        
+
+        marker_d5f2e1e7fe69b9c5d044d8f0438a1a70.bindPopup(popup_6533f45959206f6b6fdd9bd509046caf)
+        ;
+
+        
+    
+    
+            var marker_d2e05cec0d92a06bc4afd40132640704 = L.marker(
+                [31.4253613, 72.9641423],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_9da3b8ab6c75a2fe98e5a022bd8fef1a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_688984bcb1f8bb2cae0ab496b308bb3c = $(`<div id="html_688984bcb1f8bb2cae0ab496b308bb3c" style="width: 100.0%; height: 100.0%;">liaqat tea stall<br> C2GP+4FX, Unnamed Road, Main Bazaar Azam Abad Muneerabad, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_9da3b8ab6c75a2fe98e5a022bd8fef1a.setContent(html_688984bcb1f8bb2cae0ab496b308bb3c);
+            
+        
+
+        marker_d2e05cec0d92a06bc4afd40132640704.bindPopup(popup_9da3b8ab6c75a2fe98e5a022bd8fef1a)
+        ;
+
+        
+    
+    
+            var marker_7cb472b41ff11fbff0f4798b9f1e607e = L.marker(
+                [31.4130664, 72.9825408],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_09ddc62a545c27916f6121ef233e740b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_031f16fc4c3e260bd441e6a215ac48d7 = $(`<div id="html_031f16fc4c3e260bd441e6a215ac48d7" style="width: 100.0%; height: 100.0%;">Younis Tea Stall جونا چائے والا<br> C373+6VC, Afghanabad Rd, Lakard Mandi, Faisalabad, Pakistan<br>Rating: 3.2 stars</div>`)[0];
+                popup_09ddc62a545c27916f6121ef233e740b.setContent(html_031f16fc4c3e260bd441e6a215ac48d7);
+            
+        
+
+        marker_7cb472b41ff11fbff0f4798b9f1e607e.bindPopup(popup_09ddc62a545c27916f6121ef233e740b)
+        ;
+
+        
+    
+    
+            var marker_fbf89d31ab779ae706fe8d6d3ec31034 = L.marker(
+                [31.4199076, 72.9988485],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_e0891cb6e6071f2f9b40b354bc07011b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b157e5d90d446444ecceeecc4f635bb0 = $(`<div id="html_b157e5d90d446444ecceeecc4f635bb0" style="width: 100.0%; height: 100.0%;">Chai Sutta cafe And Nashta point<br> P-33 university road, Dhobi Ghat Faisalabad, Pakistan<br>Rating: 35% busy at 4 AM.</div>`)[0];
+                popup_e0891cb6e6071f2f9b40b354bc07011b.setContent(html_b157e5d90d446444ecceeecc4f635bb0);
+            
+        
+
+        marker_fbf89d31ab779ae706fe8d6d3ec31034.bindPopup(popup_e0891cb6e6071f2f9b40b354bc07011b)
+        ;
+
+        
+    
+    
+            var marker_387b12dc19cfd7febe54ac9cea27abd1 = L.marker(
+                [31.4078834, 73.0360599],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_04c42dc9359a452c7b904da2a4c75c5e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a13fd2e09064ae0759a00c8089a2aafe = $(`<div id="html_a13fd2e09064ae0759a00c8089a2aafe" style="width: 100.0%; height: 100.0%;">Bismillah milk shop and tea stall<br> 114 B.Samosa chowk, D Ground Block B People's Colony No 1, Faisalabad, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_04c42dc9359a452c7b904da2a4c75c5e.setContent(html_a13fd2e09064ae0759a00c8089a2aafe);
+            
+        
+
+        marker_387b12dc19cfd7febe54ac9cea27abd1.bindPopup(popup_04c42dc9359a452c7b904da2a4c75c5e)
+        ;
+
+        
+    
+    
+            var marker_31f1471fc33cbeb319b5730466639cbd = L.marker(
+                [31.4078834, 73.0360599],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_d1ae45c6abe5412ec5e02558127d27dc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_aaea8eaaee43a27ea08ae72611ede051 = $(`<div id="html_aaea8eaaee43a27ea08ae72611ede051" style="width: 100.0%; height: 100.0%;">Sufi barkat Ali Milk And Tea stall shop<br> C48C+6CM, Road No. 104, Block Y Madina Town, Faisalabad, Pakistan<br>Rating: 0% busy at 5 AM.</div>`)[0];
+                popup_d1ae45c6abe5412ec5e02558127d27dc.setContent(html_aaea8eaaee43a27ea08ae72611ede051);
+            
+        
+
+        marker_31f1471fc33cbeb319b5730466639cbd.bindPopup(popup_d1ae45c6abe5412ec5e02558127d27dc)
+        ;
+
+        
+    
+    
+            var marker_4e2bceee29db40f3e9076e28a6519306 = L.marker(
+                [31.428109, 73.0222855],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8f76aa5ed497d9b2e224e59627a9ae6f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8b2f2f59e910aa08a5edf57209a4af8b = $(`<div id="html_8b2f2f59e910aa08a5edf57209a4af8b" style="width: 100.0%; height: 100.0%;">Mana Tea Stall<br> C3HV+6QR General Bus Stand, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_8f76aa5ed497d9b2e224e59627a9ae6f.setContent(html_8b2f2f59e910aa08a5edf57209a4af8b);
+            
+        
+
+        marker_4e2bceee29db40f3e9076e28a6519306.bindPopup(popup_8f76aa5ed497d9b2e224e59627a9ae6f)
+        ;
+
+        
+    
+    
+            var marker_39d19d943f704d09928e2f4119aaddd2 = L.marker(
+                [31.4249547, 73.0392833],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_4e997e52722a86ca806650ee6890f1bb = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f78590cf1bb6178113b7b94d4e254796 = $(`<div id="html_f78590cf1bb6178113b7b94d4e254796" style="width: 100.0%; height: 100.0%;">Chiragh Deen Milk Shop Faisalabad<br> Shop number 5 Street Number 46 Waheed Park Abdullah Pur, 38000, Pakistan<br>Rating: 30% busy at 4 AM.</div>`)[0];
+                popup_4e997e52722a86ca806650ee6890f1bb.setContent(html_f78590cf1bb6178113b7b94d4e254796);
+            
+        
+
+        marker_39d19d943f704d09928e2f4119aaddd2.bindPopup(popup_4e997e52722a86ca806650ee6890f1bb)
+        ;
+
+        
+    
+    
+            var marker_a30d0bc722dc09ce2981dd49103a2cd1 = L.marker(
+                [31.4249547, 73.0392833],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_a8d7810b5bc49eb2fd830fb12ebc126d = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_11259e6e2042113f779870159d80323c = $(`<div id="html_11259e6e2042113f779870159d80323c" style="width: 100.0%; height: 100.0%;">Sakhi Data Tea stall<br> C4F3+HRP, Street Number 19, Abdullahpur, Faisalabad, Pakistan<br>Rating: 4.0 stars</div>`)[0];
+                popup_a8d7810b5bc49eb2fd830fb12ebc126d.setContent(html_11259e6e2042113f779870159d80323c);
+            
+        
+
+        marker_a30d0bc722dc09ce2981dd49103a2cd1.bindPopup(popup_a8d7810b5bc49eb2fd830fb12ebc126d)
+        ;
+
+        
+    
+    
+            var marker_156cbcbbb1c1e391e8edd29adc088246 = L.marker(
+                [31.4207602, 72.9938266],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6fa53b0b3e524ea1a826f54990f0ba8f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b1d85e1dde0ef9d001e034315f5333f = $(`<div id="html_9b1d85e1dde0ef9d001e034315f5333f" style="width: 100.0%; height: 100.0%;">Ice Cream Box<br> opp. Chatri Wali Ground, Jinnah Colony, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_6fa53b0b3e524ea1a826f54990f0ba8f.setContent(html_9b1d85e1dde0ef9d001e034315f5333f);
+            
+        
+
+        marker_156cbcbbb1c1e391e8edd29adc088246.bindPopup(popup_6fa53b0b3e524ea1a826f54990f0ba8f)
+        ;
+
+        
+    
+    
+            var marker_208dc7bccc8dcb05f6d249708c3ec6ab = L.marker(
+                [31.4187742, 73.0421016],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c6b06b4dceb36c414b057b38cc51c5d1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b298bd4b5d12983c35bd91da85dcb5a0 = $(`<div id="html_b298bd4b5d12983c35bd91da85dcb5a0" style="width: 100.0%; height: 100.0%;">Chaman Dairy Ice Cream<br> C497+GM4, Susan Road, Madina Town, Faisalabad, 38860, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c6b06b4dceb36c414b057b38cc51c5d1.setContent(html_b298bd4b5d12983c35bd91da85dcb5a0);
+            
+        
+
+        marker_208dc7bccc8dcb05f6d249708c3ec6ab.bindPopup(popup_c6b06b4dceb36c414b057b38cc51c5d1)
+        ;
+
+        
+    
+    
+            var marker_8757441c4f1017fa686bc45ebdb3ec76 = L.marker(
+                [31.4187742, 73.0421016],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_cdcf6bf9d6f02daab957fd1471e85e2b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_12fdf438296009c1994160bd753bae03 = $(`<div id="html_12fdf438296009c1994160bd753bae03" style="width: 100.0%; height: 100.0%;">Mezzo Dairy Icecream<br> 64-A, Main Blvd, near Shimla bakery, Batala Colony Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_cdcf6bf9d6f02daab957fd1471e85e2b.setContent(html_12fdf438296009c1994160bd753bae03);
+            
+        
+
+        marker_8757441c4f1017fa686bc45ebdb3ec76.bindPopup(popup_cdcf6bf9d6f02daab957fd1471e85e2b)
+        ;
+
+        
+    
+    
+            var marker_5eff25b5368c81877d77ea06039cc026 = L.marker(
+                [31.4187742, 73.0421016],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_8b1a415d3f5c46cd5cf36eb12723ac73 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_9b8177fd213f518b9ae43edcd9de8e21 = $(`<div id="html_9b8177fd213f518b9ae43edcd9de8e21" style="width: 100.0%; height: 100.0%;">Ikhlaq Ice cream ,Milk shop and Juice Bar<br> Kashmir Rd, opposite circle club, Amin Town, Faisalabad, 38600, Pakistan<br>Rating: 28% busy at 4 AM.</div>`)[0];
+                popup_8b1a415d3f5c46cd5cf36eb12723ac73.setContent(html_9b8177fd213f518b9ae43edcd9de8e21);
+            
+        
+
+        marker_5eff25b5368c81877d77ea06039cc026.bindPopup(popup_8b1a415d3f5c46cd5cf36eb12723ac73)
+        ;
+
+        
+    
+    
+            var marker_1e98bd9be98e5511f9ebea7cd91d81ad = L.marker(
+                [31.4174705, 73.0582272],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_431b2cd5347afe0fae984b7c246ed3ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8c082792b5674cd7ea8393cb83f92cc5 = $(`<div id="html_8c082792b5674cd7ea8393cb83f92cc5" style="width: 100.0%; height: 100.0%;">N'ice Cream 2<br> Babar Chowk, Arham St, near Saim Pan Shop, Officer Colony 2, Faisalabad, Pakistan<br>Rating: 5.0 stars</div>`)[0];
+                popup_431b2cd5347afe0fae984b7c246ed3ef.setContent(html_8c082792b5674cd7ea8393cb83f92cc5);
+            
+        
+
+        marker_1e98bd9be98e5511f9ebea7cd91d81ad.bindPopup(popup_431b2cd5347afe0fae984b7c246ed3ef)
+        ;
+
+        
+    
+    
+            var marker_61d4491fe065a1baf0f58779920e5367 = L.marker(
+                [31.4462077, 73.0238882],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_b74ea7789fe4918c37b407857cf41ebc = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2cf33b0c30f85d36ed2f28cbab8053cb = $(`<div id="html_2cf33b0c30f85d36ed2f28cbab8053cb" style="width: 100.0%; height: 100.0%;">Sialkot Tawa Ice Cream<br> C3WW+F9Q, millat chowk, opposite ideal bakers, Taj Colony, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_b74ea7789fe4918c37b407857cf41ebc.setContent(html_2cf33b0c30f85d36ed2f28cbab8053cb);
+            
+        
+
+        marker_61d4491fe065a1baf0f58779920e5367.bindPopup(popup_b74ea7789fe4918c37b407857cf41ebc)
+        ;
+
+        
+    
+    
+            var marker_6ebafb7166eb0b5d179b82ef3d3b6a23 = L.marker(
+                [31.4253654, 72.9855303],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_082fb1982fad22829c7496ba15f55f09 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_cf21d347aeb0f21cf5ac609565c54534 = $(`<div id="html_cf21d347aeb0f21cf5ac609565c54534" style="width: 100.0%; height: 100.0%;">Chaman Ice Bar<br> C3G5+43R, Tariq Rd, Raja Colony Awami Colony 1, Faisalabad, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_082fb1982fad22829c7496ba15f55f09.setContent(html_cf21d347aeb0f21cf5ac609565c54534);
+            
+        
+
+        marker_6ebafb7166eb0b5d179b82ef3d3b6a23.bindPopup(popup_082fb1982fad22829c7496ba15f55f09)
+        ;
+
+        
+    
+    
+            var marker_1c3947c0791756fce1711210dd038125 = L.marker(
+                [31.4305908, 72.9766561],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_f7e3ceae11ec3976a86bc60a2b6cbe98 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_1a427d9bfcf09af0e24f93fd91698848 = $(`<div id="html_1a427d9bfcf09af0e24f93fd91698848" style="width: 100.0%; height: 100.0%;">Ice cream wholesale Hub faisalabad<br> 1 Street No. 3, Afghanabad, Faisalabad, 38000, Pakistan<br>Rating: </div>`)[0];
+                popup_f7e3ceae11ec3976a86bc60a2b6cbe98.setContent(html_1a427d9bfcf09af0e24f93fd91698848);
+            
+        
+
+        marker_1c3947c0791756fce1711210dd038125.bindPopup(popup_f7e3ceae11ec3976a86bc60a2b6cbe98)
+        ;
+
+        
+    
+    
+            var marker_df5e5a56143167b48e5561774ca81856 = L.marker(
+                [31.4305908, 72.9766561],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_444f56e2400332e320455eb98516d65a = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc748021920d05bc15df3cafa17ebd6e = $(`<div id="html_fc748021920d05bc15df3cafa17ebd6e" style="width: 100.0%; height: 100.0%;">Yadgar Dairy Icecream<br> Shaheen Chowk, Sadar Bazar Ghulam Muhammad Abad, Faisalabad, 38000, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_444f56e2400332e320455eb98516d65a.setContent(html_fc748021920d05bc15df3cafa17ebd6e);
+            
+        
+
+        marker_df5e5a56143167b48e5561774ca81856.bindPopup(popup_444f56e2400332e320455eb98516d65a)
+        ;
+
+        
+    
+    
+            var marker_6d758e58a8832aad9c22a55f38c31662 = L.marker(
+                [31.3846804, 72.9986363],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6f0c1018fb9002ba1b44488123d230f7 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_418eb47417d97ab53f752d29c040da90 = $(`<div id="html_418eb47417d97ab53f752d29c040da90" style="width: 100.0%; height: 100.0%;">Sialkot tawa ice cream<br> 93MC+V7H, D Type Colony Rd, Block A Samanabad, Faisalabad, Pakistan<br>Rating: 4.1 stars</div>`)[0];
+                popup_6f0c1018fb9002ba1b44488123d230f7.setContent(html_418eb47417d97ab53f752d29c040da90);
+            
+        
+
+        marker_6d758e58a8832aad9c22a55f38c31662.bindPopup(popup_6f0c1018fb9002ba1b44488123d230f7)
+        ;
+
+        
+    
+    
+            var marker_adbb46a03a3fe356993b7e4a06c9b045 = L.marker(
+                [31.4338463, 73.0146601],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c62d747c2fdd7eeda9221bd44311d400 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_37924cb255fc42692e61b0af2d19c0ac = $(`<div id="html_37924cb255fc42692e61b0af2d19c0ac" style="width: 100.0%; height: 100.0%;">Al-Kausar Ice Cream Bar 4<br> C3MP+GPJ, Iqbal Stadium, Iqbal Stadium Rd, New Civil Lines, Civil Lines, Civil Lines, Faisalabad, 38850, Pakistan<br>Rating: 0% busy at 6 AM.</div>`)[0];
+                popup_c62d747c2fdd7eeda9221bd44311d400.setContent(html_37924cb255fc42692e61b0af2d19c0ac);
+            
+        
+
+        marker_adbb46a03a3fe356993b7e4a06c9b045.bindPopup(popup_c62d747c2fdd7eeda9221bd44311d400)
+        ;
+
+        
+    
+    
+            var marker_1ce58b7fe3927b6624e80c165ee8e81d = L.marker(
+                [31.407365, 73.0433092],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_597956ce3316ef5fc3c2d0ca4075a64e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_76f054631f6e4b7bc8f8e45cb75b53ea = $(`<div id="html_76f054631f6e4b7bc8f8e45cb75b53ea" style="width: 100.0%; height: 100.0%;">Hotel One Faisalabad<br> Park, 99-C, off Hashmat Road, near Pasban, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_597956ce3316ef5fc3c2d0ca4075a64e.setContent(html_76f054631f6e4b7bc8f8e45cb75b53ea);
+            
+        
+
+        marker_1ce58b7fe3927b6624e80c165ee8e81d.bindPopup(popup_597956ce3316ef5fc3c2d0ca4075a64e)
+        ;
+
+        
+    
+    
+            var marker_5d0b7e3e13eaa17215a82f9594170f45 = L.marker(
+                [31.407365, 73.0433092],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_903f603d5d4fbb53057979d200224025 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b9b14f7ce7d2c182ee806afd75bcbf1f = $(`<div id="html_b9b14f7ce7d2c182ee806afd75bcbf1f" style="width: 100.0%; height: 100.0%;">HOTEL GRAND FAISALABAD<br> سوساں روڈ،, Block Z مدینہ ٹاؤن، فیصل آباد, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_903f603d5d4fbb53057979d200224025.setContent(html_b9b14f7ce7d2c182ee806afd75bcbf1f);
+            
+        
+
+        marker_5d0b7e3e13eaa17215a82f9594170f45.bindPopup(popup_903f603d5d4fbb53057979d200224025)
+        ;
+
+        
+    
+    
+            var marker_8c478734032b71b414f217bcef54f7e3 = L.marker(
+                [31.407365, 73.0433092],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_08f99e49bf58a37fdf10da7becf74767 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_67cb0319a4a6f331ef60e5b0da00fba1 = $(`<div id="html_67cb0319a4a6f331ef60e5b0da00fba1" style="width: 100.0%; height: 100.0%;">Babar House<br> Babar House Muhammadi coloney, Zainab Rd, opposite zainab masjid, Madina Town, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_08f99e49bf58a37fdf10da7becf74767.setContent(html_67cb0319a4a6f331ef60e5b0da00fba1);
+            
+        
+
+        marker_8c478734032b71b414f217bcef54f7e3.bindPopup(popup_08f99e49bf58a37fdf10da7becf74767)
+        ;
+
+        
+    
+    
+            var marker_ab39a75176c7ba87687b63348a9c1679 = L.marker(
+                [31.407365, 73.0433092],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_632e55b1ea2c0042db335164332d575b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_acd0e13ea59f510bde2bbd02230db979 = $(`<div id="html_acd0e13ea59f510bde2bbd02230db979" style="width: 100.0%; height: 100.0%;">Grace Hotel and Restaurant Faisalabad<br> Qadimi Shehar، Circular Rd, Chiniot Bazar, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_632e55b1ea2c0042db335164332d575b.setContent(html_acd0e13ea59f510bde2bbd02230db979);
+            
+        
+
+        marker_ab39a75176c7ba87687b63348a9c1679.bindPopup(popup_632e55b1ea2c0042db335164332d575b)
+        ;
+
+        
+    
+    
+            var marker_7cc9e825459df42437e504dc2d402edc = L.marker(
+                [31.4228373, 73.0069369],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_6a2c0c1ff76571214b0ee33d2cee2085 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_5e91dc04b407bde47b5160df19001287 = $(`<div id="html_5e91dc04b407bde47b5160df19001287" style="width: 100.0%; height: 100.0%;">Prince Hotel<br> C3GR+7J3, Sargodha Rd، near Mian Trust Hospital, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_6a2c0c1ff76571214b0ee33d2cee2085.setContent(html_5e91dc04b407bde47b5160df19001287);
+            
+        
+
+        marker_7cc9e825459df42437e504dc2d402edc.bindPopup(popup_6a2c0c1ff76571214b0ee33d2cee2085)
+        ;
+
+        
+    
+    
+            var marker_85f373a34298b7ecd1981b99debe6c01 = L.marker(
+                [31.4228373, 73.0069369],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_3aefbd7c6e400abd9a9989ec80d17cc4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c7df3dd61175bb39244e81fdb0bbe156 = $(`<div id="html_c7df3dd61175bb39244e81fdb0bbe156" style="width: 100.0%; height: 100.0%;">Prime View Hotel<br> near Daewoo Bus Stop, beside honda show room, Akbarabad Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_3aefbd7c6e400abd9a9989ec80d17cc4.setContent(html_c7df3dd61175bb39244e81fdb0bbe156);
+            
+        
+
+        marker_85f373a34298b7ecd1981b99debe6c01.bindPopup(popup_3aefbd7c6e400abd9a9989ec80d17cc4)
+        ;
+
+        
+    
+    
+            var marker_f69183cf3846325ea2079d0e21aa4707 = L.marker(
+                [31.4228373, 73.0069369],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_0777608e95fe1e4dd3d515384b5eb140 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_057ec392b2205f1da259bf94b79429f8 = $(`<div id="html_057ec392b2205f1da259bf94b79429f8" style="width: 100.0%; height: 100.0%;">Silk Hotel<br> C498+F55, Susan Road, Madina Town, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_0777608e95fe1e4dd3d515384b5eb140.setContent(html_057ec392b2205f1da259bf94b79429f8);
+            
+        
+
+        marker_f69183cf3846325ea2079d0e21aa4707.bindPopup(popup_0777608e95fe1e4dd3d515384b5eb140)
+        ;
+
+        
+    
+    
+            var marker_a1bdbc712727ca042a3b478c64072103 = L.marker(
+                [31.4442044, 73.0274895],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5b84a330806b7e955d40225718b9d403 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_502c943b49dbceaafe6dfce77766acc5 = $(`<div id="html_502c943b49dbceaafe6dfce77766acc5" style="width: 100.0%; height: 100.0%;">Royal Suites hotel<br> opposite Aziz fatima hospital, Block H Gulistan Colony 1, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_5b84a330806b7e955d40225718b9d403.setContent(html_502c943b49dbceaafe6dfce77766acc5);
+            
+        
+
+        marker_a1bdbc712727ca042a3b478c64072103.bindPopup(popup_5b84a330806b7e955d40225718b9d403)
+        ;
+
+        
+    
+    
+            var marker_d8a73307d9ff671e12c7738d63658f50 = L.marker(
+                [31.4442044, 73.0274895],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_5102c48fc5f4cbfce6dcc9497bfa60ef = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_8ea711e4c1bc80aa45b5d1ac336d42fe = $(`<div id="html_8ea711e4c1bc80aa45b5d1ac336d42fe" style="width: 100.0%; height: 100.0%;">EXECUTIVE LODGES (HOTEL)<br> C3JV+FC4, Civil Lines, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_5102c48fc5f4cbfce6dcc9497bfa60ef.setContent(html_8ea711e4c1bc80aa45b5d1ac336d42fe);
+            
+        
+
+        marker_d8a73307d9ff671e12c7738d63658f50.bindPopup(popup_5102c48fc5f4cbfce6dcc9497bfa60ef)
+        ;
+
+        
+    
+    
+            var marker_bb4dc8e470f4e5bdeec558c8e5dd0afc = L.marker(
+                [31.4639632, 73.0104056],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_b8650c7ee17d3e9e79a386cd1e7fa770 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ad213b2faad56d5b70bf30a03dcff9c9 = $(`<div id="html_ad213b2faad56d5b70bf30a03dcff9c9" style="width: 100.0%; height: 100.0%;">West Inn Hotel Faisalabad<br> 123-Regency International, 949 Mall Road, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_b8650c7ee17d3e9e79a386cd1e7fa770.setContent(html_ad213b2faad56d5b70bf30a03dcff9c9);
+            
+        
+
+        marker_bb4dc8e470f4e5bdeec558c8e5dd0afc.bindPopup(popup_b8650c7ee17d3e9e79a386cd1e7fa770)
+        ;
+
+        
+    
+    
+            var marker_14025a6eabce18d4cbb1cd407946ca29 = L.marker(
+                [31.4250199, 73.0503595],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_fb2975f63a6f6d33a0f4ed72756645aa = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_3107fa19beecf9a352ab989581c63ee8 = $(`<div id="html_3107fa19beecf9a352ab989581c63ee8" style="width: 100.0%; height: 100.0%;">Fine Star Hotel<br> 1x1 madina town Susan road Faisalabad 1x1, Susan Road, Madina Town, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_fb2975f63a6f6d33a0f4ed72756645aa.setContent(html_3107fa19beecf9a352ab989581c63ee8);
+            
+        
+
+        marker_14025a6eabce18d4cbb1cd407946ca29.bindPopup(popup_fb2975f63a6f6d33a0f4ed72756645aa)
+        ;
+
+        
+    
+    
+            var marker_3ee18131936d99566376532bd3083a0f = L.marker(
+                [31.4250199, 73.0503595],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_f3031a99683b3c298395e51d00b97725 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_903b317aafc4ccd57f322261aec1c450 = $(`<div id="html_903b317aafc4ccd57f322261aec1c450" style="width: 100.0%; height: 100.0%;">CIVIC HOTEL FAISALABAD<br> P-19 W Canal Rd, Amin Town, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_f3031a99683b3c298395e51d00b97725.setContent(html_903b317aafc4ccd57f322261aec1c450);
+            
+        
+
+        marker_3ee18131936d99566376532bd3083a0f.bindPopup(popup_f3031a99683b3c298395e51d00b97725)
+        ;
+
+        
+    
+    
+            var marker_61868b3f600ef301d40c6fb731e32dbc = L.marker(
+                [31.4215733, 73.0176569],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_3dfd9c7fa92719cc5a72eed8eea491b4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_02ac7f8f2ddcbf452341a70701f3d9b5 = $(`<div id="html_02ac7f8f2ddcbf452341a70701f3d9b5" style="width: 100.0%; height: 100.0%;">Al-Madina Hotel & Apartments<br> 1st Floor Askari, Bank Building, opposite Chase UP, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_3dfd9c7fa92719cc5a72eed8eea491b4.setContent(html_02ac7f8f2ddcbf452341a70701f3d9b5);
+            
+        
+
+        marker_61868b3f600ef301d40c6fb731e32dbc.bindPopup(popup_3dfd9c7fa92719cc5a72eed8eea491b4)
+        ;
+
+        
+    
+    
+            var marker_4840bfc93f005a4e7e2ec94b44286472 = L.marker(
+                [31.4751073, 73.1115104],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_2b8328b44050423639e91cf73749fe00 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_74b854d17ccb1c73d72479e5294def08 = $(`<div id="html_74b854d17ccb1c73d72479e5294def08" style="width: 100.0%; height: 100.0%;">Shaheen Palace<br> F5GM+2CX, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_2b8328b44050423639e91cf73749fe00.setContent(html_74b854d17ccb1c73d72479e5294def08);
+            
+        
+
+        marker_4840bfc93f005a4e7e2ec94b44286472.bindPopup(popup_2b8328b44050423639e91cf73749fe00)
+        ;
+
+        
+    
+    
+            var marker_6bf761b9ffeb6f1a4802c1bcf8980c22 = L.marker(
+                [31.4165307, 73.0163782],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_0c61ed3d85947bb5d7eec8b0763ecb11 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f96e19cf24513d18eaae0de1493c15f1 = $(`<div id="html_f96e19cf24513d18eaae0de1493c15f1" style="width: 100.0%; height: 100.0%;">Moon Hotel<br> Railway Rd, opposite Standard Chartered Bank, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_0c61ed3d85947bb5d7eec8b0763ecb11.setContent(html_f96e19cf24513d18eaae0de1493c15f1);
+            
+        
+
+        marker_6bf761b9ffeb6f1a4802c1bcf8980c22.bindPopup(popup_0c61ed3d85947bb5d7eec8b0763ecb11)
+        ;
+
+        
+    
+    
+            var marker_af4513bed4c318a6d779cccf30adf261 = L.marker(
+                [31.4173534, 73.0010134],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_c5c38e9916d39457babf4973d69e41e4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_201511a6421d30f233f1998ec799e4ad = $(`<div id="html_201511a6421d30f233f1998ec799e4ad" style="width: 100.0%; height: 100.0%;">Prime Hotel<br> Allah Ditta Pracha Road, Douglas Pura Douglaspura, Faisalabad, 38900, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_c5c38e9916d39457babf4973d69e41e4.setContent(html_201511a6421d30f233f1998ec799e4ad);
+            
+        
+
+        marker_af4513bed4c318a6d779cccf30adf261.bindPopup(popup_c5c38e9916d39457babf4973d69e41e4)
+        ;
+
+        
+    
+    
+            var marker_a2c40710d17f382b541b6459ca1ef852 = L.marker(
+                [31.4460248, 73.0076253],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_7f7732c4f14addb13708dc97eee2b7d5 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b13f84041680933e662a7d2a10b35cb0 = $(`<div id="html_b13f84041680933e662a7d2a10b35cb0" style="width: 100.0%; height: 100.0%;">RizQ Hotel<br> P, 143 Rajbah Rd, near Railway Station, Faisalabad, 38000, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_7f7732c4f14addb13708dc97eee2b7d5.setContent(html_b13f84041680933e662a7d2a10b35cb0);
+            
+        
+
+        marker_a2c40710d17f382b541b6459ca1ef852.bindPopup(popup_7f7732c4f14addb13708dc97eee2b7d5)
+        ;
+
+        
+    
+    
+            var marker_faab85f3a831248f4722fd5d2f76b16c = L.marker(
+                [31.4460248, 73.0076253],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_675f732ea1a5c16d39febc4c072d78a3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_730b003a41ab49036eafdf6c4bbf6f70 = $(`<div id="html_730b003a41ab49036eafdf6c4bbf6f70" style="width: 100.0%; height: 100.0%;">Al Noor Hotel النور ہوٹل<br> C37C+G9F, Rajbah Rd, Santpura Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_675f732ea1a5c16d39febc4c072d78a3.setContent(html_730b003a41ab49036eafdf6c4bbf6f70);
+            
+        
+
+        marker_faab85f3a831248f4722fd5d2f76b16c.bindPopup(popup_675f732ea1a5c16d39febc4c072d78a3)
+        ;
+
+        
+    
+    
+            var marker_f6a525116af7a64d080f02677cb77046 = L.marker(
+                [31.4460248, 73.0076253],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ccbf788f87b5ed76ed5719da501de19c = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a32a96d9fad2f66927f841405c35859f = $(`<div id="html_a32a96d9fad2f66927f841405c35859f" style="width: 100.0%; height: 100.0%;">Al farooq hotel<br> C3HV+43H, Shoiab Bilal Market, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_ccbf788f87b5ed76ed5719da501de19c.setContent(html_a32a96d9fad2f66927f841405c35859f);
+            
+        
+
+        marker_f6a525116af7a64d080f02677cb77046.bindPopup(popup_ccbf788f87b5ed76ed5719da501de19c)
+        ;
+
+        
+    
+    
+            var marker_6f294ccee2b359b61dc970655f2d249d = L.marker(
+                [31.408075, 73.036614],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_93088666616f95f6da6ddde565012d0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_16f37beb68ed247770e27db76d2f19be = $(`<div id="html_16f37beb68ed247770e27db76d2f19be" style="width: 100.0%; height: 100.0%;">Adeel Boys Hostel Faisalabad<br> C455+6FG, D Ground Block B People's Colony No 1, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_93088666616f95f6da6ddde565012d0b.setContent(html_16f37beb68ed247770e27db76d2f19be);
+            
+        
+
+        marker_6f294ccee2b359b61dc970655f2d249d.bindPopup(popup_93088666616f95f6da6ddde565012d0b)
+        ;
+
+        
+    
+    
+            var marker_4220b6587e445db4af04bb3aa49424dc = L.marker(
+                [31.407365, 73.0433092],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_baa8967ceeba431fce430e7ba54898dd = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7940f2c40720b011c8fb12862d361bc1 = $(`<div id="html_7940f2c40720b011c8fb12862d361bc1" style="width: 100.0%; height: 100.0%;">Avari Xpress Hotel Faisalabad<br> 12C Jaranwala Rd, Kohinoor City Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_baa8967ceeba431fce430e7ba54898dd.setContent(html_7940f2c40720b011c8fb12862d361bc1);
+            
+        
+
+        marker_4220b6587e445db4af04bb3aa49424dc.bindPopup(popup_baa8967ceeba431fce430e7ba54898dd)
+        ;
+
+        
+    
+    
+            var marker_b06392674ea8eb3f5dafa40c12f3b23e = L.marker(
+                [31.4316737, 72.9984746],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_890656dc586ccb0b75811aba2fb08a5f = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_b73abfd00b28a7827081062fe65b9757 = $(`<div id="html_b73abfd00b28a7827081062fe65b9757" style="width: 100.0%; height: 100.0%;">گیسٹ ہاؤس<br> University of Agriculture, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_890656dc586ccb0b75811aba2fb08a5f.setContent(html_b73abfd00b28a7827081062fe65b9757);
+            
+        
+
+        marker_b06392674ea8eb3f5dafa40c12f3b23e.bindPopup(popup_890656dc586ccb0b75811aba2fb08a5f)
+        ;
+
+        
+    
+    
+            var marker_238c2d294f3c0e9fab71b2088d07c9d9 = L.marker(
+                [31.4200781, 73.0426069],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_f93f42b8d43ebb3daf2d445022e8f5a4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15e3b6918b333460971e0edac8195202 = $(`<div id="html_15e3b6918b333460971e0edac8195202" style="width: 100.0%; height: 100.0%;">Habib Guest House<br> C4C7+2VP, Rafhan Mill Rd, Madina Town, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_f93f42b8d43ebb3daf2d445022e8f5a4.setContent(html_15e3b6918b333460971e0edac8195202);
+            
+        
+
+        marker_238c2d294f3c0e9fab71b2088d07c9d9.bindPopup(popup_f93f42b8d43ebb3daf2d445022e8f5a4)
+        ;
+
+        
+    
+    
+            var marker_428b09dc3f52580573b63500ce596395 = L.marker(
+                [31.4280543, 73.0733184],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ff4ce81a9d59f9379a876e32b20dc535 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_e49d7523d04951f5067320816f86ef0a = $(`<div id="html_e49d7523d04951f5067320816f86ef0a" style="width: 100.0%; height: 100.0%;">Royal Palace guest house<br> Eden garden, 208 Chak 208 Rd, Madina Town, Faisalabad, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_ff4ce81a9d59f9379a876e32b20dc535.setContent(html_e49d7523d04951f5067320816f86ef0a);
+            
+        
+
+        marker_428b09dc3f52580573b63500ce596395.bindPopup(popup_ff4ce81a9d59f9379a876e32b20dc535)
+        ;
+
+        
+    
+    
+            var marker_9b687fec28bd3ae77e08a62ce6fec736 = L.marker(
+                [31.4143195, 73.0302638],
+                {
+}
+            ).addTo(map_32bd81a7e5120e967746b6c5dc1ac6c1);
+        
+    
+        var popup_ed9bc3aa6cc82e6663241a59bef72c0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a82ec8e917f1f89b6832d2ad0b1381c8 = $(`<div id="html_a82ec8e917f1f89b6832d2ad0b1381c8" style="width: 100.0%; height: 100.0%;">Lyallpur Backpackers Guest House<br> 150/A, People's Colony No 1, Faisalabad, 38060, Pakistan<br>Rating: Free parking available</div>`)[0];
+                popup_ed9bc3aa6cc82e6663241a59bef72c0b.setContent(html_a82ec8e917f1f89b6832d2ad0b1381c8);
+            
+        
+
+        marker_9b687fec28bd3ae77e08a62ce6fec736.bindPopup(popup_ed9bc3aa6cc82e6663241a59bef72c0b)
+        ;
+
+        
+    
+</script>
+</html>
